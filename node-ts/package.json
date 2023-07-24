@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "vite-node src/index.ts",
+    "dev": "vite-node -w src/index.ts",
+    "format": "prettier --write .",
+    "lint:fix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.39.8",
+    "@types/node": "^20.4.4",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "vite": "^4.4.6",
+    "vite-node": "^0.33.0",
+    "vitest": "^0.33.0"
+  }
+}
