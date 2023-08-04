@@ -27,8 +27,8 @@ dependencies:
     specifier: 3.0.0-alpha-3081220230802001
     version: 3.0.0-alpha-3081220230802001(postcss@8.4.27)(vue@3.3.4)
   '@dcloudio/uni-mp-kuaishou':
-    specifier: 3.0.0-alpha-3081020230714001
-    version: 3.0.0-alpha-3081020230714001(postcss@8.4.27)(vue@3.3.4)
+    specifier: 3.0.0-alpha-3081220230802001
+    version: 3.0.0-alpha-3081220230802001(postcss@8.4.27)(vue@3.3.4)
   '@dcloudio/uni-mp-lark':
     specifier: 3.0.0-alpha-3081020230714001
     version: 3.0.0-alpha-3081020230714001(postcss@8.4.27)(vue@3.3.4)
@@ -1943,15 +1943,15 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/uni-mp-kuaishou@3.0.0-alpha-3081020230714001(postcss@8.4.27)(vue@3.3.4):
-    resolution: {integrity: sha512-w6v0sWT6MHNO0A807JS7TzlSW7wl+wY4J4vdFOS9gkuvYn8wEISXRwd6Vli6hhB5sUXdN3nrjLdHOqgVhWm7dA==}
+  /@dcloudio/uni-mp-kuaishou@3.0.0-alpha-3081220230802001(postcss@8.4.27)(vue@3.3.4):
+    resolution: {integrity: sha512-Fx8WiaGReo2UIaYC68DSVJZIS9tH8ZDYS+lPAfjy2dEzwPrhF6ZiJnoIvXv4lRzJhBERqw+SUckkWuOcRSGKPg==}
     dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-3081020230714001(postcss@8.4.27)(vue@3.3.4)
-      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-3081020230714001(postcss@8.4.27)(vue@3.3.4)
-      '@dcloudio/uni-mp-vite': 3.0.0-alpha-3081020230714001(postcss@8.4.27)(vue@3.3.4)
-      '@dcloudio/uni-mp-vue': 3.0.0-alpha-3081020230714001
-      '@dcloudio/uni-mp-weixin': 3.0.0-alpha-3081020230714001(postcss@8.4.27)(vue@3.3.4)
-      '@dcloudio/uni-shared': 3.0.0-alpha-3081020230714001
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-3081220230802001(postcss@8.4.27)(vue@3.3.4)
+      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-3081220230802001(postcss@8.4.27)(vue@3.3.4)
+      '@dcloudio/uni-mp-vite': 3.0.0-alpha-3081220230802001(postcss@8.4.27)(vue@3.3.4)
+      '@dcloudio/uni-mp-vue': 3.0.0-alpha-3081220230802001
+      '@dcloudio/uni-mp-weixin': 3.0.0-alpha-3081220230802001(postcss@8.4.27)(vue@3.3.4)
+      '@dcloudio/uni-shared': 3.0.0-alpha-3081220230802001
       '@vue/compiler-core': 3.2.47
       '@vue/shared': 3.2.47
     transitivePeerDependencies:
@@ -5531,7 +5531,7 @@ packages:
     dependencies:
       debug: 3.2.7
       is-core-module: 2.12.1
-      resolve: 1.22.3
+      resolve: 1.22.2
     transitivePeerDependencies:
       - supports-color
     dev: true
