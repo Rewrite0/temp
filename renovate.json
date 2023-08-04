@@ -5,18 +5,5 @@
   ],
   "automerge": true,
   "automergeType": "pr",
-  "timezone": "Asia/Shanghai",
-  "schedule": [
-    "after 7pm every day",
-    "before 5am every day"
-  ]
   "requiredStatusChecks": null,
-  "packageRules": [
-    {
-      "updateTypes": [
-        "patch"
-      ],
-      "automerge": true
-    }
-  ]
 }
