@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^0.54.0
     version: 0.54.0
   '@unocss/reset':
-    specifier: ^0.51.12
-    version: 0.51.12
+    specifier: ^0.54.0
+    version: 0.54.0
   '@vitejs/plugin-vue':
     specifier: ^4.1.0
     version: 4.1.0(vite@4.3.2)(vue@3.2.47)
@@ -973,6 +973,10 @@ packages:
 
   /@unocss/reset@0.51.12:
     resolution: {integrity: sha512-VWcudNyGPGU/C+Jrfzbx8BqhFh/QENfUPkKcC8hpqxC4b5PsTJcF8zLu6KgabM0X0CzVouIvVcdZIcUCUEH77Q==}
+    dev: true
+
+  /@unocss/reset@0.54.0:
+    resolution: {integrity: sha512-zxvr96hVsmvJtxCLatLSCc67RBEgqvVDhEtkIFxIz5oCJzxvipJTGdKxM4F6Akyzx1A+q7zM8dimqvmC6D5Idw==}
     dev: true
 
   /@unocss/scope@0.51.12:
