@@ -29,8 +29,8 @@ devDependencies:
     specifier: ^20.1.0
     version: 20.1.0
   '@unocss/preset-rem-to-px':
-    specifier: ^0.54.0
-    version: 0.54.0
+    specifier: ^0.55.0
+    version: 0.55.0
   '@unocss/reset':
     specifier: ^0.54.0
     version: 0.54.0
@@ -883,6 +883,10 @@ packages:
     resolution: {integrity: sha512-iHfJJ8U+pVhMrbVpzMb0GImZUJu3Xmp165Q5Qr44hGOEzcMdvdBxbMSSl2VBKjRsEuNudNVhh7XJAyUcKxnSWg==}
     dev: true
 
+  /@unocss/core@0.55.0:
+    resolution: {integrity: sha512-TcTugpuhsv6OwMsP3iFIG8FVc9N5JzkojIGNAKF8I2WBftZ//3QcpEHiHc1mH3MlPYfJgUvCcT6/Gad55qmHzg==}
+    dev: true
+
   /@unocss/extractor-arbitrary-variants@0.54.0:
     resolution: {integrity: sha512-luJTF3TnXFbMZ2Gau56p0uRsR+yIUbvHbT6ag6mvv0TvUsnhEFsMUdkXVJ1arp0duIl/dg0r1drL/Ax75RszNw==}
     dependencies:
@@ -933,10 +937,10 @@ packages:
       '@unocss/extractor-arbitrary-variants': 0.54.0
     dev: true
 
-  /@unocss/preset-rem-to-px@0.54.0:
-    resolution: {integrity: sha512-/NZ2Ky8uhTyMtoTaqaHiJ54hVz3tVcT8+P4OgTis2DOsk1Nzp2NKJX0qQjCOPJnSFzK5mXVyHJVPt57ReLX6hQ==}
+  /@unocss/preset-rem-to-px@0.55.0:
+    resolution: {integrity: sha512-jsuDGJjrzMNurH3DXMaEsyYvxyC2mTC5c7yXPbq3HO+vlb8nqnNDCGFl9Vb4SnXMzcTif9ds0MNLs2B7rwtHPA==}
     dependencies:
-      '@unocss/core': 0.54.0
+      '@unocss/core': 0.55.0
     dev: true
 
   /@unocss/preset-tagify@0.54.0:
