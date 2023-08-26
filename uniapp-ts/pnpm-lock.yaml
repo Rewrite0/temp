@@ -74,8 +74,8 @@ devDependencies:
     specifier: 3.0.0-alpha-3090020230826001
     version: 3.0.0-alpha-3090020230826001(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.4.27)(vue@3.3.4)
   '@dcloudio/uni-cli-shared':
-    specifier: 3.0.0-alpha-3081220230802001
-    version: 3.0.0-alpha-3081220230802001(postcss@8.4.27)(vue@3.3.4)
+    specifier: 3.0.0-alpha-3090020230826001
+    version: 3.0.0-alpha-3090020230826001(postcss@8.4.27)(vue@3.3.4)
   '@dcloudio/uni-stacktracey':
     specifier: 3.0.0-alpha-3081220230802001
     version: 3.0.0-alpha-3081220230802001
@@ -1621,7 +1621,7 @@ packages:
       postcss-load-config: 3.1.4(postcss@8.4.27)
       postcss-modules: 4.3.1(postcss@8.4.27)
       postcss-selector-parser: 6.0.13
-      resolve: 1.22.2
+      resolve: 1.22.3
       tapable: 2.2.1
       xregexp: 3.1.0
     transitivePeerDependencies:
@@ -8145,6 +8145,7 @@ packages:
       is-core-module: 2.12.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
+    dev: true
 
   /resolve@1.22.3:
     resolution: {integrity: sha512-P8ur/gp/AmbEzjr729bZnLjXK5Z+4P0zhIJgBgzqRih7hL7BOukHGtSTA3ACMY467GRFz3duQsi0bDZdR7DKdw==}
