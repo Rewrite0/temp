@@ -27,8 +27,8 @@ dependencies:
     specifier: 3.0.0-alpha-3090020230909001
     version: 3.0.0-alpha-3090020230909001(postcss@8.4.27)(vue@3.3.4)
   '@dcloudio/uni-mp-kuaishou':
-    specifier: 3.0.0-alpha-3090020230826001
-    version: 3.0.0-alpha-3090020230826001(postcss@8.4.27)(vue@3.3.4)
+    specifier: 3.0.0-alpha-3090020230909001
+    version: 3.0.0-alpha-3090020230909001(postcss@8.4.27)(vue@3.3.4)
   '@dcloudio/uni-mp-lark':
     specifier: 3.0.0-alpha-3090020230826001
     version: 3.0.0-alpha-3090020230826001(postcss@8.4.27)(vue@3.3.4)
@@ -1867,15 +1867,15 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/uni-mp-kuaishou@3.0.0-alpha-3090020230826001(postcss@8.4.27)(vue@3.3.4):
-    resolution: {integrity: sha512-bih3PHT05zCH2PupI+L02g3iAaMRNM6O48/wr5zI2rfqks9gn4KNoobP2Xfzjd3pWhNoEjohRSl7nep9ITM5BQ==}
+  /@dcloudio/uni-mp-kuaishou@3.0.0-alpha-3090020230909001(postcss@8.4.27)(vue@3.3.4):
+    resolution: {integrity: sha512-aONVRtsuxKRdLKZcs8LACdZstEeLUAsPcn1JpprK0SZcNo3YcFODUaOO3bDysRyzrAerEYdGo380MqcSmaoFrg==}
     dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-3090020230826001(postcss@8.4.27)(vue@3.3.4)
-      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-3090020230826001(postcss@8.4.27)(vue@3.3.4)
-      '@dcloudio/uni-mp-vite': 3.0.0-alpha-3090020230826001(postcss@8.4.27)(vue@3.3.4)
-      '@dcloudio/uni-mp-vue': 3.0.0-alpha-3090020230826001
-      '@dcloudio/uni-mp-weixin': 3.0.0-alpha-3090020230826001(postcss@8.4.27)(vue@3.3.4)
-      '@dcloudio/uni-shared': 3.0.0-alpha-3090020230826001
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-3090020230909001(postcss@8.4.27)(vue@3.3.4)
+      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-3090020230909001(postcss@8.4.27)(vue@3.3.4)
+      '@dcloudio/uni-mp-vite': 3.0.0-alpha-3090020230909001(postcss@8.4.27)(vue@3.3.4)
+      '@dcloudio/uni-mp-vue': 3.0.0-alpha-3090020230909001
+      '@dcloudio/uni-mp-weixin': 3.0.0-alpha-3090020230909001(postcss@8.4.27)(vue@3.3.4)
+      '@dcloudio/uni-shared': 3.0.0-alpha-3090020230909001
       '@vue/compiler-core': 3.2.47
       '@vue/shared': 3.2.47
     transitivePeerDependencies:
