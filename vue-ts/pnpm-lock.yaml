@@ -29,11 +29,11 @@ devDependencies:
     specifier: ^20.1.0
     version: 20.1.0
   '@unocss/preset-rem-to-px':
-    specifier: ^0.55.0
-    version: 0.55.0
+    specifier: ^0.56.0
+    version: 0.56.0
   '@unocss/reset':
-    specifier: ^0.55.0
-    version: 0.55.0
+    specifier: ^0.56.0
+    version: 0.56.0
   '@vitejs/plugin-vue':
     specifier: ^4.1.0
     version: 4.1.0(vite@4.3.2)(vue@3.2.47)
@@ -884,6 +884,10 @@ packages:
     resolution: {integrity: sha512-TcTugpuhsv6OwMsP3iFIG8FVc9N5JzkojIGNAKF8I2WBftZ//3QcpEHiHc1mH3MlPYfJgUvCcT6/Gad55qmHzg==}
     dev: true
 
+  /@unocss/core@0.56.0:
+    resolution: {integrity: sha512-KpaEMCg5XnTK7aQRgwNWoPCAFLEmPGjw+OSZWuMtkGvMr4RwDAVUAqPdGyGOavKMyWs+Is+lxXL5NHy9nhZ2oA==}
+    dev: true
+
   /@unocss/extractor-arbitrary-variants@0.55.0:
     resolution: {integrity: sha512-FCel+gJ3N8C/361yQ3gYTmbCjX3DXQ+LdxBiAawapbtTA4eXw55/f7cpiiWcHoouCRrWIEMOQN5DskAJvmMaTw==}
     dependencies:
@@ -934,10 +938,10 @@ packages:
       '@unocss/extractor-arbitrary-variants': 0.55.0
     dev: true
 
-  /@unocss/preset-rem-to-px@0.55.0:
-    resolution: {integrity: sha512-jsuDGJjrzMNurH3DXMaEsyYvxyC2mTC5c7yXPbq3HO+vlb8nqnNDCGFl9Vb4SnXMzcTif9ds0MNLs2B7rwtHPA==}
+  /@unocss/preset-rem-to-px@0.56.0:
+    resolution: {integrity: sha512-UiGuQRMQ2ORz8lqevu6VN7ZhQXFAQCJaRBNQCd8tZNReYlz1i2bugr6nGYpQCfIx4L+BO2eq8Oe7Pw4h56MaJQ==}
     dependencies:
-      '@unocss/core': 0.55.0
+      '@unocss/core': 0.56.0
     dev: true
 
   /@unocss/preset-tagify@0.55.0:
@@ -977,6 +981,10 @@ packages:
 
   /@unocss/reset@0.55.0:
     resolution: {integrity: sha512-TzpcOCIr16IbFxQ4vrSfEV+A8k0N4mJkhl7J3SZfAxBpNDBKAWDB6VBW9iEQY5aBYDLN3wRx1LskgEoubqBCPQ==}
+    dev: true
+
+  /@unocss/reset@0.56.0:
+    resolution: {integrity: sha512-zTvUeN4Dkn+DY8YFHjKd+hfIpqcsNOKOeD0M64fWVjD0LmuuyuFASySYEGjlfvEEUjDiyNg96SnTXyOETYDclg==}
     dev: true
 
   /@unocss/scope@0.55.0:
@@ -1778,7 +1786,7 @@ packages:
       eslint: 8.40.0
       eslint-import-resolver-node: 0.3.7
       eslint-module-utils: 2.8.0(@typescript-eslint/parser@6.7.0)(eslint-import-resolver-node@0.3.7)(eslint@8.40.0)
-      get-tsconfig: 4.6.2
+      get-tsconfig: 4.7.0
       is-glob: 4.0.3
       minimatch: 3.1.2
       resolve: 1.22.3
@@ -2203,12 +2211,6 @@ packages:
   /get-stream@6.0.1:
     resolution: {integrity: sha512-ts6Wi+2j3jQjqi70w5AlN8DFnkSwC+MqmxEzdEALB2qXZYV3X/b1CTfgPLGJNMeAWxdPfU8FO1ms3NUfaHCPYg==}
     engines: {node: '>=10'}
-    dev: true
-
-  /get-tsconfig@4.6.2:
-    resolution: {integrity: sha512-E5XrT4CbbXcXWy+1jChlZmrmCwd5KGx502kDCXJJ7y898TtWW9FwoG5HfOLVRKmlmDGkWN2HM9Ho+/Y8F0sJDg==}
-    dependencies:
-      resolve-pkg-maps: 1.0.0
     dev: true
 
   /get-tsconfig@4.7.0:
