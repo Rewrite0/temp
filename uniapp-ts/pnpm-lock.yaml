@@ -74,8 +74,8 @@ devDependencies:
     specifier: 3.0.0-alpha-3090120230923001
     version: 3.0.0-alpha-3090120230923001(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.4.27)(vue@3.3.4)
   '@dcloudio/uni-cli-shared':
-    specifier: 3.0.0-alpha-3090020230909001
-    version: 3.0.0-alpha-3090020230909001(postcss@8.4.27)(vue@3.3.4)
+    specifier: 3.0.0-alpha-3090120230923001
+    version: 3.0.0-alpha-3090120230923001(postcss@8.4.27)(vue@3.3.4)
   '@dcloudio/uni-stacktracey':
     specifier: 3.0.0-alpha-3090020230909001
     version: 3.0.0-alpha-3090020230909001
@@ -1618,7 +1618,7 @@ packages:
       fs-extra: 10.1.0
       hash-sum: 2.0.0
       jsonc-parser: 3.2.0
-      magic-string: 0.30.2
+      magic-string: 0.30.3
       merge: 2.1.1
       mime: 3.0.0
       module-alias: 2.2.3
@@ -7464,6 +7464,7 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
+    dev: true
 
   /magic-string@0.30.3:
     resolution: {integrity: sha512-B7xGbll2fG/VjP+SWg4sX3JynwIU0mjoTc6MPpKNuIvftk6u6vqhDnk1R80b8C2GBR6ywqy+1DcKBrevBg+bmw==}
