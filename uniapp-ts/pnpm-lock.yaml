@@ -74,8 +74,8 @@ devDependencies:
     specifier: 3.0.0-alpha-3090820231114001
     version: 3.0.0-alpha-3090820231114001(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.4.27)(vue@3.3.4)
   '@dcloudio/uni-cli-shared':
-    specifier: 3.0.0-alpha-3090820231110003
-    version: 3.0.0-alpha-3090820231110003(postcss@8.4.27)(vue@3.3.4)
+    specifier: 3.0.0-alpha-3090820231114001
+    version: 3.0.0-alpha-3090820231114001(postcss@8.4.27)(vue@3.3.4)
   '@dcloudio/uni-stacktracey':
     specifier: 3.0.0-alpha-3090820231110003
     version: 3.0.0-alpha-3090820231110003
@@ -1616,7 +1616,7 @@ packages:
       es-module-lexer: 1.3.0
       esbuild: 0.17.19
       estree-walker: 2.0.2
-      fast-glob: 3.3.1
+      fast-glob: 3.3.2
       fs-extra: 10.1.0
       hash-sum: 2.0.0
       jsonc-parser: 3.2.0
@@ -6786,6 +6786,7 @@ packages:
       glob-parent: 5.1.2
       merge2: 1.4.1
       micromatch: 4.0.5
+    dev: true
 
   /fast-glob@3.3.2:
     resolution: {integrity: sha512-oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==}
