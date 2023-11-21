@@ -24,8 +24,8 @@ dependencies:
     specifier: 3.0.0-alpha-3090820231120001
     version: 3.0.0-alpha-3090820231120001(postcss@8.4.31)(vue@3.3.4)
   '@dcloudio/uni-mp-jd':
-    specifier: 3.0.0-alpha-3090820231117001
-    version: 3.0.0-alpha-3090820231117001(postcss@8.4.31)(vue@3.3.4)
+    specifier: 3.0.0-alpha-3090820231120001
+    version: 3.0.0-alpha-3090820231120001(postcss@8.4.31)(vue@3.3.4)
   '@dcloudio/uni-mp-kuaishou':
     specifier: 3.0.0-alpha-3090820231117001
     version: 3.0.0-alpha-3090820231117001(postcss@8.4.31)(vue@3.3.4)
@@ -1868,14 +1868,14 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/uni-mp-jd@3.0.0-alpha-3090820231117001(postcss@8.4.31)(vue@3.3.4):
-    resolution: {integrity: sha512-9C20/kqti5UQRX9yMKj5bG9HVcQqCY1kjBQAE/RSab8/VpqZnAN44GqhgrpS7TjinmJAGvpEIJP4u6nfMi+7Ew==}
+  /@dcloudio/uni-mp-jd@3.0.0-alpha-3090820231120001(postcss@8.4.31)(vue@3.3.4):
+    resolution: {integrity: sha512-NEcGcJ4TBmU8RWwE9VoBKzCLfArlGO0q4n7xeud11/TlLrfJRkyn3Vzx7N6XlmIe2t1pn3J5C+IRU3+R2gOJ1w==}
     dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-3090820231117001(postcss@8.4.31)(vue@3.3.4)
-      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-3090820231117001(postcss@8.4.31)(vue@3.3.4)
-      '@dcloudio/uni-mp-vite': 3.0.0-alpha-3090820231117001(postcss@8.4.31)(vue@3.3.4)
-      '@dcloudio/uni-mp-vue': 3.0.0-alpha-3090820231117001
-      '@dcloudio/uni-shared': 3.0.0-alpha-3090820231117001
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-3090820231120001(postcss@8.4.31)(vue@3.3.4)
+      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-3090820231120001(postcss@8.4.31)(vue@3.3.4)
+      '@dcloudio/uni-mp-vite': 3.0.0-alpha-3090820231120001(postcss@8.4.31)(vue@3.3.4)
+      '@dcloudio/uni-mp-vue': 3.0.0-alpha-3090820231120001
+      '@dcloudio/uni-shared': 3.0.0-alpha-3090820231120001
       '@vue/shared': 3.2.47
     transitivePeerDependencies:
       - postcss
