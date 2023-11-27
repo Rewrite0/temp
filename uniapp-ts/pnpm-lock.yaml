@@ -80,8 +80,8 @@ devDependencies:
     specifier: 3.0.0-alpha-3090920231127001
     version: 3.0.0-alpha-3090920231127001
   '@dcloudio/vite-plugin-uni':
-    specifier: 3.0.0-alpha-3090820231120001
-    version: 3.0.0-alpha-3090820231120001(@vueuse/core@10.2.1)(postcss@8.4.31)(vite@5.0.2)(vue@3.3.4)
+    specifier: 3.0.0-alpha-3090920231127001
+    version: 3.0.0-alpha-3090920231127001(@vueuse/core@10.2.1)(postcss@8.4.31)(vite@5.0.2)(vue@3.3.4)
   '@iconify-json/carbon':
     specifier: ^1.1.18
     version: 1.1.18
@@ -1650,6 +1650,7 @@ packages:
       - supports-color
       - ts-node
       - vue
+    dev: false
 
   /@dcloudio/uni-cli-shared@3.0.0-alpha-3090920231127001(postcss@8.4.31)(vue@3.3.4):
     resolution: {integrity: sha512-vMv628VO+fRX1SnTjOfXIc1LbhRpTdKGrNl9PdIvipsmRCo3JNnJXgdImBIfKnkPHRKPCKUk6sI3T8hDCGDexg==}
@@ -1784,6 +1785,7 @@ packages:
 
   /@dcloudio/uni-i18n@3.0.0-alpha-3090820231120001:
     resolution: {integrity: sha512-YvrEL9XfTQBnv6U0VYsnztS6QpTqCJhGN/5Hfh1unsoUisTd3BBOp6YINCtNlPvHBeY32aIX+90fP++OclF53w==}
+    dev: false
 
   /@dcloudio/uni-i18n@3.0.0-alpha-3090920231127001:
     resolution: {integrity: sha512-Vq9b+zJY46e4WmQ4ObMzcJJSMAkd/TtaDX0/Occ2r5cLB8Khjlp65B6KlSOOzsF+ncxB2brUoubfNcm/wkFuMA==}
@@ -2037,6 +2039,7 @@ packages:
     resolution: {integrity: sha512-8QeTdgGgO3+jxjunqUmdgo4HaCT7RqU6WmmTwsATqD4EXXg+RZpxJun6SfcH19s+NucFk6IB8USrLL+GjeIUhQ==}
     dependencies:
       '@vue/shared': 3.2.47
+    dev: false
 
   /@dcloudio/uni-shared@3.0.0-alpha-3090920231127001:
     resolution: {integrity: sha512-Fm8QraxCiSkbqVy7W3l+UbR5s1IMecuBKWnrQPGDl7lajgk223EHiYVbkl/HKlKctkaRfnXtpTCW/Z4DA1Sarw==}
@@ -2061,8 +2064,8 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/vite-plugin-uni@3.0.0-alpha-3090820231120001(@vueuse/core@10.2.1)(postcss@8.4.31)(vite@5.0.2)(vue@3.3.4):
-    resolution: {integrity: sha512-4pcuPFziAOpwLZ/bxJDtoCYpcffU0s9fS0mBKycnllL1CuDMV0/2mJ9FynbyDR8SSIDSlSYFw/Gb+Qf/eQ/S+w==}
+  /@dcloudio/vite-plugin-uni@3.0.0-alpha-3090920231127001(@vueuse/core@10.2.1)(postcss@8.4.31)(vite@5.0.2)(vue@3.3.4):
+    resolution: {integrity: sha512-mqvcIETmWiRfSXk0iMevPO2O7+sVBiLDCZ0MFQtsu2Y8Tl72lhJeLyPIFo5qaGePVqN/je4P0CbHfSOT/TIhcA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -2071,8 +2074,8 @@ packages:
       '@babel/core': 7.22.9
       '@babel/plugin-syntax-import-meta': 7.10.4(@babel/core@7.22.9)
       '@babel/plugin-transform-typescript': 7.22.9(@babel/core@7.22.9)
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-3090820231120001(postcss@8.4.31)(vue@3.3.4)
-      '@dcloudio/uni-shared': 3.0.0-alpha-3090820231120001
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-3090920231127001(postcss@8.4.31)(vue@3.3.4)
+      '@dcloudio/uni-shared': 3.0.0-alpha-3090920231127001
       '@rollup/pluginutils': 4.2.1
       '@vitejs/plugin-legacy': 4.1.1(terser@5.19.2)(vite@5.0.2)
       '@vitejs/plugin-vue': 4.2.3(vite@5.0.2)(vue@3.3.4)
@@ -10514,7 +10517,7 @@ packages:
       magic-string: 0.30.5
       minimatch: 9.0.3
       unimport: 3.5.0
-      unplugin: 1.5.0
+      unplugin: 1.5.1
     transitivePeerDependencies:
       - rollup
 
@@ -10542,14 +10545,6 @@ packages:
     transitivePeerDependencies:
       - rollup
     dev: true
-
-  /unplugin@1.5.0:
-    resolution: {integrity: sha512-9ZdRwbh/4gcm1JTOkp9lAkIDrtOyOxgHmY7cjuwI8L/2RTikMcVG25GsZwNAgRuap3iDw2jeq7eoqtAsz5rW3A==}
-    dependencies:
-      acorn: 8.11.2
-      chokidar: 3.5.3
-      webpack-sources: 3.2.3
-      webpack-virtual-modules: 0.5.0
 
   /unplugin@1.5.1:
     resolution: {integrity: sha512-0QkvG13z6RD+1L1FoibQqnvTwVBXvS4XSPwAyinVgoOCl2jAgwzdUKmEj05o4Lt8xwQI85Hb6mSyYkcAGwZPew==}
@@ -10958,9 +10953,6 @@ packages:
   /webpack-sources@3.2.3:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
     engines: {node: '>=10.13.0'}
-
-  /webpack-virtual-modules@0.5.0:
-    resolution: {integrity: sha512-kyDivFZ7ZM0BVOUteVbDFhlRt7Ah/CSPwJdi8hBpkK7QLumUqdLtVfm/PX/hkcnrvr0i77fO5+TjZ94Pe+C9iw==}
 
   /webpack-virtual-modules@0.6.1:
     resolution: {integrity: sha512-poXpCylU7ExuvZK8z+On3kX+S8o/2dQ/SVYueKA0D4WEMXROXgY8Ez50/bQEUmvoSMMrWcrJqCHuhAbsiwg7Dg==}
