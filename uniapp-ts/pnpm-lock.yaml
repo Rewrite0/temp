@@ -74,8 +74,8 @@ devDependencies:
     specifier: 3.0.0-alpha-3090920231206001
     version: 3.0.0-alpha-3090920231206001(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.4.32)(vue@3.3.4)
   '@dcloudio/uni-cli-shared':
-    specifier: 3.0.0-alpha-3090920231203001
-    version: 3.0.0-alpha-3090920231203001(postcss@8.4.32)(vue@3.3.4)
+    specifier: 3.0.0-alpha-3090920231206001
+    version: 3.0.0-alpha-3090920231206001(postcss@8.4.32)(vue@3.3.4)
   '@dcloudio/uni-stacktracey':
     specifier: 3.0.0-alpha-3090920231203001
     version: 3.0.0-alpha-3090920231203001
@@ -370,20 +370,6 @@ packages:
       browserslist: 4.21.10
       lru-cache: 5.1.1
       semver: 6.3.1
-
-  /@babel/helper-compilation-targets@7.22.9(@babel/core@7.23.5):
-    resolution: {integrity: sha512-7qYrNM6HjpnPHJbopxmb8hSPoZ0gsX8IvUS32JGVoy+pU9e5N0nLr1VjJoR6kA4d9dmGLxNYOjeB8sUDal2WMw==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-    dependencies:
-      '@babel/compat-data': 7.22.9
-      '@babel/core': 7.23.5
-      '@babel/helper-validator-option': 7.23.5
-      browserslist: 4.21.10
-      lru-cache: 5.1.1
-      semver: 6.3.1
-    dev: true
 
   /@babel/helper-create-class-features-plugin@7.22.9(@babel/core@7.22.9):
     resolution: {integrity: sha512-Pwyi89uO4YrGKxL/eNJ8lfEH55DnRloGPOseaA8NFNL6jAUnn+KccaISiFazCj5IolPPDjGSdzQzXVzODVRqUQ==}
@@ -1558,7 +1544,7 @@ packages:
     dependencies:
       '@babel/compat-data': 7.22.9
       '@babel/core': 7.23.5
-      '@babel/helper-compilation-targets': 7.22.9(@babel/core@7.23.5)
+      '@babel/helper-compilation-targets': 7.22.15
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/helper-validator-option': 7.22.5
       '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': 7.22.5(@babel/core@7.23.5)
