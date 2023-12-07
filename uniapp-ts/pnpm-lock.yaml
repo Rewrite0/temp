@@ -21,8 +21,8 @@ dependencies:
     specifier: 3.0.0-alpha-3090920231206001
     version: 3.0.0-alpha-3090920231206001(postcss@8.4.32)(vue@3.3.4)
   '@dcloudio/uni-mp-baidu':
-    specifier: 3.0.0-alpha-3090920231203001
-    version: 3.0.0-alpha-3090920231203001(postcss@8.4.32)(vue@3.3.4)
+    specifier: 3.0.0-alpha-3090920231206001
+    version: 3.0.0-alpha-3090920231206001(postcss@8.4.32)(vue@3.3.4)
   '@dcloudio/uni-mp-jd':
     specifier: 3.0.0-alpha-3090920231203001
     version: 3.0.0-alpha-3090920231203001(postcss@8.4.32)(vue@3.3.4)
@@ -328,16 +328,6 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@babel/generator@7.22.9:
-    resolution: {integrity: sha512-KtLMbmicyuK2Ak/FTCJVbDnkN1SlT8/kceFTiuDiiRUUSMnHMidxSCdG4ndkTOHHpoomWe/4xkvHkEOncwjYIw==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/types': 7.23.5
-      '@jridgewell/gen-mapping': 0.3.3
-      '@jridgewell/trace-mapping': 0.3.19
-      jsesc: 2.5.2
-    dev: false
-
   /@babel/generator@7.23.5:
     resolution: {integrity: sha512-BPssCHrBD+0YrxviOa3QzpqwhNIXKEtOa2jQrm4FlmkC2apYgRnQcmPWiGZDlGxiNtltnUFolMe8497Esry+jA==}
     engines: {node: '>=6.9.0'}
@@ -566,13 +556,6 @@ packages:
       '@babel/helper-validator-identifier': 7.22.20
       chalk: 2.4.2
       js-tokens: 4.0.0
-
-  /@babel/parser@7.22.7:
-    resolution: {integrity: sha512-7NF8pOkHP5o2vpmGgNGcfAeCvOYhGLyA3Z4eBQkT1RJlWu47n63bCs93QfJ2hIAFCil7L5P2IWhs1oToVgrL0Q==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/types': 7.23.5
 
   /@babel/parser@7.23.5:
     resolution: {integrity: sha512-hOOqoiNXrmGdFbhgCzu6GiURxUgM27Xwd/aPuu8RfHEZPBzL1Z54okAHAQjXfcQNwvrlkAmAp4SlRTZ45vlthQ==}
@@ -1871,15 +1854,15 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/uni-mp-baidu@3.0.0-alpha-3090920231203001(postcss@8.4.32)(vue@3.3.4):
-    resolution: {integrity: sha512-coMyTGXHZqhLkKcSwMeF02YK7w17lEsrd568xUUleaDtwyJqd6W2R7riEScjXA8mlFeVMufSgI3WXdQjRJacnw==}
+  /@dcloudio/uni-mp-baidu@3.0.0-alpha-3090920231206001(postcss@8.4.32)(vue@3.3.4):
+    resolution: {integrity: sha512-1z81sn2nyiLuTN2Zdnktw5Ql8270zGvKkHKQ12NSAeFM+KCNbP3fJEQ6r9h2ExhsntMuN/yzIwFlz2T6hrp8mA==}
     dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-3090920231203001(postcss@8.4.32)(vue@3.3.4)
-      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-3090920231203001(postcss@8.4.32)(vue@3.3.4)
-      '@dcloudio/uni-mp-vite': 3.0.0-alpha-3090920231203001(postcss@8.4.32)(vue@3.3.4)
-      '@dcloudio/uni-mp-vue': 3.0.0-alpha-3090920231203001
-      '@dcloudio/uni-mp-weixin': 3.0.0-alpha-3090920231203001(postcss@8.4.32)(vue@3.3.4)
-      '@dcloudio/uni-shared': 3.0.0-alpha-3090920231203001
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-3090920231206001(postcss@8.4.32)(vue@3.3.4)
+      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-3090920231206001(postcss@8.4.32)(vue@3.3.4)
+      '@dcloudio/uni-mp-vite': 3.0.0-alpha-3090920231206001(postcss@8.4.32)(vue@3.3.4)
+      '@dcloudio/uni-mp-vue': 3.0.0-alpha-3090920231206001
+      '@dcloudio/uni-mp-weixin': 3.0.0-alpha-3090920231206001(postcss@8.4.32)(vue@3.3.4)
+      '@dcloudio/uni-shared': 3.0.0-alpha-3090920231206001
       '@vue/compiler-core': 3.2.47
       '@vue/shared': 3.2.47
       jimp: 0.10.3
@@ -1899,7 +1882,7 @@ packages:
   /@dcloudio/uni-mp-compiler@3.0.0-alpha-3090920231203001(postcss@8.4.32)(vue@3.3.4):
     resolution: {integrity: sha512-ILAzTMCbEhwIkxKYJE9NljvBFFnv110nw3HCQqWUUrxRxlCufdwnfYrhByIDfevLNrUKPCRm3QlrxD1xjVwCBQ==}
     dependencies:
-      '@babel/generator': 7.22.9
+      '@babel/generator': 7.23.5
       '@babel/parser': 7.23.5
       '@babel/types': 7.23.5
       '@dcloudio/uni-cli-shared': 3.0.0-alpha-3090920231203001(postcss@8.4.32)(vue@3.3.4)
@@ -2078,6 +2061,28 @@ packages:
       '@dcloudio/uni-mp-vite': 3.0.0-alpha-3090920231203001(postcss@8.4.32)(vue@3.3.4)
       '@dcloudio/uni-mp-vue': 3.0.0-alpha-3090920231203001
       '@dcloudio/uni-shared': 3.0.0-alpha-3090920231203001
+      '@vue/shared': 3.2.47
+      jimp: 0.10.3
+      licia: 1.38.2
+      qrcode-reader: 1.0.4
+      qrcode-terminal: 0.12.0
+      ws: 8.13.0
+    transitivePeerDependencies:
+      - bufferutil
+      - postcss
+      - supports-color
+      - ts-node
+      - utf-8-validate
+      - vue
+    dev: false
+
+  /@dcloudio/uni-mp-weixin@3.0.0-alpha-3090920231206001(postcss@8.4.32)(vue@3.3.4):
+    resolution: {integrity: sha512-0wJmhrLvg5zDvDUsYAob0+iM5tOaT1vYQ5opRjbwpMY/yhfPew4D+le3kvbNY2hTaLpsvfqn6OCGflcZId0bZw==}
+    dependencies:
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-3090920231206001(postcss@8.4.32)(vue@3.3.4)
+      '@dcloudio/uni-mp-vite': 3.0.0-alpha-3090920231206001(postcss@8.4.32)(vue@3.3.4)
+      '@dcloudio/uni-mp-vue': 3.0.0-alpha-3090920231206001
+      '@dcloudio/uni-shared': 3.0.0-alpha-3090920231206001
       '@vue/shared': 3.2.47
       jimp: 0.10.3
       licia: 1.38.2
@@ -4865,7 +4870,7 @@ packages:
   /@vue/compiler-core@3.3.4:
     resolution: {integrity: sha512-cquyDNvZ6jTbf/+x+AgM2Arrp6G4Dzbb0R64jiG804HRMfRiFXWI6kqUVqZ6ZR0bQhIoQjB4+2bhNtVwndW15g==}
     dependencies:
-      '@babel/parser': 7.22.7
+      '@babel/parser': 7.23.5
       '@vue/shared': 3.3.4
       estree-walker: 2.0.2
       source-map-js: 1.0.2
