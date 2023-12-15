@@ -12,8 +12,8 @@ dependencies:
     specifier: 3.0.0-alpha-4000020231215001
     version: 3.0.0-alpha-4000020231215001(@vueuse/core@10.2.1)(postcss@8.4.32)(vite@5.0.10)(vue@3.3.4)
   '@dcloudio/uni-components':
-    specifier: 3.0.0-alpha-4000020231214002
-    version: 3.0.0-alpha-4000020231214002(postcss@8.4.32)(vue@3.3.4)
+    specifier: 3.0.0-alpha-4000020231215001
+    version: 3.0.0-alpha-4000020231215001(postcss@8.4.32)(vue@3.3.4)
   '@dcloudio/uni-h5':
     specifier: 3.0.0-alpha-4000020231214002
     version: 3.0.0-alpha-4000020231214002(postcss@8.4.32)(vue@3.3.4)
@@ -1765,21 +1765,6 @@ packages:
       - ts-node
       - vue
 
-  /@dcloudio/uni-cloud@3.0.0-alpha-4000020231214002(postcss@8.4.32)(vue@3.3.4):
-    resolution: {integrity: sha512-L57I5nFLR7fOT9DxhoxekKo32YoeuM+fKVseQMJ/SwCxUzKeanPmGlPPbDq7dCMjFRlqXBpw3VLP2MKFKUVb5Q==}
-    dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4000020231214002(postcss@8.4.32)(vue@3.3.4)
-      '@dcloudio/uni-i18n': 3.0.0-alpha-4000020231214002
-      '@dcloudio/uni-shared': 3.0.0-alpha-4000020231214002
-      '@vue/shared': 3.3.11
-      fast-glob: 3.3.2
-    transitivePeerDependencies:
-      - postcss
-      - supports-color
-      - ts-node
-      - vue
-    dev: false
-
   /@dcloudio/uni-cloud@3.0.0-alpha-4000020231215001(postcss@8.4.32)(vue@3.3.4):
     resolution: {integrity: sha512-lyVIXKuLDQ0CabzWF9H3jlpG+C3Tx2wy5n7zXMzNmhQf2iTgjYb06ui7KKXQgGosU6R9uCSZhgoIhPwJ7J017w==}
     dependencies:
@@ -1788,19 +1773,6 @@ packages:
       '@dcloudio/uni-shared': 3.0.0-alpha-4000020231215001
       '@vue/shared': 3.3.11
       fast-glob: 3.3.2
-    transitivePeerDependencies:
-      - postcss
-      - supports-color
-      - ts-node
-      - vue
-    dev: false
-
-  /@dcloudio/uni-components@3.0.0-alpha-4000020231214002(postcss@8.4.32)(vue@3.3.4):
-    resolution: {integrity: sha512-8OWQJOmHqLlT3prdZdgiEmkTJ2iYqV4hrm3OReisXQLTK4HkauYxAiJidGUW6JmDXtSjnUX9Q/Drxqyf3oU92Q==}
-    dependencies:
-      '@dcloudio/uni-cloud': 3.0.0-alpha-4000020231214002(postcss@8.4.32)(vue@3.3.4)
-      '@dcloudio/uni-h5': 3.0.0-alpha-4000020231214002(postcss@8.4.32)(vue@3.3.4)
-      '@dcloudio/uni-i18n': 3.0.0-alpha-4000020231214002
     transitivePeerDependencies:
       - postcss
       - supports-color
