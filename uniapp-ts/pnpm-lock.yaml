@@ -42,8 +42,8 @@ dependencies:
     specifier: 3.0.0-alpha-4000120240201002
     version: 3.0.0-alpha-4000120240201002(@vueuse/core@10.2.1)(postcss@8.4.32)(vue@3.3.4)
   '@dcloudio/uni-mp-xhs':
-    specifier: 3.0.0-alpha-4000020240127001
-    version: 3.0.0-alpha-4000020240127001(postcss@8.4.32)(vue@3.3.4)
+    specifier: 3.0.0-alpha-4000120240201002
+    version: 3.0.0-alpha-4000120240201002(@vueuse/core@10.2.1)(postcss@8.4.32)(vue@3.3.4)
   '@dcloudio/uni-quickapp-webview':
     specifier: 3.0.0-alpha-4000020240127001
     version: 3.0.0-alpha-4000020240127001(postcss@8.4.32)(vue@3.3.4)
@@ -2100,17 +2100,20 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/uni-mp-xhs@3.0.0-alpha-4000020240127001(postcss@8.4.32)(vue@3.3.4):
-    resolution: {integrity: sha512-JrOio8SLZxKaCTihFm5C+MZVuUvFjv4Bq/78wtfLKSZS4nyrQrwIzDTinA79O3BxWSVZ4c9SvgrtaoXNCMVSLQ==}
+  /@dcloudio/uni-mp-xhs@3.0.0-alpha-4000120240201002(@vueuse/core@10.2.1)(postcss@8.4.32)(vue@3.3.4):
+    resolution: {integrity: sha512-XuEhVe3adg2wNphaVfuzYEOWfJ7kC2rlqeu6bfbt78Cx/zADaJ9CcS5pFY6ZC1tJJJhEDOg94MjFCfm7TjDE/w==}
     dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4000020240127001(postcss@8.4.32)(vue@3.3.4)
-      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-4000020240127001(postcss@8.4.32)(vue@3.3.4)
-      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4000020240127001(postcss@8.4.32)(vue@3.3.4)
-      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4000020240127001
-      '@dcloudio/uni-shared': 3.0.0-alpha-4000020240127001
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4000120240201002(@vueuse/core@10.2.1)(postcss@8.4.32)(vue@3.3.4)
+      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-4000120240201002(@vueuse/core@10.2.1)(postcss@8.4.32)(vue@3.3.4)
+      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4000120240201002(@vueuse/core@10.2.1)(postcss@8.4.32)(vue@3.3.4)
+      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4000120240201002
+      '@dcloudio/uni-shared': 3.0.0-alpha-4000120240201002
       '@vue/shared': 3.3.11
     transitivePeerDependencies:
+      - '@nuxt/kit'
+      - '@vueuse/core'
       - postcss
+      - rollup
       - supports-color
       - ts-node
       - vue
