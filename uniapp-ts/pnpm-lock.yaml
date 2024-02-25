@@ -90,7 +90,7 @@ devDependencies:
     version: 20.4.2
   '@uni-helper/uni-app-types':
     specifier: ^0.5.8
-    version: 0.5.8(typescript@5.1.6)
+    version: 0.5.12(typescript@5.1.6)
   '@uni-helper/uni-env':
     specifier: ^0.1.0
     version: 0.1.0(typescript@5.1.6)(vitest@1.3.1)
@@ -4463,8 +4463,8 @@ packages:
     resolution: {integrity: sha512-hodr8eOnf4ZuFYuu9G0mADeojOxu92CiuTVXy76aNHBQvOOL9/Rw7LI7DcJ6AZJVmTeBxwaweqFE8AcIeXE5uw==}
     dev: true
 
-  /@uni-helper/uni-app-types@0.5.8(typescript@5.1.6):
-    resolution: {integrity: sha512-iB2JG6ygBjGcUvSAKpuxrK8JfPBYuLXf3p8fMTM3Mtwoi+VvcyU4hJJwbndX3mqqVJw/lGpsOlPIBozp8NZ3Cg==}
+  /@uni-helper/uni-app-types@0.5.12(typescript@5.1.6):
+    resolution: {integrity: sha512-SeUEgDgGftI4XEp1AB3C6IFLnRPT83tgTCCmlLUBmQyHh+UhRY+CX4QtgQ0n/kF8txNUq8Bc9YwKlYdXQGx6Ww==}
     engines: {node: '>=14.18'}
     peerDependencies:
       typescript: ^4.8.0 || ^5.0.0
