@@ -49,7 +49,7 @@ dependencies:
     version: 3.0.0-alpha-4000120240201002(@vueuse/core@10.2.1)(postcss@8.4.35)(vue@3.3.4)
   '@uni-helper/uni-network':
     specifier: ^0.18.0
-    version: 0.18.0(@vueuse/core@10.2.1)(vue@3.3.4)
+    version: 0.18.1(@vueuse/core@10.2.1)(vue@3.3.4)
   '@vueuse/core':
     specifier: ^10.2.1
     version: 10.2.1(vue@3.3.4)
@@ -1767,8 +1767,8 @@ packages:
   /@dcloudio/types@3.3.3:
     resolution: {integrity: sha512-xfp88QOJ2fgCzv49HhEGrX0L+3xDsCyyvcoApL7z0J1Lr7tqPUkxqAVBe9zBlKsDX/mO9mNj7NzKIisHfp+fNQ==}
 
-  /@dcloudio/types@3.4.3:
-    resolution: {integrity: sha512-WzQGX06z2+HU3HnOO+/DxX37jyUECSXCuI7GVjFXs10+ZExTbdouwQXZvH8hR7k/FjuXFjQKHV9fuvfexyXluw==}
+  /@dcloudio/types@3.4.7:
+    resolution: {integrity: sha512-RuErDYDAWY3KMlACT5NhJAKPxwjFjdzt7I/n50xCBvCSnH/84CzDPDJHRmmP6c0VOfMDHmV88V+sRBvBQRSp+w==}
     dev: false
 
   /@dcloudio/uni-app-plus@3.0.0-alpha-4000120240201002(@vueuse/core@10.2.1)(postcss@8.4.35)(vite@5.1.4)(vue@3.3.4):
@@ -4000,16 +4000,11 @@ packages:
   /@types/lodash.merge@4.6.9:
     resolution: {integrity: sha512-23sHDPmzd59kUgWyKGiOMO2Qb9YtqRO/x4IhkgNUiPQ1+5MUVqi6bCZeq9nBJ17msjIMbEIO5u+XW4Kz6aGUhQ==}
     dependencies:
-      '@types/lodash': 4.14.196
-    dev: false
-
-  /@types/lodash@4.14.196:
-    resolution: {integrity: sha512-22y3o88f4a94mKljsZcanlNWPzO0uBsBdzLAngf2tp533LzZcQzb6+eZPJ+vCTt+bqF2XnvT9gejTLsAcJAJyQ==}
+      '@types/lodash': 4.14.202
     dev: false
 
   /@types/lodash@4.14.202:
     resolution: {integrity: sha512-OvlIYQK9tNneDlS0VN54LLd5uiPCBOp7gS5Z0f1mjoJYBrtStzgmJBxONW3U6OZqdtNzZPmn9BS/7WI7BFFcFQ==}
-    dev: true
 
   /@types/mdast@3.0.12:
     resolution: {integrity: sha512-DT+iNIRNX884cx0/Q1ja7NyUPpZuv0KPyL5rGNxm1WC1OtHstl7n4Jb7nk+xacNShQMbczJjt8uFzznpp6kYBg==}
@@ -4382,8 +4377,8 @@ packages:
       - vitest
     dev: true
 
-  /@uni-helper/uni-network@0.18.0(@vueuse/core@10.2.1)(vue@3.3.4):
-    resolution: {integrity: sha512-HzjOAdUIuEmw1rKSladZPFfE/P6BqbHwrhSuhgEqEus7Cixo5ZKF6cW0WbRq5pzzJIFRcrsjh4V2+kH2/1fF8Q==}
+  /@uni-helper/uni-network@0.18.1(@vueuse/core@10.2.1)(vue@3.3.4):
+    resolution: {integrity: sha512-kCjdheLrTlj8yFAaP4DYIlgZ/jc4/nc9cjfV5HCcLtYQ1vOzOav9dgUL9RUA2+Gfcq9GcETKY1WO81XoI1K0Mg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@vue/composition-api': ^1.0.0
@@ -4397,7 +4392,7 @@ packages:
       vue:
         optional: true
     dependencies:
-      '@dcloudio/types': 3.4.3
+      '@dcloudio/types': 3.4.7
       '@types/lodash.merge': 4.6.9
       '@types/statuses': 2.0.4
       '@vueuse/core': 10.2.1(vue@3.3.4)
@@ -4405,7 +4400,7 @@ packages:
       lodash.merge: 4.6.2
       statuses: 2.0.1
       vue: 3.3.4
-      vue-demi: 0.14.6(vue@3.3.4)
+      vue-demi: 0.14.7(vue@3.3.4)
     dev: false
 
   /@uni-helper/vite-plugin-uni-components@0.0.8:
@@ -5105,7 +5100,7 @@ packages:
   /@vueuse/shared@10.2.1(vue@3.3.4):
     resolution: {integrity: sha512-QWHq2bSuGptkcxx4f4M/fBYC3Y8d3M2UYyLsyzoPgEoVzJURQ0oJeWXu79OiLlBb8gTKkqe4mO85T/sf39mmiw==}
     dependencies:
-      vue-demi: 0.14.6(vue@3.3.4)
+      vue-demi: 0.14.5(vue@3.3.4)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -10989,8 +10984,8 @@ packages:
     dependencies:
       vue: 3.3.4
 
-  /vue-demi@0.14.6(vue@3.3.4):
-    resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
+  /vue-demi@0.14.7(vue@3.3.4):
+    resolution: {integrity: sha512-EOG8KXDQNwkJILkx/gPcoL/7vH+hORoBaKgGe+6W7VFMvCYJfmF2dGbvgDroVnI8LU7/kTu8mbjRZGBU1z9NTA==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
@@ -11002,6 +10997,7 @@ packages:
         optional: true
     dependencies:
       vue: 3.3.4
+    dev: false
 
   /vue-eslint-parser@9.3.2(eslint@8.45.0):
     resolution: {integrity: sha512-q7tWyCVaV9f8iQyIA5Mkj/S6AoJ9KBN8IeUSf3XEmBrOtxOZnfTg5s4KClbZBCK3GtnT/+RyCLZyDHuZwTuBjg==}
