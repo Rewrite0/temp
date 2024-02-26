@@ -87,7 +87,7 @@ devDependencies:
     version: 1.1.30
   '@types/node':
     specifier: ^20.4.2
-    version: 20.4.2
+    version: 20.11.20
   '@uni-helper/uni-app-types':
     specifier: ^0.5.8
     version: 0.5.12(typescript@5.1.6)
@@ -141,7 +141,7 @@ devDependencies:
     version: 0.17.5(@vueuse/core@10.2.1)
   vite:
     specifier: 5.1.4
-    version: 5.1.4(@types/node@20.4.2)(sass@1.53.0)(terser@5.19.2)
+    version: 5.1.4(@types/node@20.11.20)(sass@1.53.0)(terser@5.19.2)
   vue-tsc:
     specifier: ^1.8.5
     version: 1.8.5(typescript@5.1.6)
@@ -2428,7 +2428,7 @@ packages:
       picocolors: 1.0.0
       terser: 5.19.2
       unplugin-auto-import: 0.16.7(@vueuse/core@10.2.1)
-      vite: 5.1.4(@types/node@20.4.2)(sass@1.53.0)(terser@5.19.2)
+      vite: 5.1.4(@types/node@20.11.20)(sass@1.53.0)(terser@5.19.2)
     transitivePeerDependencies:
       - '@nuxt/kit'
       - '@vueuse/core'
@@ -4083,10 +4083,6 @@ packages:
     resolution: {integrity: sha512-7/rR21OS+fq8IyHTgtLkDK949uzsa6n8BkziAKtPVpugIkO6D+/ooXMvzXxDnZrmtXVfjb1bKQafYpb8s89LOg==}
     dependencies:
       undici-types: 5.26.5
-    dev: true
-
-  /@types/node@20.4.2:
-    resolution: {integrity: sha512-Dd0BYtWgnWJKwO1jkmTrzofjK2QXXcai0dmtzvIBhcA+RsG5h8R3xlyta0kGOZRNfL9GuRtb1knmPEhQrePCEw==}
 
   /@types/normalize-package-data@2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -4496,7 +4492,7 @@ packages:
       '@unocss/core': 0.58.5
       '@unocss/reset': 0.58.5
       '@unocss/vite': 0.58.5(vite@5.1.4)
-      vite: 5.1.4(@types/node@20.4.2)(sass@1.53.0)(terser@5.19.2)
+      vite: 5.1.4(@types/node@20.11.20)(sass@1.53.0)(terser@5.19.2)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -4762,7 +4758,7 @@ packages:
       chokidar: 3.6.0
       fast-glob: 3.3.2
       magic-string: 0.30.7
-      vite: 5.1.4(@types/node@20.4.2)(sass@1.53.0)(terser@5.19.2)
+      vite: 5.1.4(@types/node@20.11.20)(sass@1.53.0)(terser@5.19.2)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -4782,7 +4778,7 @@ packages:
       regenerator-runtime: 0.13.11
       systemjs: 6.14.1
       terser: 5.19.2
-      vite: 5.1.4(@types/node@20.4.2)(sass@1.53.0)(terser@5.19.2)
+      vite: 5.1.4(@types/node@20.11.20)(sass@1.53.0)(terser@5.19.2)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4797,7 +4793,7 @@ packages:
       '@babel/core': 7.23.5
       '@babel/plugin-transform-typescript': 7.23.5(@babel/core@7.23.5)
       '@vue/babel-plugin-jsx': 1.1.5(@babel/core@7.23.5)
-      vite: 5.1.4(@types/node@20.4.2)(sass@1.53.0)(terser@5.19.2)
+      vite: 5.1.4(@types/node@20.11.20)(sass@1.53.0)(terser@5.19.2)
       vue: 3.3.4
     transitivePeerDependencies:
       - supports-color
@@ -4810,7 +4806,7 @@ packages:
       vite: ^4.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 5.1.4(@types/node@20.4.2)(sass@1.53.0)(terser@5.19.2)
+      vite: 5.1.4(@types/node@20.11.20)(sass@1.53.0)(terser@5.19.2)
       vue: 3.3.4
 
   /@volar/language-core@1.9.2:
@@ -10683,7 +10679,6 @@ packages:
 
   /undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
-    dev: true
 
   /unicode-canonical-property-names-ecmascript@2.0.0:
     resolution: {integrity: sha512-yY5PpDlfVIU5+y/BSCxAJRBIS1Zc2dDG3Ujq+sR0U+JjUevW2JhocOF+soROYDSaAezOzOKuyyixhD6mBknSmQ==}
@@ -10789,7 +10784,7 @@ packages:
       '@unocss/transformer-directives': 0.58.5
       '@unocss/transformer-variant-group': 0.58.5
       '@unocss/vite': 0.58.5(vite@5.1.4)
-      vite: 5.1.4(@types/node@20.4.2)(sass@1.53.0)(terser@5.19.2)
+      vite: 5.1.4(@types/node@20.11.20)(sass@1.53.0)(terser@5.19.2)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -10931,7 +10926,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite@5.1.4(@types/node@20.4.2)(sass@1.53.0)(terser@5.19.2):
+  /vite@5.1.4(@types/node@20.11.20)(sass@1.53.0)(terser@5.19.2):
     resolution: {integrity: sha512-n+MPqzq+d9nMVTKyewqw6kSt+R3CkvF9QAKY8obiQn8g1fwTscKxyfaYnC632HtBXAQGc1Yjomphwn1dtwGAHg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -10959,7 +10954,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.4.2
+      '@types/node': 20.11.20
       esbuild: 0.19.5
       postcss: 8.4.35
       rollup: 4.5.0

@@ -10,7 +10,7 @@ devDependencies:
     version: 2.6.4(@vue/compiler-sfc@3.4.20)(eslint@8.45.0)(typescript@5.3.3)(vitest@1.0.0)
   '@types/node':
     specifier: ^20.4.4
-    version: 20.4.4
+    version: 20.11.20
   eslint:
     specifier: ^8.45.0
     version: 8.45.0
@@ -19,13 +19,13 @@ devDependencies:
     version: 9.0.0(eslint@8.45.0)
   vite:
     specifier: ^5.0.0
-    version: 5.0.0(@types/node@20.4.4)
+    version: 5.0.0(@types/node@20.11.20)
   vite-node:
     specifier: ^1.0.0
-    version: 1.0.0(@types/node@20.4.4)
+    version: 1.0.0(@types/node@20.11.20)
   vitest:
     specifier: ^1.0.0
-    version: 1.0.0(@types/node@20.4.4)
+    version: 1.0.0(@types/node@20.11.20)
 
 packages:
 
@@ -688,8 +688,10 @@ packages:
       '@types/unist': 2.0.10
     dev: true
 
-  /@types/node@20.4.4:
-    resolution: {integrity: sha512-CukZhumInROvLq3+b5gLev+vgpsIqC2D0deQr/yS1WnxvmYLlJXZpaQrQiseMY+6xusl79E04UjWoqyr+t1/Ew==}
+  /@types/node@20.11.20:
+    resolution: {integrity: sha512-7/rR21OS+fq8IyHTgtLkDK949uzsa6n8BkziAKtPVpugIkO6D+/ooXMvzXxDnZrmtXVfjb1bKQafYpb8s89LOg==}
+    dependencies:
+      undici-types: 5.26.5
     dev: true
 
   /@types/normalize-package-data@2.4.4:
@@ -1608,7 +1610,7 @@ packages:
       '@typescript-eslint/eslint-plugin': 6.21.0(@typescript-eslint/parser@6.21.0)(eslint@8.45.0)(typescript@5.3.3)
       '@typescript-eslint/utils': 6.21.0(eslint@8.45.0)(typescript@5.3.3)
       eslint: 8.45.0
-      vitest: 1.0.0(@types/node@20.4.4)
+      vitest: 1.0.0(@types/node@20.11.20)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -2935,6 +2937,10 @@ packages:
     resolution: {integrity: sha512-uY/99gMLIOlJPwATcMVYfqDSxUR9//AUcgZMzwfSTJPDKzA1S8mX4VLqa+fiAtveraQUBCz4FFcwVZBGbwBXIw==}
     dev: true
 
+  /undici-types@5.26.5:
+    resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
+    dev: true
+
   /unicorn-magic@0.1.0:
     resolution: {integrity: sha512-lRfVq8fE8gz6QMBuDM6a+LO3IAzTi05H6gCVaUpir2E1Rwpo4ZUog45KpNXKC/Mn3Yb9UDuHumeFTo9iV/D9FQ==}
     engines: {node: '>=18'}
@@ -2974,7 +2980,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-node@1.0.0(@types/node@20.4.4):
+  /vite-node@1.0.0(@types/node@20.11.20):
     resolution: {integrity: sha512-9pGEPYsHy+7Ok7d6FkvniCmMI58IJ4KfFSK0Xq2FHWPQoBRpJKubaNBvMcXm0+uAwS6K2Rh9qJOKijdgqrjN+Q==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -2983,7 +2989,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 5.0.0(@types/node@20.4.4)
+      vite: 5.0.0(@types/node@20.11.20)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -2995,7 +3001,7 @@ packages:
       - terser
     dev: true
 
-  /vite@5.0.0(@types/node@20.4.4):
+  /vite@5.0.0(@types/node@20.11.20):
     resolution: {integrity: sha512-ESJVM59mdyGpsiNAeHQOR/0fqNoOyWPYesFto8FFZugfmhdHx8Fzd8sF3Q/xkVhZsyOxHfdM7ieiVAorI9RjFw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -3023,7 +3029,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.4.4
+      '@types/node': 20.11.20
       esbuild: 0.19.5
       postcss: 8.4.31
       rollup: 4.5.0
@@ -3031,7 +3037,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@1.0.0(@types/node@20.4.4):
+  /vitest@1.0.0(@types/node@20.11.20):
     resolution: {integrity: sha512-jpablj5+ifiFHV3QGOxPews3uxBuu6rQUzTaQYtEd6ocBpdQBil6AvmmGRQ3Rn0WPgyzb+Ni+JekfMyng+qYng==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -3056,7 +3062,7 @@ packages:
       jsdom:
         optional: true
     dependencies:
-      '@types/node': 20.4.4
+      '@types/node': 20.11.20
       '@vitest/expect': 1.0.0
       '@vitest/runner': 1.0.0
       '@vitest/snapshot': 1.0.0
@@ -3075,8 +3081,8 @@ packages:
       strip-literal: 1.3.0
       tinybench: 2.5.1
       tinypool: 0.8.1
-      vite: 5.0.0(@types/node@20.4.4)
-      vite-node: 1.0.0(@types/node@20.4.4)
+      vite: 5.0.0(@types/node@20.11.20)
+      vite-node: 1.0.0(@types/node@20.11.20)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
