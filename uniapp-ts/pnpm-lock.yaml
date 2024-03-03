@@ -27,8 +27,8 @@ dependencies:
     specifier: 3.0.0-alpha-4000220240302002
     version: 3.0.0-alpha-4000220240302002(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21)
   '@dcloudio/uni-mp-kuaishou':
-    specifier: 3.0.0-alpha-4000220240229001
-    version: 3.0.0-alpha-4000220240229001(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21)
+    specifier: 3.0.0-alpha-4000220240302002
+    version: 3.0.0-alpha-4000220240302002(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21)
   '@dcloudio/uni-mp-lark':
     specifier: 3.0.0-alpha-4000220240229001
     version: 3.0.0-alpha-4000220240229001(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21)
@@ -1983,15 +1983,15 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/uni-mp-kuaishou@3.0.0-alpha-4000220240229001(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21):
-    resolution: {integrity: sha512-WrzBVx/bdU/0bgeXBe+GisBsyUQndIVJPldFfqSijFr5DmdAyGnO666888kinvNeZi1uoYHa0vsaoXscOstU0A==}
+  /@dcloudio/uni-mp-kuaishou@3.0.0-alpha-4000220240302002(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21):
+    resolution: {integrity: sha512-HwQBKHee91msF/FCX0aZiiGvC0q2jHdOXk2gjN/s9VpnB38jzqFrXI7a8ddhXEi0FecfCdn3VV3ZN3Xo9TtZgg==}
     dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4000220240229001(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21)
-      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-4000220240229001(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21)
-      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4000220240229001(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21)
-      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4000220240229001
-      '@dcloudio/uni-mp-weixin': 3.0.0-alpha-4000220240229001(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21)
-      '@dcloudio/uni-shared': 3.0.0-alpha-4000220240229001
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4000220240302002(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21)
+      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-4000220240302002(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21)
+      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4000220240302002(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21)
+      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4000220240302002
+      '@dcloudio/uni-mp-weixin': 3.0.0-alpha-4000220240302002(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21)
+      '@dcloudio/uni-shared': 3.0.0-alpha-4000220240302002
       '@vue/compiler-core': 3.3.11
       '@vue/shared': 3.3.11
     transitivePeerDependencies:
