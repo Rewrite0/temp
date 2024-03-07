@@ -108,7 +108,7 @@ devDependencies:
     version: 0.2.15(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21)(typescript@5.3.3)
   '@uni-helper/volar-service-uni-pages':
     specifier: ^0.2.3
-    version: 0.2.14
+    version: 0.2.15
   '@unocss/eslint-config':
     specifier: ^0.58.0
     version: 0.58.5(eslint@8.57.0)(typescript@5.3.3)
@@ -4195,8 +4195,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@uni-helper/pages-json-schema@0.2.14:
-    resolution: {integrity: sha512-XSiPh5NKMa+IdL3qOjL4UT7u7AwFPZvLpK8bucKdrv3BDdmyd+8r1HQptxYjlzmi6La5hdkNGeUra0Ki+Bw66Q==}
+  /@uni-helper/pages-json-schema@0.2.15:
+    resolution: {integrity: sha512-gq0AToyJlSB0yASmXFb46R8zewkeuozYrm2kMuhUy1PbJ5W5JxIYvKmAnUijWXTcgD//QWaMr55SnHk7OfsLzg==}
     dev: true
 
   /@uni-helper/uni-app-types@0.5.12(typescript@5.3.3):
@@ -4321,10 +4321,10 @@ packages:
       - vitest
     dev: true
 
-  /@uni-helper/volar-service-uni-pages@0.2.14:
-    resolution: {integrity: sha512-ZnuIcWgWEbd0bp0IlbMB2uBFkpOrMG+dK7R9cLNsiupBQPfyT/O1hdaI3pL+YvE2VrWgDHPkUtfbaC8eFqRytQ==}
+  /@uni-helper/volar-service-uni-pages@0.2.15:
+    resolution: {integrity: sha512-Aw+9Tn2miUyj1ZMT+2P/AuhdRtKLqMhTHUgiWr6hlJpI6eIQGGfUi4D5P+O7z0HXTbVLraJJUJ1Q/V/rYWv5hQ==}
     dependencies:
-      '@uni-helper/pages-json-schema': 0.2.14
+      '@uni-helper/pages-json-schema': 0.2.15
       ts-json-schema-generator: 1.5.0
       vscode-json-languageservice: 5.3.9
       vscode-languageserver-textdocument: 1.0.11
