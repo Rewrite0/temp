@@ -80,8 +80,8 @@ devDependencies:
     specifier: 3.0.0-alpha-4000320240309002
     version: 3.0.0-alpha-4000320240309002
   '@dcloudio/vite-plugin-uni':
-    specifier: 3.0.0-alpha-4000320240308002
-    version: 3.0.0-alpha-4000320240308002(@vueuse/core@10.9.0)(postcss@8.4.35)(vite@5.1.5)(vue@3.4.21)
+    specifier: 3.0.0-alpha-4000320240309002
+    version: 3.0.0-alpha-4000320240309002(@vueuse/core@10.9.0)(postcss@8.4.35)(vite@5.1.5)(vue@3.4.21)
   '@iconify-json/carbon':
     specifier: ^1.1.18
     version: 1.1.31
@@ -471,11 +471,6 @@ packages:
       '@babel/types': 7.24.0
     dev: true
 
-  /@babel/helper-plugin-utils@7.22.5:
-    resolution: {integrity: sha512-uLls06UVKgFG9QD4OeFYLEGteMIAa5kpTPcFL28yuCIIzsf6ZyKZMllKVOCZFhiZ5ptnwX4mtKdWCBE/uT4amg==}
-    engines: {node: '>=6.9.0'}
-    dev: true
-
   /@babel/helper-plugin-utils@7.24.0:
     resolution: {integrity: sha512-9cUznXMG0+FxRuJfvL82QlTqIzhVW9sL0KjMPHhAOOvpQGL8QtdxnBKILjBqxlHyliz0yCa1G903ZXI/FuHy2w==}
     engines: {node: '>=6.9.0'}
@@ -713,7 +708,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.24.0
-      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/helper-plugin-utils': 7.24.0
     dev: true
 
   /@babel/plugin-syntax-logical-assignment-operators@7.10.4(@babel/core@7.24.0):
@@ -1467,7 +1462,7 @@ packages:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.24.0
-      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/helper-plugin-utils': 7.24.0
       '@babel/helper-validator-option': 7.23.5
       '@babel/plugin-syntax-jsx': 7.23.3(@babel/core@7.24.0)
       '@babel/plugin-transform-modules-commonjs': 7.23.3(@babel/core@7.24.0)
@@ -1784,6 +1779,7 @@ packages:
       - supports-color
       - ts-node
       - vue
+    dev: false
 
   /@dcloudio/uni-cli-shared@3.0.0-alpha-4000320240309002(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21):
     resolution: {integrity: sha512-t260yxtxUfUaHbWParleTpZFAP2ivBK0M2+ZwxKdBKLwpik1ZCec4blSTUnp7+95Jp+gEMBk3rw8dYrFmmFMNQ==}
@@ -1940,6 +1936,7 @@ packages:
 
   /@dcloudio/uni-i18n@3.0.0-alpha-4000320240308002:
     resolution: {integrity: sha512-007v/zLGlxv2zl9UEkWp41ctJlP2uTiY+TLBAnFFXI/I2M/o33vZhNNJdh5r3cS5ZwVIkQV/3MBjKA4wuWK8yQ==}
+    dev: false
 
   /@dcloudio/uni-i18n@3.0.0-alpha-4000320240309002:
     resolution: {integrity: sha512-O3w1GwZBfVoTWAT6hWkeh3qkH6qXL++8O4yETW9q1DnWj6/slJvC1uOxJeyyDi6AECj27Zqxv7s8l720rFG9Ig==}
@@ -2332,6 +2329,7 @@ packages:
     resolution: {integrity: sha512-TrlJb6l4nv/ROl5nKz6JQCPHv+gSsATgmflYzIcEWBD+whbbdXv2qV0Kc2EfB9+wdYZ/11jSxQLZMwIT003eqw==}
     dependencies:
       '@vue/shared': 3.3.11
+    dev: false
 
   /@dcloudio/uni-shared@3.0.0-alpha-4000320240309002:
     resolution: {integrity: sha512-dPj+SWC0s40hIX97TVgWgNW7xpuSbcx5L0iU4GBrHrLi93PXqbBbXMnLjPkqA5dKwzbJQwoTASum8DRSle8DEw==}
@@ -2359,8 +2357,8 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/vite-plugin-uni@3.0.0-alpha-4000320240308002(@vueuse/core@10.9.0)(postcss@8.4.35)(vite@5.1.5)(vue@3.4.21):
-    resolution: {integrity: sha512-h54xoKQp6i2pUrMeXRXTOoNAdGF3cnoXZ2NvT7trBh60Q+/2+K89mQa3w2QRtQlAwPUZRR842+Pyh3qQcAih3w==}
+  /@dcloudio/vite-plugin-uni@3.0.0-alpha-4000320240309002(@vueuse/core@10.9.0)(postcss@8.4.35)(vite@5.1.5)(vue@3.4.21):
+    resolution: {integrity: sha512-y8bx5QLPQkh3IHKoFhwlDcEDgvZFqDxakzYRyab+F6+fIHECX5uUbE6U45EFtinUCLbG1rVc6oALib/yqGiRRA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -2369,8 +2367,8 @@ packages:
       '@babel/core': 7.24.0
       '@babel/plugin-syntax-import-meta': 7.10.4(@babel/core@7.24.0)
       '@babel/plugin-transform-typescript': 7.23.6(@babel/core@7.24.0)
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4000320240308002(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21)
-      '@dcloudio/uni-shared': 3.0.0-alpha-4000320240308002
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4000320240309002(@vueuse/core@10.9.0)(postcss@8.4.35)(vue@3.4.21)
+      '@dcloudio/uni-shared': 3.0.0-alpha-4000320240309002
       '@rollup/pluginutils': 4.2.1
       '@vitejs/plugin-legacy': 4.1.1(terser@5.19.2)(vite@5.1.5)
       '@vitejs/plugin-vue': 4.2.3(vite@5.1.5)(vue@3.4.21)
