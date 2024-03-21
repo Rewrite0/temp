@@ -15,8 +15,8 @@ dependencies:
     specifier: 3.0.0-alpha-4000620240320001
     version: 3.0.0-alpha-4000620240320001(@vueuse/core@10.9.0)(postcss@8.4.37)(vue@3.4.21)
   '@dcloudio/uni-h5':
-    specifier: 3.0.0-alpha-4000420240315001
-    version: 3.0.0-alpha-4000420240315001(@vueuse/core@10.9.0)(postcss@8.4.37)(vue@3.4.21)
+    specifier: 3.0.0-alpha-4000620240320001
+    version: 3.0.0-alpha-4000620240320001(@vueuse/core@10.9.0)(postcss@8.4.37)(vue@3.4.21)
   '@dcloudio/uni-mp-alipay':
     specifier: 3.0.0-alpha-4000420240315001
     version: 3.0.0-alpha-4000420240315001(@vueuse/core@10.9.0)(postcss@8.4.37)(vue@3.4.21)
@@ -1858,30 +1858,6 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/uni-h5-vite@3.0.0-alpha-4000420240315001(@vueuse/core@10.9.0)(postcss@8.4.37)(vue@3.4.21):
-    resolution: {integrity: sha512-/wItp/eih4kT3y6xEd70UfiZ8R1IoHY88sMAkNoGzSoLVkplt1oXR2b0bzDuPuW1NX9vNa4sBstFNdYBPH95Tw==}
-    dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4000420240315001(@vueuse/core@10.9.0)(postcss@8.4.37)(vue@3.4.21)
-      '@dcloudio/uni-shared': 3.0.0-alpha-4000420240315001
-      '@rollup/pluginutils': 4.2.1
-      '@vue/compiler-dom': 3.3.11
-      '@vue/compiler-sfc': 3.3.11
-      '@vue/server-renderer': 3.3.11(vue@3.4.21)
-      '@vue/shared': 3.3.11
-      debug: 4.3.4
-      fs-extra: 10.1.0
-      mime: 3.0.0
-      module-alias: 2.2.3
-    transitivePeerDependencies:
-      - '@nuxt/kit'
-      - '@vueuse/core'
-      - postcss
-      - rollup
-      - supports-color
-      - ts-node
-      - vue
-    dev: false
-
   /@dcloudio/uni-h5-vite@3.0.0-alpha-4000620240320001(@vueuse/core@10.9.0)(postcss@8.4.37)(vue@3.4.21):
     resolution: {integrity: sha512-UWBOL+Ppe6uBSPOfKiAINEg1/Zy2bSXinzohQDfvxTgJAy+QY2sUT1KJKOQY0vXkmmM0dlueSEiwZp/aOtR/jw==}
     dependencies:
@@ -1906,46 +1882,12 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/uni-h5-vue@3.0.0-alpha-4000420240315001(vue@3.4.21):
-    resolution: {integrity: sha512-IDI6quUikRu2EYK3gfyllA1om7r5tC01UCp25Bl6iqeOPHSIlR46WfoKdLp1OxGP1cqCQbza4YjA9EpHJDsDtA==}
-    dependencies:
-      '@dcloudio/uni-shared': 3.0.0-alpha-4000420240315001
-      '@vue/server-renderer': 3.3.11(vue@3.4.21)
-    transitivePeerDependencies:
-      - vue
-    dev: false
-
   /@dcloudio/uni-h5-vue@3.0.0-alpha-4000620240320001(vue@3.4.21):
     resolution: {integrity: sha512-KgztUP0zA13OzSotQ61aPVIyMvYNeg1htlUZCI3Q80K6WNGbMW2v/sEMPwbFQfTmyzPQTw2PrnzZMH7bjLFO6w==}
     dependencies:
       '@dcloudio/uni-shared': 3.0.0-alpha-4000620240320001
       '@vue/server-renderer': 3.4.21(vue@3.4.21)
     transitivePeerDependencies:
-      - vue
-    dev: false
-
-  /@dcloudio/uni-h5@3.0.0-alpha-4000420240315001(@vueuse/core@10.9.0)(postcss@8.4.37)(vue@3.4.21):
-    resolution: {integrity: sha512-MvhAHdybkpvvSyyRV6BH5/POAkUjPAuw/RGgc85m47HEhSHKrNHOtgI9r9iBpkmZ2zBgnhUWDORQvXKRLx1Z5A==}
-    dependencies:
-      '@dcloudio/uni-h5-vite': 3.0.0-alpha-4000420240315001(@vueuse/core@10.9.0)(postcss@8.4.37)(vue@3.4.21)
-      '@dcloudio/uni-h5-vue': 3.0.0-alpha-4000420240315001(vue@3.4.21)
-      '@dcloudio/uni-i18n': 3.0.0-alpha-4000420240315001
-      '@dcloudio/uni-shared': 3.0.0-alpha-4000420240315001
-      '@vue/server-renderer': 3.3.11(vue@3.4.21)
-      '@vue/shared': 3.3.11
-      debug: 4.3.4
-      localstorage-polyfill: 1.0.1
-      postcss-selector-parser: 6.0.16
-      safe-area-insets: 1.4.1
-      vue-router: 4.2.4(vue@3.4.21)
-      xmlhttprequest: 1.8.0
-    transitivePeerDependencies:
-      - '@nuxt/kit'
-      - '@vueuse/core'
-      - postcss
-      - rollup
-      - supports-color
-      - ts-node
       - vue
     dev: false
 
@@ -10699,15 +10641,6 @@ packages:
     dependencies:
       '@intlify/core-base': 9.10.2
       '@intlify/shared': 9.10.2
-      '@vue/devtools-api': 6.6.1
-      vue: 3.4.21(typescript@5.4.3)
-    dev: false
-
-  /vue-router@4.2.4(vue@3.4.21):
-    resolution: {integrity: sha512-9PISkmaCO02OzPVOMq2w82ilty6+xJmQrarYZDkjZBfl4RvYAlt4PKnEX21oW4KTtWfa9OuO/b3qk1Od3AEdCQ==}
-    peerDependencies:
-      vue: ^3.2.0
-    dependencies:
       '@vue/devtools-api': 6.6.1
       vue: 3.4.21(typescript@5.4.3)
     dev: false
