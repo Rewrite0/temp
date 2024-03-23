@@ -80,8 +80,8 @@ devDependencies:
     specifier: 3.0.0-alpha-4000620240323001
     version: 3.0.0-alpha-4000620240323001
   '@dcloudio/vite-plugin-uni':
-    specifier: 3.0.0-alpha-4000620240320001
-    version: 3.0.0-alpha-4000620240320001(@vueuse/core@10.9.0)(postcss@8.4.38)(vite@5.2.3)(vue@3.4.21)
+    specifier: 3.0.0-alpha-4000620240323001
+    version: 3.0.0-alpha-4000620240323001(@vueuse/core@10.9.0)(postcss@8.4.38)(vite@5.2.3)(vue@3.4.21)
   '@iconify-json/carbon':
     specifier: ^1.1.18
     version: 1.1.31
@@ -1431,7 +1431,7 @@ packages:
       babel-plugin-polyfill-corejs2: 0.4.5(@babel/core@7.24.3)
       babel-plugin-polyfill-corejs3: 0.8.3(@babel/core@7.24.3)
       babel-plugin-polyfill-regenerator: 0.5.2(@babel/core@7.24.3)
-      core-js-compat: 3.36.0
+      core-js-compat: 3.36.1
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
@@ -1735,6 +1735,7 @@ packages:
       - supports-color
       - ts-node
       - vue
+    dev: false
 
   /@dcloudio/uni-cli-shared@3.0.0-alpha-4000620240323001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
     resolution: {integrity: sha512-k1TcjPL8KcoprjC8ct39U4UWtCaO9LsCkE2+WVv+jVirw4uf5JhR10k8eBXQo85tHBO9glYSVS8o6CzWrFjcPg==}
@@ -1887,6 +1888,7 @@ packages:
 
   /@dcloudio/uni-i18n@3.0.0-alpha-4000620240320001:
     resolution: {integrity: sha512-2rrkKlVRbiTujlkZUBVhHBf1g656YvgrEu0fA4EKjvKYJWzCqEwiG6uYRz9tOYS+uBVjUXUMyvj5IT4px9r9oQ==}
+    dev: false
 
   /@dcloudio/uni-i18n@3.0.0-alpha-4000620240323001:
     resolution: {integrity: sha512-0kvByWtVD1J+QASaq1cuCJ3aJhMWgUsvXZuRjf37peH2I7+YVMAYmHtOSYQEa65kcGzzSGa6ggprc9RoMUgH3g==}
@@ -2178,6 +2180,7 @@ packages:
     resolution: {integrity: sha512-tXc4B5ELwQoIhRTnUgZXYVcTt+YluVbq7uZdeZF8iOM2wCKnP2RZrto+fol9/HdLA//cNj74X4qpwzJ/6r32eA==}
     dependencies:
       '@vue/shared': 3.4.21
+    dev: false
 
   /@dcloudio/uni-shared@3.0.0-alpha-4000620240323001:
     resolution: {integrity: sha512-B95huUoBU1/ke1xC5iOlXEdTd9UGWguIWAHrLh8WqUiZ/Z00Ly8JaOzl2VKKm+4djiViCsxqZKavRBP33BEs/w==}
@@ -2205,8 +2208,8 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/vite-plugin-uni@3.0.0-alpha-4000620240320001(@vueuse/core@10.9.0)(postcss@8.4.38)(vite@5.2.3)(vue@3.4.21):
-    resolution: {integrity: sha512-844ACDepXdRjDifblfmKTGMbWqUWgYNtiinZtCMcQWFlcjxpD638acdKrKkiAcd+0z2otdJi7oLvL96ogHAu6A==}
+  /@dcloudio/vite-plugin-uni@3.0.0-alpha-4000620240323001(@vueuse/core@10.9.0)(postcss@8.4.38)(vite@5.2.3)(vue@3.4.21):
+    resolution: {integrity: sha512-+wbLwTVbkcEFsrPoZ6MwQFSpUXock74On2mU71mVn4stjOu76QexZd4HbYJBwvKfQt1h/+6FQ7PdbrXv2TifPA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -2215,16 +2218,16 @@ packages:
       '@babel/core': 7.24.3
       '@babel/plugin-syntax-import-meta': 7.10.4(@babel/core@7.24.3)
       '@babel/plugin-transform-typescript': 7.23.6(@babel/core@7.24.3)
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4000620240320001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-shared': 3.0.0-alpha-4000620240320001
-      '@rollup/pluginutils': 5.1.0
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4000620240323001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-shared': 3.0.0-alpha-4000620240323001
+      '@rollup/pluginutils': 4.2.1
       '@vitejs/plugin-legacy': 4.1.1(terser@5.19.2)(vite@5.2.3)
       '@vitejs/plugin-vue': 4.2.3(vite@5.2.3)(vue@3.4.21)
       '@vitejs/plugin-vue-jsx': 3.0.1(vite@5.2.3)(vue@3.4.21)
-      '@vue/compiler-core': 3.4.21
-      '@vue/compiler-dom': 3.4.21
-      '@vue/compiler-sfc': 3.4.21
-      '@vue/shared': 3.4.21
+      '@vue/compiler-core': 3.3.11
+      '@vue/compiler-dom': 3.3.11
+      '@vue/compiler-sfc': 3.3.11
+      '@vue/shared': 3.3.11
       cac: 6.7.9
       debug: 4.3.4
       estree-walker: 2.0.2
@@ -5290,7 +5293,7 @@ packages:
     dependencies:
       '@babel/core': 7.24.3
       '@babel/helper-define-polyfill-provider': 0.4.2(@babel/core@7.24.3)
-      core-js-compat: 3.36.0
+      core-js-compat: 3.36.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5719,12 +5722,6 @@ packages:
   /cookie@0.5.0:
     resolution: {integrity: sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==}
     engines: {node: '>= 0.6'}
-    dev: true
-
-  /core-js-compat@3.36.0:
-    resolution: {integrity: sha512-iV9Pd/PsgjNWBXeq8XRtWVSgz2tKAfhfvBs7qxYty+RlRd+OCksaWmOnc4JKrTc1cToXL1N0s3l/vwlxPtdElw==}
-    dependencies:
-      browserslist: 4.23.0
     dev: true
 
   /core-js-compat@3.36.1:
