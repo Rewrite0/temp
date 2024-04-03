@@ -71,8 +71,8 @@ devDependencies:
     specifier: ^3.3.3
     version: 3.4.8
   '@dcloudio/uni-automator':
-    specifier: 3.0.0-alpha-4010120240403002
-    version: 3.0.0-alpha-4010120240403002(@vueuse/core@10.9.0)(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.4.38)(vue@3.4.21)
+    specifier: 3.0.0-alpha-4010120240403003
+    version: 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.4.38)(vue@3.4.21)
   '@dcloudio/uni-cli-shared':
     specifier: 3.0.0-alpha-4010120240403002
     version: 3.0.0-alpha-4010120240403002(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
@@ -1645,13 +1645,13 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/uni-automator@3.0.0-alpha-4010120240403002(@vueuse/core@10.9.0)(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.4.38)(vue@3.4.21):
-    resolution: {integrity: sha512-xkF17NMVxgJ7gcxbgKCddyc0zK+DU70RnCyibglY2a1eQn6fqOpWW7gj50nAA37kp57Ph1bHRtJjP/cyL00yAg==}
+  /@dcloudio/uni-automator@3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.4.38)(vue@3.4.21):
+    resolution: {integrity: sha512-cSWDHThYw7Ceb6j4jqylsmx0wpcj07iGQgCDEJLlUOFeUTb2uBOynFzCH5z0x/ebjPDFgJHAXfGBOMnyonSMtg==}
     peerDependencies:
       jest: 27.0.4
       jest-environment-node: 27.5.1
     dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010120240403002(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
       address: 1.2.2
       cross-env: 7.0.3
       debug: 4.3.4
@@ -1905,6 +1905,63 @@ packages:
       - vue
     dev: true
 
+  /@dcloudio/uni-cli-shared@3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
+    resolution: {integrity: sha512-/KsK8davaDK1c3Uy/MxFkgAwkMN2Tl2T4SmGu3c1nP/RJhqxvMbVj7+fkcsvooT71GQxzlsPj+wOJp5tzAMR5Q==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+    dependencies:
+      '@ampproject/remapping': 2.3.0
+      '@babel/code-frame': 7.24.2
+      '@babel/core': 7.24.3
+      '@babel/parser': 7.24.1
+      '@babel/types': 7.24.0
+      '@dcloudio/uni-i18n': 3.0.0-alpha-4010120240403003
+      '@dcloudio/uni-shared': 3.0.0-alpha-4010120240403003
+      '@intlify/core-base': 9.1.9
+      '@intlify/shared': 9.1.9
+      '@intlify/vue-devtools': 9.1.9
+      '@rollup/pluginutils': 5.1.0
+      '@vue/compiler-core': 3.4.21
+      '@vue/compiler-dom': 3.4.21
+      '@vue/compiler-sfc': 3.4.21
+      '@vue/server-renderer': 3.4.21(vue@3.4.21)
+      '@vue/shared': 3.4.21
+      autoprefixer: 10.4.18(postcss@8.4.38)
+      base64url: 3.0.1
+      chokidar: 3.6.0
+      compare-versions: 3.6.0
+      debug: 4.3.4
+      es-module-lexer: 1.3.0
+      esbuild: 0.17.19
+      estree-walker: 2.0.2
+      fast-glob: 3.3.2
+      fs-extra: 10.1.0
+      hash-sum: 2.0.0
+      jsonc-parser: 3.2.1
+      lines-and-columns: 2.0.4
+      magic-string: 0.30.8
+      merge: 2.1.1
+      mime: 3.0.0
+      module-alias: 2.2.3
+      os-locale-s-fix: 1.0.8-fix-1
+      picocolors: 1.0.0
+      postcss-import: 14.1.0(postcss@8.4.38)
+      postcss-load-config: 3.1.4(postcss@8.4.38)
+      postcss-modules: 4.3.1(postcss@8.4.38)
+      postcss-selector-parser: 6.0.16
+      resolve: 1.22.8
+      tapable: 2.2.1
+      unplugin-auto-import: 0.16.7(@vueuse/core@10.9.0)
+      xregexp: 3.1.0
+    transitivePeerDependencies:
+      - '@nuxt/kit'
+      - '@vueuse/core'
+      - postcss
+      - rollup
+      - supports-color
+      - ts-node
+      - vue
+    dev: true
+
   /@dcloudio/uni-cloud@3.0.0-alpha-4010120240402001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
     resolution: {integrity: sha512-RYWhyWjmjZG0glCrTd6XJw8Hm6mlMBQJoox2gPSSZttbSmJvdYcQF5EOi6IIsGw0ZVhGV1ug7xQf4vMGgaV/yQ==}
     dependencies:
@@ -2011,6 +2068,10 @@ packages:
 
   /@dcloudio/uni-i18n@3.0.0-alpha-4010120240403002:
     resolution: {integrity: sha512-m9tTCpEv/5s1PmqSEX15nylVSu6QvUf4yCFAOT6wXlm0f/FzgXOnhgVhcjF6meXd+v+BQvrcld6x5OmXla03Sg==}
+    dev: true
+
+  /@dcloudio/uni-i18n@3.0.0-alpha-4010120240403003:
+    resolution: {integrity: sha512-y8ZaV2/yjKx2wp7OiGXCjuhzCo19lvMqmq1QId9XU1+k7Dt5srs3wPi5peeSzJ7oza6LJk8Se3zvUQ+RLelt/Q==}
     dev: true
 
   /@dcloudio/uni-mp-alipay@3.0.0-alpha-4010120240402001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
@@ -2390,6 +2451,12 @@ packages:
 
   /@dcloudio/uni-shared@3.0.0-alpha-4010120240403002:
     resolution: {integrity: sha512-rmMUvDQqN0LtBqTn2lmkJucYAUP6HkHI+glD7Uw6CcVeDQs4L6Z80pydJqJ8QbGwyBFjpbe1//wE+QZ+WQifFQ==}
+    dependencies:
+      '@vue/shared': 3.4.21
+    dev: true
+
+  /@dcloudio/uni-shared@3.0.0-alpha-4010120240403003:
+    resolution: {integrity: sha512-PhabR+5edin/gHp66mpSsGadsLSSWAAPbUOeXXyNkkucjo7SylPwoi20pdwQhG3C7R2QsznEM54EB7yWTNC28Q==}
     dependencies:
       '@vue/shared': 3.4.21
     dev: true
@@ -4937,7 +5004,7 @@ packages:
       '@vue/compiler-ssr': 3.4.19
       '@vue/shared': 3.4.19
       estree-walker: 2.0.2
-      magic-string: 0.30.7
+      magic-string: 0.30.8
       postcss: 8.4.38
       source-map-js: 1.2.0
     dev: true
