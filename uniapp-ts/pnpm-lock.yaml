@@ -21,8 +21,8 @@ dependencies:
     specifier: 3.0.0-alpha-4010120240403003
     version: 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
   '@dcloudio/uni-mp-baidu':
-    specifier: 3.0.0-alpha-4010120240402001
-    version: 3.0.0-alpha-4010120240402001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+    specifier: 3.0.0-alpha-4010120240403003
+    version: 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
   '@dcloudio/uni-mp-jd':
     specifier: 3.0.0-alpha-4010120240402001
     version: 3.0.0-alpha-4010120240402001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
@@ -318,7 +318,7 @@ packages:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@babel/code-frame': 7.24.2
-      '@babel/generator': 7.24.1
+      '@babel/generator': 7.24.4
       '@babel/helper-compilation-targets': 7.23.6
       '@babel/helper-module-transforms': 7.23.3(@babel/core@7.24.3)
       '@babel/helpers': 7.24.1
@@ -365,6 +365,7 @@ packages:
       '@jridgewell/gen-mapping': 0.3.5
       '@jridgewell/trace-mapping': 0.3.25
       jsesc: 2.5.2
+    dev: false
 
   /@babel/generator@7.24.4:
     resolution: {integrity: sha512-Xd6+v6SnjWVx/nus+y0l1sxMOTOMBkyL4+BIdbALyatQnAe/SRVjANeDPSCYaX+i1iJmuGSKf3Z+E+V/va1Hvw==}
@@ -1658,7 +1659,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.24.2
-      '@babel/generator': 7.24.1
+      '@babel/generator': 7.24.4
       '@babel/helper-environment-visitor': 7.22.20
       '@babel/helper-function-name': 7.23.0
       '@babel/helper-hoist-variables': 7.22.5
@@ -2143,15 +2144,15 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/uni-mp-baidu@3.0.0-alpha-4010120240402001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
-    resolution: {integrity: sha512-+wTwCCLCIq5BbM9PDPTUdfmEb6HDBBhZ033cTpXZfkUpuJ4ZIuRA4S251ltja9ormEEna8FvN3nYrkheMrxiVA==}
+  /@dcloudio/uni-mp-baidu@3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
+    resolution: {integrity: sha512-8nMZ2Xon1CLRb7h6U8otlgZ8V+IL1H/XPtoQxkPWmick2/1yfcHBAzNi/VkivUhKuS1i/UKo1OrBQ4Id7FOlhQ==}
     dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010120240402001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-4010120240402001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4010120240402001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4010120240402001
-      '@dcloudio/uni-mp-weixin': 3.0.0-alpha-4010120240402001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-shared': 3.0.0-alpha-4010120240402001
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4010120240403003
+      '@dcloudio/uni-mp-weixin': 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-shared': 3.0.0-alpha-4010120240403003
       '@vue/compiler-core': 3.4.21
       '@vue/shared': 3.4.21
       jimp: 0.10.3
@@ -2448,13 +2449,13 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/uni-mp-weixin@3.0.0-alpha-4010120240402001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
-    resolution: {integrity: sha512-ORg0/MwOfQVF/8RUDAaK9+qHmcdyC2Flp4/CBJ6eDbfKWXRMK4S0ZWvZ+pTgzKK/x5HZ5Jk9rUgvu24WMmXiyA==}
+  /@dcloudio/uni-mp-weixin@3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
+    resolution: {integrity: sha512-OsOxPr9AB0xB+yhYBcm9ibqrmL2PFy6WN1n4xe5eVTfCkD8trfLPKtc/rgRI6X3E9uLKFrxPDPecyiVYw/JdpA==}
     dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010120240402001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4010120240402001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4010120240402001
-      '@dcloudio/uni-shared': 3.0.0-alpha-4010120240402001
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4010120240403003
+      '@dcloudio/uni-shared': 3.0.0-alpha-4010120240403003
       '@vue/shared': 3.4.21
       jimp: 0.10.3
       licia: 1.38.2
