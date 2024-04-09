@@ -108,7 +108,7 @@ devDependencies:
     version: 0.2.17(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21)(typescript@5.4.4)
   '@uni-helper/volar-service-uni-pages':
     specifier: ^0.2.3
-    version: 0.2.15
+    version: 0.2.17
   '@unocss/eslint-config':
     specifier: ^0.59.0
     version: 0.59.0(eslint@9.0.0)(typescript@5.4.4)
@@ -4273,8 +4273,8 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: true
 
-  /@uni-helper/pages-json-schema@0.2.15:
-    resolution: {integrity: sha512-gq0AToyJlSB0yASmXFb46R8zewkeuozYrm2kMuhUy1PbJ5W5JxIYvKmAnUijWXTcgD//QWaMr55SnHk7OfsLzg==}
+  /@uni-helper/pages-json-schema@0.2.17:
+    resolution: {integrity: sha512-KSOGWAdC/OFWdJY1VFsP6cKldjZjtcMIE+lWO1qbLhOL+Zl0Kb+AIab5/864rjwOUPngXWq3lMRUtpuI+hFIww==}
     dev: true
 
   /@uni-helper/uni-app-types@0.5.12(typescript@5.4.4):
@@ -4399,12 +4399,12 @@ packages:
       - vitest
     dev: true
 
-  /@uni-helper/volar-service-uni-pages@0.2.15:
-    resolution: {integrity: sha512-Aw+9Tn2miUyj1ZMT+2P/AuhdRtKLqMhTHUgiWr6hlJpI6eIQGGfUi4D5P+O7z0HXTbVLraJJUJ1Q/V/rYWv5hQ==}
+  /@uni-helper/volar-service-uni-pages@0.2.17:
+    resolution: {integrity: sha512-8shFPKn4YU6wsfpCCUnQSIe2+8T4ci4qBw2NO6J8x7DJqjs0rTrQVo3S1HpY0L8I063FqDNGeHvPjPMUlT8fQA==}
     dependencies:
-      '@uni-helper/pages-json-schema': 0.2.15
-      ts-json-schema-generator: 1.5.0
-      vscode-json-languageservice: 5.3.9
+      '@uni-helper/pages-json-schema': 0.2.17
+      ts-json-schema-generator: 1.5.1
+      vscode-json-languageservice: 5.3.10
       vscode-languageserver-textdocument: 1.0.11
       yaml-language-server: 1.14.0
     dev: true
@@ -5635,6 +5635,11 @@ packages:
   /commander@11.1.0:
     resolution: {integrity: sha512-yPVavfyCcRhmorC7rWlkHn15b4wDVgVmBA7kV4QVBsF7kv/9TKJAbAXVTxvTnwP8HHKjRCJDClKbciiYS7p0DQ==}
     engines: {node: '>=16'}
+    dev: true
+
+  /commander@12.0.0:
+    resolution: {integrity: sha512-MwVNWlYjDTtOjX5PiD7o5pK0UrFU/OYgcJfjjK4RaHZETNtjJqrZa9Y9ds88+A+f+d5lv+561eZ+yCKoS3gbAA==}
+    engines: {node: '>=18'}
     dev: true
 
   /commander@2.20.3:
@@ -10269,18 +10274,18 @@ packages:
       typescript: 5.4.4
     dev: true
 
-  /ts-json-schema-generator@1.5.0:
-    resolution: {integrity: sha512-RkiaJ6YxGc5EWVPfyHxszTmpGxX8HC2XBvcFlAl1zcvpOG4tjjh+eXioStXJQYTvr9MoK8zCOWzAUlko3K0DiA==}
+  /ts-json-schema-generator@1.5.1:
+    resolution: {integrity: sha512-apX5qG2+NA66j7b4AJm8q/DpdTeOsjfh7A3LpKsUiil0FepkNwtN28zYgjrsiiya2/OPhsr/PSjX5FUYg79rCg==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     dependencies:
       '@types/json-schema': 7.0.15
-      commander: 11.1.0
+      commander: 12.0.0
       glob: 8.1.0
       json5: 2.2.3
       normalize-path: 3.0.0
       safe-stable-stringify: 2.4.3
-      typescript: 5.3.3
+      typescript: 5.4.4
     dev: true
 
   /tslib@2.6.2:
@@ -10385,12 +10390,6 @@ packages:
     resolution: {integrity: sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==}
     dependencies:
       is-typedarray: 1.0.0
-    dev: true
-
-  /typescript@5.3.3:
-    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
-    engines: {node: '>=14.17'}
-    hasBin: true
     dev: true
 
   /typescript@5.4.4:
@@ -10705,8 +10704,8 @@ packages:
       vscode-uri: 3.0.8
     dev: true
 
-  /vscode-json-languageservice@5.3.9:
-    resolution: {integrity: sha512-0IcymTw0ZYX5Zcx+7KLLwTRvg0FzXUVnM1hrUH+sPhqEX0fHGg2h5UUOSp1f8ydGS7/xxzlFI3TR01yaHs6Y0Q==}
+  /vscode-json-languageservice@5.3.10:
+    resolution: {integrity: sha512-KlbUYaer3DAnsVyRtgg/MhXOu4TTwY8TjaZYRY7Mt80zSpmvbmd58YT4Wq2ZiqHzdioD6lAvRSxhSCL0DvVY8Q==}
     dependencies:
       '@vscode/l10n': 0.0.18
       jsonc-parser: 3.2.1
