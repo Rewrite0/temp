@@ -66,7 +66,7 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config':
     specifier: ^2.0.0
-    version: 2.13.2(@vue/compiler-sfc@3.4.21)(eslint@9.0.0)(typescript@5.4.4)
+    version: 2.13.3(@vue/compiler-sfc@3.4.21)(eslint@9.0.0)(typescript@5.4.4)
   '@dcloudio/types':
     specifier: ^3.3.3
     version: 3.4.8
@@ -198,8 +198,8 @@ packages:
       - vitest
     dev: true
 
-  /@antfu/eslint-config@2.13.2(@vue/compiler-sfc@3.4.21)(eslint@9.0.0)(typescript@5.4.4):
-    resolution: {integrity: sha512-twfke7tx29F2lAyfMm412caEcgVh/msiwkuyWI+ZoskdPLHzSkKh9mql/EdijGO8Z/DjzWhpRObo94Vl74fL5w==}
+  /@antfu/eslint-config@2.13.3(@vue/compiler-sfc@3.4.21)(eslint@9.0.0)(typescript@5.4.4):
+    resolution: {integrity: sha512-DCyrnFgWtIc0mUTn8HeVB15Z/t9oEQZk8ce6S14Kq6z42LbMfZxPu6hs4SmPFYWLJoEzYq87dxsRv3glOX+aGw==}
     hasBin: true
     peerDependencies:
       '@unocss/eslint-plugin': '>=0.50.0'
@@ -256,7 +256,7 @@ packages:
       eslint-plugin-jsdoc: 48.2.3(eslint@9.0.0)
       eslint-plugin-jsonc: 2.15.0(eslint@9.0.0)
       eslint-plugin-markdown: 4.0.1(eslint@9.0.0)
-      eslint-plugin-n: 17.1.0(eslint@9.0.0)
+      eslint-plugin-n: 17.2.0(eslint@9.0.0)
       eslint-plugin-no-only-tests: 3.1.0
       eslint-plugin-perfectionist: 2.8.0(eslint@9.0.0)(typescript@5.4.4)(vue-eslint-parser@9.4.2)
       eslint-plugin-toml: 0.11.0(eslint@9.0.0)
@@ -6525,8 +6525,8 @@ packages:
       semver: 7.6.0
     dev: true
 
-  /eslint-plugin-n@17.1.0(eslint@9.0.0):
-    resolution: {integrity: sha512-+MTiTej3B07+8vS/RfSMD1w4O9VVR9BSJT9kSa9QUsBlXzKi5PZc+lB3w+iu/2eIS3drFU7zCikSrD8Yn8PEBQ==}
+  /eslint-plugin-n@17.2.0(eslint@9.0.0):
+    resolution: {integrity: sha512-XBkFQxjTFKy9oc925ezHcDoZ8VLdGfxRkdZf0poR4TjC+zvm28pG2Tc7ZZpD1/UxSAzbw6Zz0WpnpUX3KruAAA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.23.0'
