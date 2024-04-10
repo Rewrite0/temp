@@ -21,8 +21,8 @@ dependencies:
     specifier: 3.0.0-alpha-4010220240409001
     version: 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
   '@dcloudio/uni-mp-baidu':
-    specifier: 3.0.0-alpha-4010120240403003
-    version: 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+    specifier: 3.0.0-alpha-4010220240409001
+    version: 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
   '@dcloudio/uni-mp-jd':
     specifier: 3.0.0-alpha-4010120240403003
     version: 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
@@ -589,14 +589,6 @@ packages:
       chalk: 2.4.2
       js-tokens: 4.0.0
       picocolors: 1.0.0
-
-  /@babel/parser@7.24.1:
-    resolution: {integrity: sha512-Zo9c7N3xdOIQrNip7Lc9wvRPzlRtovHVE4lkz8WEDr7uYh/GMQhSiIgFxGIArRHYdJE5kxtZjAf8rT0xhdLCzg==}
-    engines: {node: '>=6.0.0'}
-    hasBin: true
-    dependencies:
-      '@babel/types': 7.24.0
-    dev: false
 
   /@babel/parser@7.24.4:
     resolution: {integrity: sha512-zTvEBcghmeBma9QIGunWevvBAp4/Qu9Bdq+2k0Ot4fVMD6v3dsC9WOcRSKk7tRRyBM/53yKMJko9xOatGQAwSg==}
@@ -1732,7 +1724,7 @@ packages:
       '@ampproject/remapping': 2.3.0
       '@babel/code-frame': 7.24.2
       '@babel/core': 7.24.3
-      '@babel/parser': 7.24.1
+      '@babel/parser': 7.24.4
       '@babel/types': 7.24.0
       '@dcloudio/uni-i18n': 3.0.0-alpha-4010120240403003
       '@dcloudio/uni-shared': 3.0.0-alpha-4010120240403003
@@ -1956,15 +1948,15 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/uni-mp-baidu@3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
-    resolution: {integrity: sha512-8nMZ2Xon1CLRb7h6U8otlgZ8V+IL1H/XPtoQxkPWmick2/1yfcHBAzNi/VkivUhKuS1i/UKo1OrBQ4Id7FOlhQ==}
+  /@dcloudio/uni-mp-baidu@3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
+    resolution: {integrity: sha512-W/xOEL8HfxujsQ+y9g3O3FX/WfwJikbpZg2jXSL53xu9WQ0KauFTb6dI7Si8aHmwElvmzgZLU9VkPDAI0qJEbA==}
     dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4010120240403003
-      '@dcloudio/uni-mp-weixin': 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-shared': 3.0.0-alpha-4010120240403003
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4010220240409001
+      '@dcloudio/uni-mp-weixin': 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-shared': 3.0.0-alpha-4010220240409001
       '@vue/compiler-core': 3.4.21
       '@vue/shared': 3.4.21
       jimp: 0.10.3
@@ -2193,6 +2185,31 @@ packages:
       '@dcloudio/uni-mp-vite': 3.0.0-alpha-4010120240403003(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
       '@dcloudio/uni-mp-vue': 3.0.0-alpha-4010120240403003
       '@dcloudio/uni-shared': 3.0.0-alpha-4010120240403003
+      '@vue/shared': 3.4.21
+      jimp: 0.10.3
+      licia: 1.38.2
+      qrcode-reader: 1.0.4
+      qrcode-terminal: 0.12.0
+      ws: 8.13.0
+    transitivePeerDependencies:
+      - '@nuxt/kit'
+      - '@vueuse/core'
+      - bufferutil
+      - postcss
+      - rollup
+      - supports-color
+      - ts-node
+      - utf-8-validate
+      - vue
+    dev: false
+
+  /@dcloudio/uni-mp-weixin@3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
+    resolution: {integrity: sha512-FUezVTCAPgdMTqF3jgHDsyxURFcj+7TKVCjN8wULKJuz0h1OacPPbJNAULGLEcB6YFVuKLLtfOU9U4FG4FGfOQ==}
+    dependencies:
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4010220240409001
+      '@dcloudio/uni-shared': 3.0.0-alpha-4010220240409001
       '@vue/shared': 3.4.21
       jimp: 0.10.3
       licia: 1.38.2
