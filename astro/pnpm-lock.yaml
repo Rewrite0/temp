@@ -10,7 +10,7 @@ dependencies:
     version: 0.5.10(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.5)
   '@astrojs/vue':
     specifier: ^4.0.0
-    version: 4.0.11(astro@4.5.18)(vite@5.2.8)(vue@3.4.21)
+    version: 4.1.0(astro@4.5.18)(vite@5.2.8)(vue@3.4.21)
   astro:
     specifier: ^4.0.0
     version: 4.5.18(sass@1.74.1)(typescript@5.4.5)
@@ -186,9 +186,9 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/vue@4.0.11(astro@4.5.18)(vite@5.2.8)(vue@3.4.21):
-    resolution: {integrity: sha512-bScMfZJg6AVqkIB6wAHOhLb5V1wdNemQ7KBnk1IBa3X429UxAEGt1WS+YE3BJUsuJfhyTdy48SRPUH/P7NAWgw==}
-    engines: {node: '>=18.14.1'}
+  /@astrojs/vue@4.1.0(astro@4.5.18)(vite@5.2.8)(vue@3.4.21):
+    resolution: {integrity: sha512-hd+37sK24roevRUKTHvRDvYnRpjZvqWvaGsuZSENYVIEixUcgt30+j4s711ZtiKRFldsLTvOQ79NUt3fp0oV1Q==}
+    engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
       astro: ^4.0.0
       vue: ^3.2.30
@@ -412,6 +412,7 @@ packages:
     hasBin: true
     dependencies:
       '@babel/types': 7.24.0
+    dev: false
 
   /@babel/parser@7.24.4:
     resolution: {integrity: sha512-zTvEBcghmeBma9QIGunWevvBAp4/Qu9Bdq+2k0Ot4fVMD6v3dsC9WOcRSKk7tRRyBM/53yKMJko9xOatGQAwSg==}
@@ -495,7 +496,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.24.2
-      '@babel/parser': 7.24.1
+      '@babel/parser': 7.24.4
       '@babel/types': 7.24.0
 
   /@babel/traverse@7.24.1:
@@ -508,7 +509,7 @@ packages:
       '@babel/helper-function-name': 7.23.0
       '@babel/helper-hoist-variables': 7.22.5
       '@babel/helper-split-export-declaration': 7.22.6
-      '@babel/parser': 7.24.1
+      '@babel/parser': 7.24.4
       '@babel/types': 7.24.0
       debug: 4.3.4
       globals: 11.12.0
