@@ -42,8 +42,8 @@ dependencies:
     specifier: 3.0.0-alpha-4010320240415001
     version: 3.0.0-alpha-4010320240415001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
   '@dcloudio/uni-mp-xhs':
-    specifier: 3.0.0-alpha-4010220240409001
-    version: 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+    specifier: 3.0.0-alpha-4010320240415001
+    version: 3.0.0-alpha-4010320240415001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
   '@dcloudio/uni-quickapp-webview':
     specifier: 3.0.0-alpha-4010220240409001
     version: 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
@@ -2193,14 +2193,14 @@ packages:
       - vue
     dev: false
 
-  /@dcloudio/uni-mp-xhs@3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
-    resolution: {integrity: sha512-c+1uxCu3O3f1sPmW9hGSHg0FXXRZe1QdYWK2+vvnIs65DAMcxzhi++ctdU6NgQpfTyfEo7ceP1rbxX1FIeDi+g==}
+  /@dcloudio/uni-mp-xhs@3.0.0-alpha-4010320240415001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
+    resolution: {integrity: sha512-H0kKBAqrFaAYpw5DCL0a5uO7v00ZwcpHvx4hoixWmfp252AB1ohdsBanrpOALzTrV4EkW4v/0sbFeXudtyHeyA==}
     dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4010220240409001
-      '@dcloudio/uni-shared': 3.0.0-alpha-4010220240409001
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010320240415001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-4010320240415001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4010320240415001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4010320240415001
+      '@dcloudio/uni-shared': 3.0.0-alpha-4010320240415001
       '@vue/shared': 3.4.21
     transitivePeerDependencies:
       - '@nuxt/kit'
