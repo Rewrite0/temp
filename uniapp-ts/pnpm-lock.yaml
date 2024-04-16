@@ -39,8 +39,8 @@ dependencies:
     specifier: 3.0.0-alpha-4010320240415001
     version: 3.0.0-alpha-4010320240415001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
   '@dcloudio/uni-mp-weixin':
-    specifier: 3.0.0-alpha-4010220240409001
-    version: 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
+    specifier: 3.0.0-alpha-4010320240415001
+    version: 3.0.0-alpha-4010320240415001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
   '@dcloudio/uni-mp-xhs':
     specifier: 3.0.0-alpha-4010220240409001
     version: 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
@@ -2168,31 +2168,6 @@ packages:
       '@vue/shared': 3.4.21
     dev: false
 
-  /@dcloudio/uni-mp-weixin@3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
-    resolution: {integrity: sha512-FUezVTCAPgdMTqF3jgHDsyxURFcj+7TKVCjN8wULKJuz0h1OacPPbJNAULGLEcB6YFVuKLLtfOU9U4FG4FGfOQ==}
-    dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4010220240409001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21)
-      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4010220240409001
-      '@dcloudio/uni-shared': 3.0.0-alpha-4010220240409001
-      '@vue/shared': 3.4.21
-      jimp: 0.10.3
-      licia: 1.38.2
-      qrcode-reader: 1.0.4
-      qrcode-terminal: 0.12.0
-      ws: 8.13.0
-    transitivePeerDependencies:
-      - '@nuxt/kit'
-      - '@vueuse/core'
-      - bufferutil
-      - postcss
-      - rollup
-      - supports-color
-      - ts-node
-      - utf-8-validate
-      - vue
-    dev: false
-
   /@dcloudio/uni-mp-weixin@3.0.0-alpha-4010320240415001(@vueuse/core@10.9.0)(postcss@8.4.38)(vue@3.4.21):
     resolution: {integrity: sha512-P/ihZPjNO/XerS2PZr+I1u10ofrmOFTmQS9QyneLi195OCwxNmEXRHKMlAdu6p1leE+LecKxcEW2u5quRAWSFw==}
     dependencies:
@@ -3164,7 +3139,7 @@ packages:
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
       bmp-js: 0.1.0
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/core@0.10.3:
@@ -3174,7 +3149,7 @@ packages:
       '@jimp/utils': 0.10.3
       any-base: 1.1.0
       buffer: 5.7.1
-      core-js: 3.32.0
+      core-js: 3.36.1
       exif-parser: 0.1.12
       file-type: 9.0.0
       load-bmfont: 1.4.1
@@ -3189,7 +3164,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.22.6
       '@jimp/core': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/gif@0.10.3(@jimp/custom@0.10.3):
@@ -3200,7 +3175,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
       omggif: 1.0.10
     dev: false
 
@@ -3212,7 +3187,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
       jpeg-js: 0.3.7
     dev: false
 
@@ -3224,7 +3199,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-blur@0.10.3(@jimp/custom@0.10.3):
@@ -3235,7 +3210,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-circle@0.10.3(@jimp/custom@0.10.3):
@@ -3246,7 +3221,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-color@0.10.3(@jimp/custom@0.10.3):
@@ -3257,7 +3232,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
       tinycolor2: 1.6.0
     dev: false
 
@@ -3275,7 +3250,7 @@ packages:
       '@jimp/plugin-resize': 0.10.3(@jimp/custom@0.10.3)
       '@jimp/plugin-scale': 0.10.3(@jimp/custom@0.10.3)(@jimp/plugin-resize@0.10.3)
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-cover@0.10.3(@jimp/custom@0.10.3)(@jimp/plugin-crop@0.10.3)(@jimp/plugin-resize@0.10.3)(@jimp/plugin-scale@0.10.3):
@@ -3292,7 +3267,7 @@ packages:
       '@jimp/plugin-resize': 0.10.3(@jimp/custom@0.10.3)
       '@jimp/plugin-scale': 0.10.3(@jimp/custom@0.10.3)(@jimp/plugin-resize@0.10.3)
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-crop@0.10.3(@jimp/custom@0.10.3):
@@ -3303,7 +3278,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-displace@0.10.3(@jimp/custom@0.10.3):
@@ -3314,7 +3289,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-dither@0.10.3(@jimp/custom@0.10.3):
@@ -3325,7 +3300,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-fisheye@0.10.3(@jimp/custom@0.10.3):
@@ -3336,7 +3311,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-flip@0.10.3(@jimp/custom@0.10.3)(@jimp/plugin-rotate@0.10.3):
@@ -3349,7 +3324,7 @@ packages:
       '@jimp/custom': 0.10.3
       '@jimp/plugin-rotate': 0.10.3(@jimp/custom@0.10.3)(@jimp/plugin-blit@0.10.3)(@jimp/plugin-crop@0.10.3)(@jimp/plugin-resize@0.10.3)
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-gaussian@0.10.3(@jimp/custom@0.10.3):
@@ -3360,7 +3335,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-invert@0.10.3(@jimp/custom@0.10.3):
@@ -3371,7 +3346,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-mask@0.10.3(@jimp/custom@0.10.3):
@@ -3382,7 +3357,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-normalize@0.10.3(@jimp/custom@0.10.3):
@@ -3393,7 +3368,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-print@0.10.3(@jimp/custom@0.10.3)(@jimp/plugin-blit@0.10.3):
@@ -3406,7 +3381,7 @@ packages:
       '@jimp/custom': 0.10.3
       '@jimp/plugin-blit': 0.10.3(@jimp/custom@0.10.3)
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
       load-bmfont: 1.4.1
     dev: false
 
@@ -3418,7 +3393,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-rotate@0.10.3(@jimp/custom@0.10.3)(@jimp/plugin-blit@0.10.3)(@jimp/plugin-crop@0.10.3)(@jimp/plugin-resize@0.10.3):
@@ -3435,7 +3410,7 @@ packages:
       '@jimp/plugin-crop': 0.10.3(@jimp/custom@0.10.3)
       '@jimp/plugin-resize': 0.10.3(@jimp/custom@0.10.3)
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-scale@0.10.3(@jimp/custom@0.10.3)(@jimp/plugin-resize@0.10.3):
@@ -3448,7 +3423,7 @@ packages:
       '@jimp/custom': 0.10.3
       '@jimp/plugin-resize': 0.10.3(@jimp/custom@0.10.3)
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-shadow@0.10.3(@jimp/custom@0.10.3)(@jimp/plugin-blur@0.10.3)(@jimp/plugin-resize@0.10.3):
@@ -3463,7 +3438,7 @@ packages:
       '@jimp/plugin-blur': 0.10.3(@jimp/custom@0.10.3)
       '@jimp/plugin-resize': 0.10.3(@jimp/custom@0.10.3)
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugin-threshold@0.10.3(@jimp/custom@0.10.3)(@jimp/plugin-color@0.10.3)(@jimp/plugin-resize@0.10.3):
@@ -3478,7 +3453,7 @@ packages:
       '@jimp/plugin-color': 0.10.3(@jimp/custom@0.10.3)
       '@jimp/plugin-resize': 0.10.3(@jimp/custom@0.10.3)
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
     dev: false
 
   /@jimp/plugins@0.10.3(@jimp/custom@0.10.3):
@@ -3509,7 +3484,7 @@ packages:
       '@jimp/plugin-scale': 0.10.3(@jimp/custom@0.10.3)(@jimp/plugin-resize@0.10.3)
       '@jimp/plugin-shadow': 0.10.3(@jimp/custom@0.10.3)(@jimp/plugin-blur@0.10.3)(@jimp/plugin-resize@0.10.3)
       '@jimp/plugin-threshold': 0.10.3(@jimp/custom@0.10.3)(@jimp/plugin-color@0.10.3)(@jimp/plugin-resize@0.10.3)
-      core-js: 3.32.0
+      core-js: 3.36.1
       timm: 1.7.1
     dev: false
 
@@ -3521,7 +3496,7 @@ packages:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
       '@jimp/utils': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
       pngjs: 3.4.0
     dev: false
 
@@ -3532,7 +3507,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.22.6
       '@jimp/custom': 0.10.3
-      core-js: 3.32.0
+      core-js: 3.36.1
       utif: 2.0.1
     dev: false
 
@@ -3548,7 +3523,7 @@ packages:
       '@jimp/jpeg': 0.10.3(@jimp/custom@0.10.3)
       '@jimp/png': 0.10.3(@jimp/custom@0.10.3)
       '@jimp/tiff': 0.10.3(@jimp/custom@0.10.3)
-      core-js: 3.32.0
+      core-js: 3.36.1
       timm: 1.7.1
     dev: false
 
@@ -3556,7 +3531,7 @@ packages:
     resolution: {integrity: sha512-VcSlQhkil4ReYmg1KkN+WqHyYfZ2XfZxDsKAHSfST1GEz/RQHxKZbX+KhFKtKflnL0F4e6DlNQj3vznMNXCR2w==}
     dependencies:
       '@babel/runtime': 7.22.6
-      core-js: 3.32.0
+      core-js: 3.36.1
       regenerator-runtime: 0.13.11
     dev: false
 
@@ -4983,7 +4958,7 @@ packages:
     dependencies:
       '@volar/language-core': 2.2.0-alpha.8
       '@vue/compiler-dom': 3.4.21
-      '@vue/shared': 3.4.21
+      '@vue/shared': 3.4.22
       computeds: 0.0.1
       minimatch: 9.0.4
       path-browserify: 1.0.1
@@ -5824,15 +5799,9 @@ packages:
       browserslist: 4.23.0
     dev: true
 
-  /core-js@3.32.0:
-    resolution: {integrity: sha512-rd4rYZNlF3WuoYuRIDEmbR/ga9CeuWX9U05umAvgrrZoHY4Z++cp/xwPQMvUpBB4Ag6J8KfD80G0zwCyaSxDww==}
-    requiresBuild: true
-    dev: false
-
   /core-js@3.36.1:
     resolution: {integrity: sha512-BTvUrwxVBezj5SZ3f10ImnX2oRByMxql3EimVqMysepbC9EeMUOpLwdy6Eoili2x6E4kf+ZUB5k/+Jv55alPfA==}
     requiresBuild: true
-    dev: true
 
   /cross-env@7.0.3:
     resolution: {integrity: sha512-+/HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO+gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw==}
@@ -8452,7 +8421,7 @@ packages:
       '@jimp/custom': 0.10.3
       '@jimp/plugins': 0.10.3(@jimp/custom@0.10.3)
       '@jimp/types': 0.10.3(@jimp/custom@0.10.3)
-      core-js: 3.32.0
+      core-js: 3.36.1
       regenerator-runtime: 0.13.11
     dev: false
 
