@@ -82,8 +82,8 @@ importers:
         specifier: 3.0.0-alpha-4010320240417001
         version: 3.0.0-alpha-4010320240417001
       '@dcloudio/vite-plugin-uni':
-        specifier: 3.0.0-alpha-4010320240415001
-        version: 3.0.0-alpha-4010320240415001(@vueuse/core@10.9.0(vue@3.4.23(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vite@5.2.9(@types/node@20.12.7)(sass@1.75.0)(terser@5.19.2))(vue@3.4.23(typescript@5.4.5))
+        specifier: 3.0.0-alpha-4010320240417001
+        version: 3.0.0-alpha-4010320240417001(@vueuse/core@10.9.0(vue@3.4.23(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vite@5.2.9(@types/node@20.12.7)(sass@1.75.0)(terser@5.19.2))(vue@3.4.23(typescript@5.4.5))
       '@iconify-json/carbon':
         specifier: ^1.1.18
         version: 1.1.31
@@ -259,12 +259,6 @@ packages:
 
   '@babel/helper-create-regexp-features-plugin@7.22.15':
     resolution: {integrity: sha512-29FkPLFjn4TPEa3RE7GpW+qbE8tlsu3jntNYNfcGsc49LphF1PQIiD+vMZ1z1xVOKt+93khA9tc2JBs3kBjA7w==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-
-  '@babel/helper-create-regexp-features-plugin@7.22.9':
-    resolution: {integrity: sha512-+svjVa/tFwsNSG4NEy1h85+HQ5imbT92Q5/bgtS7P0GTQlP8WuFdqsiABmQouhiFGyV66oGxZFpeYHza1rNsKw==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -961,8 +955,8 @@ packages:
   '@dcloudio/uni-stat@3.0.0-alpha-4010320240415001':
     resolution: {integrity: sha512-ekE391rVvEU/hcNvvOZzO0w4PCp3RDOiVc/yEpn3w4H85YrFJOVXNppLRlCJxb+mWzQ4HMZsGDsQM3/ujW8idw==}
 
-  '@dcloudio/vite-plugin-uni@3.0.0-alpha-4010320240415001':
-    resolution: {integrity: sha512-WbtaAAahT5ypTTVOi+f0WbTi+hFy4ajdv45MduFkQQ2j1sFy43VWrZV+2YBXeBU7OZ40/YHmHiJAVi3Ig/F83w==}
+  '@dcloudio/vite-plugin-uni@3.0.0-alpha-4010320240417001':
+    resolution: {integrity: sha512-1vqtX7PQbWWhfTx6iytOxdKCETzGWU/azjOHYY3IaJoDNg4mECeIYh/H9oa/heyPq59emme79uoT2wbbKG6qkg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -5578,13 +5572,6 @@ snapshots:
       regexpu-core: 5.3.2
       semver: 6.3.1
 
-  '@babel/helper-create-regexp-features-plugin@7.22.9(@babel/core@7.24.4)':
-    dependencies:
-      '@babel/core': 7.24.4
-      '@babel/helper-annotate-as-pure': 7.22.5
-      regexpu-core: 5.3.2
-      semver: 6.3.1
-
   '@babel/helper-define-polyfill-provider@0.6.1(@babel/core@7.24.4)':
     dependencies:
       '@babel/core': 7.24.4
@@ -5818,7 +5805,7 @@ snapshots:
   '@babel/plugin-syntax-unicode-sets-regex@7.18.6(@babel/core@7.24.4)':
     dependencies:
       '@babel/core': 7.24.4
-      '@babel/helper-create-regexp-features-plugin': 7.22.9(@babel/core@7.24.4)
+      '@babel/helper-create-regexp-features-plugin': 7.22.15(@babel/core@7.24.4)
       '@babel/helper-plugin-utils': 7.24.0
 
   '@babel/plugin-transform-arrow-functions@7.24.1(@babel/core@7.24.4)':
@@ -5981,7 +5968,7 @@ snapshots:
   '@babel/plugin-transform-named-capturing-groups-regex@7.22.5(@babel/core@7.24.4)':
     dependencies:
       '@babel/core': 7.24.4
-      '@babel/helper-create-regexp-features-plugin': 7.22.9(@babel/core@7.24.4)
+      '@babel/helper-create-regexp-features-plugin': 7.22.15(@babel/core@7.24.4)
       '@babel/helper-plugin-utils': 7.24.0
 
   '@babel/plugin-transform-new-target@7.24.1(@babel/core@7.24.4)':
@@ -6874,13 +6861,13 @@ snapshots:
       - ts-node
       - vue
 
-  '@dcloudio/vite-plugin-uni@3.0.0-alpha-4010320240415001(@vueuse/core@10.9.0(vue@3.4.23(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vite@5.2.9(@types/node@20.12.7)(sass@1.75.0)(terser@5.19.2))(vue@3.4.23(typescript@5.4.5))':
+  '@dcloudio/vite-plugin-uni@3.0.0-alpha-4010320240417001(@vueuse/core@10.9.0(vue@3.4.23(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vite@5.2.9(@types/node@20.12.7)(sass@1.75.0)(terser@5.19.2))(vue@3.4.23(typescript@5.4.5))':
     dependencies:
       '@babel/core': 7.24.4
       '@babel/plugin-syntax-import-meta': 7.10.4(@babel/core@7.24.4)
       '@babel/plugin-transform-typescript': 7.24.4(@babel/core@7.24.4)
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010320240415001(@vueuse/core@10.9.0(vue@3.4.23(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vue@3.4.23(typescript@5.4.5))
-      '@dcloudio/uni-shared': 3.0.0-alpha-4010320240415001
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010320240417001(@vueuse/core@10.9.0(vue@3.4.23(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vue@3.4.23(typescript@5.4.5))
+      '@dcloudio/uni-shared': 3.0.0-alpha-4010320240417001
       '@rollup/pluginutils': 5.1.0(rollup@4.13.0)
       '@vitejs/plugin-legacy': 5.3.2(terser@5.19.2)(vite@5.2.9(@types/node@20.12.7)(sass@1.75.0)(terser@5.19.2))
       '@vitejs/plugin-vue': 5.0.4(vite@5.2.9(@types/node@20.12.7)(sass@1.75.0)(terser@5.19.2))(vue@3.4.23(typescript@5.4.5))
