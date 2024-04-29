@@ -1,0 +1,51 @@
+$min-width: 1024;
+$max-width: 1920;
+$root-fs: 4;
+
+@function vw($px) {
+  @return #{calc($px / $max-width * 100)}vw;
+}
+@function rem($px) {
+  @return #{calc($px / $root-fs)}rem;
+}
+@function px($px) {
+  $min-ratio: calc($min-width / $max-width);
+  $min: #{$px * $min-ratio}px;
+  $max: #{$px * 1}px;
+  $normal: vw($px);
+
+  @if $px < 0 {
+    $min: #{$px * 1}px;
+    $max: #{$px * $min-ratio}px;
+  }
+
+  @return clamp($min, $normal, $max);
+}
+
+@function f($min, $max) {
+  $slope: calc(($max - $min) / ($max-width - $min-width));
+  $slopeForClamp: $slope * 100;
+  $intersection: calc((0 - $min-width) * $slope + $min);
+
+  $_max: $max;
+  $_min: $min;
+
+  @if $max < $min {
+    $_max: $min;
+    $_min: $max;
+  }
+
+  @return clamp(rem($min), rem($intersection) + #{$slopeForClamp}vw, rem($max));
+}
+
+@mixin forMobile {
+  @media screen and (max-width: ($min-pc - 1)) {
+    @content;
+  }
+}
+
+@mixin forPC {
+  @media screen and (min-width: $min-pc) {
+    @content;
+  }
+}
