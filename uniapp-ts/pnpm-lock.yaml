@@ -104,7 +104,7 @@ importers:
         version: 0.1.7(rollup@4.13.0)(typescript@5.4.5)
       '@uni-helper/vite-plugin-uni-manifest':
         specifier: ^0.2.0
-        version: 0.2.5(vite@5.2.11(@types/node@20.12.12)(sass@1.77.1)(terser@5.19.2))
+        version: 0.2.6(vite@5.2.11(@types/node@20.12.12)(sass@1.77.1)(terser@5.19.2))
       '@uni-helper/vite-plugin-uni-pages':
         specifier: ^0.2.3
         version: 0.2.20(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21)(typescript@5.4.5)
@@ -1884,8 +1884,8 @@ packages:
   '@uni-helper/vite-plugin-uni-layouts@0.1.7':
     resolution: {integrity: sha512-15WO1XO5gd3IMWELgu2zt3mZh47u3Zlts/srzw+xgECteiQcuBAft89qxBNv+2/TJecg1HJF7z+fb7oFDJIyhA==}
 
-  '@uni-helper/vite-plugin-uni-manifest@0.2.5':
-    resolution: {integrity: sha512-RYf0c1w4Cx8S2n4B9gEcVVewZfyTD1MReA1LaJCK/s6oF4DQp1uwfA7Ll9a6IlFDay6a3VL7V6essZAUhUKOFg==}
+  '@uni-helper/vite-plugin-uni-manifest@0.2.6':
+    resolution: {integrity: sha512-eYLorizd+/IAPyD0CZ9uljd7OR7DOhKC06VgngpmEVTCsy2W+WG3fZ4DEH+q5uJq1YYLbXvM7mnoL8lBOPmQDQ==}
     peerDependencies:
       vite: ^4.0.0 || ^5.0.0
 
@@ -8255,7 +8255,7 @@ snapshots:
       - typescript
       - vitest
 
-  '@uni-helper/vite-plugin-uni-manifest@0.2.5(vite@5.2.11(@types/node@20.12.12)(sass@1.77.1)(terser@5.19.2))':
+  '@uni-helper/vite-plugin-uni-manifest@0.2.6(vite@5.2.11(@types/node@20.12.12)(sass@1.77.1)(terser@5.19.2))':
     dependencies:
       c12: 1.10.0
       vite: 5.2.11(@types/node@20.12.12)(sass@1.77.1)(terser@5.19.2)
