@@ -82,8 +82,8 @@ importers:
         specifier: 3.0.0-alpha-4010820240516001
         version: 3.0.0-alpha-4010820240516001
       '@dcloudio/vite-plugin-uni':
-        specifier: 3.0.0-alpha-4010720240511003
-        version: 3.0.0-alpha-4010720240511003(@vueuse/core@10.9.0(vue@3.4.27(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vite@5.2.11(@types/node@20.12.12)(sass@1.77.1)(terser@5.19.2))(vue@3.4.27(typescript@5.4.5))
+        specifier: 3.0.0-alpha-4010820240516001
+        version: 3.0.0-alpha-4010820240516001(@vueuse/core@10.9.0(vue@3.4.27(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vite@5.2.11(@types/node@20.12.12)(sass@1.77.1)(terser@5.19.2))(vue@3.4.27(typescript@5.4.5))
       '@iconify-json/carbon':
         specifier: ^1.1.18
         version: 1.1.33
@@ -249,12 +249,6 @@ packages:
     resolution: {integrity: sha512-9JB548GZoQVmzrFgp8o7KxdgkTGm6xs9DW0o/Pim72UDjzr5ObUQ6ZzYPqA+g9OTS2bBQoctLJrky0RDCAWRgQ==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/helper-create-class-features-plugin@7.24.4':
-    resolution: {integrity: sha512-lG75yeuUSVu0pIcbhiYMXBXANHrpUPaOfu7ryAzskCgKUHuAxRQI5ssrtmF0X9UXldPlvT0XM/A4F44OXRt6iQ==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0
-
   '@babel/helper-create-class-features-plugin@7.24.5':
     resolution: {integrity: sha512-uRc4Cv8UQWnE4NXlYTIIdM7wfFkOqlFztcC/gVXDKohKoVB3OyonfelUBaJzSwpBntZ2KYGF/9S7asCHsXwW6g==}
     engines: {node: '>=6.9.0'}
@@ -282,10 +276,6 @@ packages:
 
   '@babel/helper-hoist-variables@7.22.5':
     resolution: {integrity: sha512-wGjk9QZVzvknA6yKIUURb8zY3grXCcOZt+/7Wcy8O2uctxhplmUPkOdlgoNhmdVee2c92JXbf1xpMtVNbfoxRw==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/helper-member-expression-to-functions@7.23.0':
-    resolution: {integrity: sha512-6gfrPwh7OuT6gZyJZvd6WbTfrqAo7vm4xCzAXOusKqq/vWdKXphTpj5klHKNmRUU6/QRGlBsyU9mAIPaWHlqJA==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-member-expression-to-functions@7.24.5':
@@ -783,12 +773,6 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0-0
 
-  '@babel/plugin-transform-typescript@7.24.4':
-    resolution: {integrity: sha512-79t3CQ8+oBGk/80SQ8MN3Bs3obf83zJ0YZjDmDaEZN8MqhMI760apl5z6a20kFeMXBwJX99VpKT8CKxEBp5H1g==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-
   '@babel/plugin-transform-typescript@7.24.5':
     resolution: {integrity: sha512-E0VWu/hk83BIFUWnsKZ4D81KXjN5L3MobvevOHErASk9IPwKHOkTgvqzvNo1yP/ePJWqqK2SpUR5z+KQbl6NVw==}
     engines: {node: '>=6.9.0'}
@@ -982,8 +966,8 @@ packages:
   '@dcloudio/uni-stat@3.0.0-alpha-4010720240511003':
     resolution: {integrity: sha512-9X3YqzPk9qz2HjYWWFhzi9ho/u6X38VRu1jLvejYPkKrWViye+8NwDaeM7wASxiAqLckmPGO99eYVY+3UJgBCQ==}
 
-  '@dcloudio/vite-plugin-uni@3.0.0-alpha-4010720240511003':
-    resolution: {integrity: sha512-vG8CvbMO4O+hSDoev3zrFkNBx2V8e2hdrs6stU+zjyNY02qozVWo4XZnf8kJniXQOoqS5p6vLrTHMK7cnkYwlQ==}
+  '@dcloudio/vite-plugin-uni@3.0.0-alpha-4010820240516001':
+    resolution: {integrity: sha512-lmkZTz1bc38m5LP1d1UySIROHRikPDCG1ornFNFHSEk8ef5+glW0e5anOojb2951pF2DaGrn9I/p84wWiXqguQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -5720,19 +5704,6 @@ snapshots:
       lru-cache: 5.1.1
       semver: 6.3.1
 
-  '@babel/helper-create-class-features-plugin@7.24.4(@babel/core@7.24.5)':
-    dependencies:
-      '@babel/core': 7.24.5
-      '@babel/helper-annotate-as-pure': 7.22.5
-      '@babel/helper-environment-visitor': 7.22.20
-      '@babel/helper-function-name': 7.23.0
-      '@babel/helper-member-expression-to-functions': 7.23.0
-      '@babel/helper-optimise-call-expression': 7.22.5
-      '@babel/helper-replace-supers': 7.24.1(@babel/core@7.24.5)
-      '@babel/helper-skip-transparent-expression-wrappers': 7.22.5
-      '@babel/helper-split-export-declaration': 7.24.5
-      semver: 6.3.1
-
   '@babel/helper-create-class-features-plugin@7.24.5(@babel/core@7.24.5)':
     dependencies:
       '@babel/core': 7.24.5
@@ -5775,10 +5746,6 @@ snapshots:
     dependencies:
       '@babel/types': 7.24.5
 
-  '@babel/helper-member-expression-to-functions@7.23.0':
-    dependencies:
-      '@babel/types': 7.24.5
-
   '@babel/helper-member-expression-to-functions@7.24.5':
     dependencies:
       '@babel/types': 7.24.5
@@ -5813,7 +5780,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.24.5
       '@babel/helper-environment-visitor': 7.22.20
-      '@babel/helper-member-expression-to-functions': 7.23.0
+      '@babel/helper-member-expression-to-functions': 7.24.5
       '@babel/helper-optimise-call-expression': 7.22.5
 
   '@babel/helper-simple-access@7.24.5':
@@ -6034,13 +6001,13 @@ snapshots:
   '@babel/plugin-transform-class-properties@7.24.1(@babel/core@7.24.5)':
     dependencies:
       '@babel/core': 7.24.5
-      '@babel/helper-create-class-features-plugin': 7.24.4(@babel/core@7.24.5)
+      '@babel/helper-create-class-features-plugin': 7.24.5(@babel/core@7.24.5)
       '@babel/helper-plugin-utils': 7.24.5
 
   '@babel/plugin-transform-class-static-block@7.24.4(@babel/core@7.24.5)':
     dependencies:
       '@babel/core': 7.24.5
-      '@babel/helper-create-class-features-plugin': 7.24.4(@babel/core@7.24.5)
+      '@babel/helper-create-class-features-plugin': 7.24.5(@babel/core@7.24.5)
       '@babel/helper-plugin-utils': 7.24.5
       '@babel/plugin-syntax-class-static-block': 7.14.5(@babel/core@7.24.5)
 
@@ -6216,14 +6183,14 @@ snapshots:
   '@babel/plugin-transform-private-methods@7.24.1(@babel/core@7.24.5)':
     dependencies:
       '@babel/core': 7.24.5
-      '@babel/helper-create-class-features-plugin': 7.24.4(@babel/core@7.24.5)
+      '@babel/helper-create-class-features-plugin': 7.24.5(@babel/core@7.24.5)
       '@babel/helper-plugin-utils': 7.24.5
 
   '@babel/plugin-transform-private-property-in-object@7.24.1(@babel/core@7.24.5)':
     dependencies:
       '@babel/core': 7.24.5
       '@babel/helper-annotate-as-pure': 7.22.5
-      '@babel/helper-create-class-features-plugin': 7.24.4(@babel/core@7.24.5)
+      '@babel/helper-create-class-features-plugin': 7.24.5(@babel/core@7.24.5)
       '@babel/helper-plugin-utils': 7.24.5
       '@babel/plugin-syntax-private-property-in-object': 7.14.5(@babel/core@7.24.5)
 
@@ -6268,14 +6235,6 @@ snapshots:
     dependencies:
       '@babel/core': 7.24.5
       '@babel/helper-plugin-utils': 7.24.5
-
-  '@babel/plugin-transform-typescript@7.24.4(@babel/core@7.24.5)':
-    dependencies:
-      '@babel/core': 7.24.5
-      '@babel/helper-annotate-as-pure': 7.22.5
-      '@babel/helper-create-class-features-plugin': 7.24.4(@babel/core@7.24.5)
-      '@babel/helper-plugin-utils': 7.24.5
-      '@babel/plugin-syntax-typescript': 7.24.1(@babel/core@7.24.5)
 
   '@babel/plugin-transform-typescript@7.24.5(@babel/core@7.24.5)':
     dependencies:
@@ -7064,13 +7023,13 @@ snapshots:
       - ts-node
       - vue
 
-  '@dcloudio/vite-plugin-uni@3.0.0-alpha-4010720240511003(@vueuse/core@10.9.0(vue@3.4.27(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vite@5.2.11(@types/node@20.12.12)(sass@1.77.1)(terser@5.19.2))(vue@3.4.27(typescript@5.4.5))':
+  '@dcloudio/vite-plugin-uni@3.0.0-alpha-4010820240516001(@vueuse/core@10.9.0(vue@3.4.27(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vite@5.2.11(@types/node@20.12.12)(sass@1.77.1)(terser@5.19.2))(vue@3.4.27(typescript@5.4.5))':
     dependencies:
       '@babel/core': 7.24.5
       '@babel/plugin-syntax-import-meta': 7.10.4(@babel/core@7.24.5)
-      '@babel/plugin-transform-typescript': 7.24.4(@babel/core@7.24.5)
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010720240511003(@vueuse/core@10.9.0(vue@3.4.27(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vue@3.4.27(typescript@5.4.5))
-      '@dcloudio/uni-shared': 3.0.0-alpha-4010720240511003
+      '@babel/plugin-transform-typescript': 7.24.5(@babel/core@7.24.5)
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010820240516001(@vueuse/core@10.9.0(vue@3.4.27(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vue@3.4.27(typescript@5.4.5))
+      '@dcloudio/uni-shared': 3.0.0-alpha-4010820240516001
       '@rollup/pluginutils': 5.1.0(rollup@4.13.0)
       '@vitejs/plugin-legacy': 5.3.2(terser@5.19.2)(vite@5.2.11(@types/node@20.12.12)(sass@1.77.1)(terser@5.19.2))
       '@vitejs/plugin-vue': 5.0.4(vite@5.2.11(@types/node@20.12.12)(sass@1.77.1)(terser@5.19.2))(vue@3.4.27(typescript@5.4.5))
@@ -8581,7 +8540,7 @@ snapshots:
   '@vitejs/plugin-vue-jsx@3.1.0(vite@5.2.11(@types/node@20.12.12)(sass@1.77.1)(terser@5.19.2))(vue@3.4.27(typescript@5.4.5))':
     dependencies:
       '@babel/core': 7.24.5
-      '@babel/plugin-transform-typescript': 7.24.4(@babel/core@7.24.5)
+      '@babel/plugin-transform-typescript': 7.24.5(@babel/core@7.24.5)
       '@vue/babel-plugin-jsx': 1.1.5(@babel/core@7.24.5)
       vite: 5.2.11(@types/node@20.12.12)(sass@1.77.1)(terser@5.19.2)
       vue: 3.4.27(typescript@5.4.5)
