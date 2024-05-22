@@ -105,7 +105,7 @@ devDependencies:
     version: 0.27.0(vue@3.4.27)
   unplugin-vue-router:
     specifier: ^0.8.6
-    version: 0.8.7(vue-router@4.3.2)(vue@3.4.27)
+    version: 0.8.8(vue-router@4.3.2)(vue@3.4.27)
   vite:
     specifier: ^5.2.8
     version: 5.2.11(@types/node@20.12.12)(sass@1.77.2)
@@ -2943,7 +2943,7 @@ packages:
       '@nodelib/fs.walk': 1.2.8
       glob-parent: 5.1.2
       merge2: 1.4.1
-      micromatch: 4.0.6
+      micromatch: 4.0.7
     dev: true
 
   /fast-json-stable-stringify@2.1.0:
@@ -3724,12 +3724,12 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /micromatch@4.0.6:
-    resolution: {integrity: sha512-Y4Ypn3oujJYxJcMacVgcs92wofTHxp9FzfDpQON4msDefoC0lb3ETvQLOdLcbhSwU1bz8HrL/1sygfBIHudrkQ==}
+  /micromatch@4.0.7:
+    resolution: {integrity: sha512-LPP/3KorzCwBxfeUuZmaR6bG2kdeHSbe0P2tY3FLRU4vYrjYz5hI4QZwV0njUx3jeuKe67YukQ1LSPZBKDqO/Q==}
     engines: {node: '>=8.6'}
     dependencies:
       braces: 3.0.3
-      picomatch: 4.0.2
+      picomatch: 2.3.1
     dev: true
 
   /mime-db@1.52.0:
@@ -4043,11 +4043,6 @@ packages:
   /picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
-    dev: true
-
-  /picomatch@4.0.2:
-    resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
-    engines: {node: '>=12'}
     dev: true
 
   /pidtree@0.6.0:
@@ -4855,8 +4850,8 @@ packages:
       - supports-color
     dev: true
 
-  /unplugin-vue-router@0.8.7(vue-router@4.3.2)(vue@3.4.27):
-    resolution: {integrity: sha512-HihvKGce/tQRU4+4+9KSe+0Dr+lWQ4ulPsxxelqbqtDoNNxeBBiIROuTO04trO3pLHRoMxmUg/XtJeItHGch/g==}
+  /unplugin-vue-router@0.8.8(vue-router@4.3.2)(vue@3.4.27):
+    resolution: {integrity: sha512-8fKHzIF8+Suc1DhoBHmGxLhXUjhzIKvdTwngAybJ+3UrhNLv7KsGrNjaBVnQmlS9VNpxlwHRJzZ2Vc7IDlDm+A==}
     peerDependencies:
       vue-router: ^4.3.0
     peerDependenciesMeta:
