@@ -101,7 +101,7 @@ importers:
         version: 0.0.9(rollup@4.13.0)
       '@uni-helper/vite-plugin-uni-layouts':
         specifier: ^0.1.2
-        version: 0.1.9(rollup@4.13.0)
+        version: 0.1.10(rollup@4.13.0)
       '@uni-helper/vite-plugin-uni-manifest':
         specifier: ^0.2.0
         version: 0.2.6(vite@5.2.11(@types/node@20.12.12)(sass@1.77.2)(terser@5.19.2))
@@ -1784,9 +1784,8 @@ packages:
   '@uni-helper/vite-plugin-uni-components@0.0.9':
     resolution: {integrity: sha512-yomG3MCb4wYYBlyFFeepAuVArjy37xCqZk9nM5mqfTHqNEtl49jz1LZgIukkfv4EAG28M+pzNwWz34Dywi70zg==}
 
-  '@uni-helper/vite-plugin-uni-layouts@0.1.9':
-    resolution: {integrity: sha512-OPz4jI4KreT88xFxgt1w5tH7j01wip0JiaUF4r6Wm6PBCx9vTdxPHA4iFXRlCyu2EIR/XnUI4NwtPhVKfUpn3w==}
-    deprecated: Please use 0.1.7.
+  '@uni-helper/vite-plugin-uni-layouts@0.1.10':
+    resolution: {integrity: sha512-RJdGmJjZtpKNVfShiKYZrualMxdi+i8uh7zpPG+X3lzf6wyKSJgWwVAj3GUdqeE/QUEncNPmj2sqwuyeLXPxbA==}
 
   '@uni-helper/vite-plugin-uni-manifest@0.2.6':
     resolution: {integrity: sha512-eYLorizd+/IAPyD0CZ9uljd7OR7DOhKC06VgngpmEVTCsy2W+WG3fZ4DEH+q5uJq1YYLbXvM7mnoL8lBOPmQDQ==}
@@ -7725,7 +7724,7 @@ snapshots:
       - rollup
       - supports-color
 
-  '@uni-helper/vite-plugin-uni-layouts@0.1.9(rollup@4.13.0)':
+  '@uni-helper/vite-plugin-uni-layouts@0.1.10(rollup@4.13.0)':
     dependencies:
       '@babel/types': 7.24.5
       '@uni-helper/uni-env': 0.1.2
