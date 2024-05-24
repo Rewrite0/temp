@@ -107,7 +107,7 @@ importers:
         version: 0.2.6(vite@5.2.11(@types/node@20.12.12)(sass@1.77.2)(terser@5.19.2))
       '@uni-helper/vite-plugin-uni-pages':
         specifier: ^0.2.3
-        version: 0.2.20(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21)
+        version: 0.2.21(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21)
       '@uni-helper/volar-service-uni-pages':
         specifier: ^0.2.3
         version: 0.2.20
@@ -1792,8 +1792,8 @@ packages:
     peerDependencies:
       vite: ^4.0.0 || ^5.0.0
 
-  '@uni-helper/vite-plugin-uni-pages@0.2.20':
-    resolution: {integrity: sha512-YQlhVbUQlLP+GSscOW2/d+aS95Wtrln816sJUetC0WnaRCsq3rKMWVXzVKuWlCerEQ/ni1ISfnglFheubbl45Q==}
+  '@uni-helper/vite-plugin-uni-pages@0.2.21':
+    resolution: {integrity: sha512-bYEzD1dHBPdIgIJJMICO3HB12pN2ffJKW6SHStcnUUI6dOBn4QUlpFyRyQm5aPm7fIHSNBLrYlKJQ+b8ph8b9w==}
 
   '@uni-helper/volar-service-uni-pages@0.2.20':
     resolution: {integrity: sha512-IKxgaG9fUiG9iZBNu0m3Cb+FbPKrkSJ8ywvZu52qEfIZTV5ngTg+zBXBt5bEOLm9mhIX9BRGKJ7DuL7eX4iefQ==}
@@ -7745,7 +7745,7 @@ snapshots:
       c12: 1.10.0
       vite: 5.2.11(@types/node@20.12.12)(sass@1.77.2)(terser@5.19.2)
 
-  '@uni-helper/vite-plugin-uni-pages@0.2.20(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21)':
+  '@uni-helper/vite-plugin-uni-pages@0.2.21(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21)':
     dependencies:
       '@uni-helper/uni-env': 0.1.2
       '@vue/compiler-sfc': 3.4.27
