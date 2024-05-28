@@ -104,8 +104,8 @@ devDependencies:
     specifier: ^0.27.0
     version: 0.27.0(vue@3.4.27)
   unplugin-vue-router:
-    specifier: ^0.8.6
-    version: 0.8.8(vue-router@4.3.2)(vue@3.4.27)
+    specifier: ^0.9.0
+    version: 0.9.0(vue-router@4.3.2)(vue@3.4.27)
   vite:
     specifier: ^5.2.8
     version: 5.2.11(@types/node@20.12.12)(sass@1.77.2)
@@ -411,9 +411,19 @@ packages:
     resolution: {integrity: sha512-2ofRCjnnA9y+wk8b9IAREroeUP02KHp431N2mhKniy2yKIDKpbrHv9eXwm8cBeWQYcJmzv5qKCu65P47eCF7CQ==}
     engines: {node: '>=6.9.0'}
 
+  /@babel/helper-string-parser@7.24.6:
+    resolution: {integrity: sha512-WdJjwMEkmBicq5T9fm/cHND3+UlFa2Yj8ALLgmoSQAJZysYbBjw+azChSGPN4DSPLXOcooGRvDwZWMcF/mLO2Q==}
+    engines: {node: '>=6.9.0'}
+    dev: true
+
   /@babel/helper-validator-identifier@7.24.5:
     resolution: {integrity: sha512-3q93SSKX2TWCG30M2G2kwaKeTYgEUp5Snjuj8qm729SObL6nbtUldAi37qbxkD5gg3xnBio+f9nqpSepGZMvxA==}
     engines: {node: '>=6.9.0'}
+
+  /@babel/helper-validator-identifier@7.24.6:
+    resolution: {integrity: sha512-4yA7s865JHaqUdRbnaxarZREuPTHrjpDT+pXoAZ1yhyo6uFnIEpS8VMu16siFOHDpZNKYv5BObhsB//ycbICyw==}
+    engines: {node: '>=6.9.0'}
+    dev: true
 
   /@babel/helper-validator-option@7.23.5:
     resolution: {integrity: sha512-85ttAOMLsr53VgXkTbkx8oA6YTfT4q7/HzXSLEYmjcSTJPMPQtvq1BD79Byep5xMUYbGRzEpDsjUf3dyp54IKw==}
@@ -574,6 +584,15 @@ packages:
       '@babel/helper-string-parser': 7.24.1
       '@babel/helper-validator-identifier': 7.24.5
       to-fast-properties: 2.0.0
+
+  /@babel/types@7.24.6:
+    resolution: {integrity: sha512-WaMsgi6Q8zMgMth93GvWPXkhAIEobfsIkLTacoVZoK1J0CevIPGYY2Vo5YvJGqyHqXM6P4ppOYGsIRU8MM9pFQ==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/helper-string-parser': 7.24.6
+      '@babel/helper-validator-identifier': 7.24.6
+      to-fast-properties: 2.0.0
+    dev: true
 
   /@colors/colors@1.5.0:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
@@ -1676,8 +1695,8 @@ packages:
       path-browserify: 1.0.1
     dev: true
 
-  /@vue-macros/common@1.10.3(vue@3.4.27):
-    resolution: {integrity: sha512-YSgzcbXrRo8a/TF/YIguqEmTld1KA60VETKJG8iFuaAfj7j+Tbdin3cj7/cYbcCHORSq1v9IThgq7r8keH7LXQ==}
+  /@vue-macros/common@1.10.4(vue@3.4.27):
+    resolution: {integrity: sha512-akO6Bd6U4jP0+ZKbHq6mbYkw1coOrJpLeVmkuMlUsT5wZRi11BjauGcZHusBSzUjgCBsa1kZTyipxrxrWB54Hw==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
       vue: ^2.7.0 || ^3.2.25
@@ -1685,12 +1704,12 @@ packages:
       vue:
         optional: true
     dependencies:
-      '@babel/types': 7.24.5
+      '@babel/types': 7.24.6
       '@rollup/pluginutils': 5.1.0
       '@vue/compiler-sfc': 3.4.27
       ast-kit: 0.12.1
       local-pkg: 0.5.0
-      magic-string-ast: 0.5.0
+      magic-string-ast: 0.6.1
       vue: 3.4.27(typescript@5.4.5)
     transitivePeerDependencies:
       - rollup
@@ -3690,8 +3709,8 @@ packages:
       yallist: 3.1.1
     dev: true
 
-  /magic-string-ast@0.5.0:
-    resolution: {integrity: sha512-mxjxZ5zoR4+ybulZ7Z5qdZUTdAfiKJ1Il80kN/I4jWsHTTqNKZ9KsBa3Jepo+3U09I04qiyC2+7MZD8v4rJOoA==}
+  /magic-string-ast@0.6.1:
+    resolution: {integrity: sha512-eczKQUDaBpB/mcEqZZNGEUG1FQNsXCuk3uOrCpu6y7qTygIy6jnpqDa62j9MGKSoqlXhM1lCFQv1THuGDQtvUA==}
     engines: {node: '>=16.14.0'}
     dependencies:
       magic-string: 0.30.10
@@ -4838,17 +4857,17 @@ packages:
       - supports-color
     dev: true
 
-  /unplugin-vue-router@0.8.8(vue-router@4.3.2)(vue@3.4.27):
-    resolution: {integrity: sha512-8fKHzIF8+Suc1DhoBHmGxLhXUjhzIKvdTwngAybJ+3UrhNLv7KsGrNjaBVnQmlS9VNpxlwHRJzZ2Vc7IDlDm+A==}
+  /unplugin-vue-router@0.9.0(vue-router@4.3.2)(vue@3.4.27):
+    resolution: {integrity: sha512-ECa+S4A4WDP08ihKtiUG3OvNM4O1PWdobFz/2+wke/Gajm8PGqC8s+70fZvzVBD+fQmEZD6Ny+FNXBz7qBQDeA==}
     peerDependencies:
       vue-router: ^4.3.0
     peerDependenciesMeta:
       vue-router:
         optional: true
     dependencies:
-      '@babel/types': 7.24.5
+      '@babel/types': 7.24.6
       '@rollup/pluginutils': 5.1.0
-      '@vue-macros/common': 1.10.3(vue@3.4.27)
+      '@vue-macros/common': 1.10.4(vue@3.4.27)
       ast-walker-scope: 0.6.1
       chokidar: 3.6.0
       fast-glob: 3.3.2
