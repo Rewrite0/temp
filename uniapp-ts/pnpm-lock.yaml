@@ -107,7 +107,7 @@ importers:
         version: 0.2.6(vite@5.2.12(@types/node@20.12.12)(sass@1.77.2)(terser@5.19.2))
       '@uni-helper/vite-plugin-uni-pages':
         specifier: ^0.2.3
-        version: 0.2.21(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21)
+        version: 0.2.22(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21)
       '@uni-helper/volar-service-uni-pages':
         specifier: ^0.2.3
         version: 0.2.21
@@ -1848,8 +1848,8 @@ packages:
     peerDependencies:
       vite: ^4.0.0 || ^5.0.0
 
-  '@uni-helper/vite-plugin-uni-pages@0.2.21':
-    resolution: {integrity: sha512-bYEzD1dHBPdIgIJJMICO3HB12pN2ffJKW6SHStcnUUI6dOBn4QUlpFyRyQm5aPm7fIHSNBLrYlKJQ+b8ph8b9w==}
+  '@uni-helper/vite-plugin-uni-pages@0.2.22':
+    resolution: {integrity: sha512-eWEFOSZHjEgwACuRFgtgcNZEEMyOTHkbWixWpQI5thZUWg+U45LvTA/MephZi/GL00hkKAWqM/gN/s6XZJYIFw==}
 
   '@uni-helper/volar-service-uni-pages@0.2.21':
     resolution: {integrity: sha512-eLgS+y9lNDvNi0lRZA0+6zfxlzbSv6j3AMOUYt0t1Xr4iPemKuwcekU5BgceSTOAYB6AhLhhssh6RvZO/tblnA==}
@@ -5276,7 +5276,7 @@ snapshots:
 
   '@babel/helper-builder-binary-assignment-operator-visitor@7.22.15':
     dependencies:
-      '@babel/types': 7.24.5
+      '@babel/types': 7.24.6
 
   '@babel/helper-compilation-targets@7.23.6':
     dependencies:
@@ -5332,7 +5332,7 @@ snapshots:
   '@babel/helper-function-name@7.23.0':
     dependencies:
       '@babel/template': 7.24.0
-      '@babel/types': 7.24.5
+      '@babel/types': 7.24.6
 
   '@babel/helper-function-name@7.24.6':
     dependencies:
@@ -5349,7 +5349,7 @@ snapshots:
 
   '@babel/helper-member-expression-to-functions@7.24.5':
     dependencies:
-      '@babel/types': 7.24.5
+      '@babel/types': 7.24.6
 
   '@babel/helper-module-imports@7.24.3':
     dependencies:
@@ -5379,7 +5379,7 @@ snapshots:
 
   '@babel/helper-optimise-call-expression@7.22.5':
     dependencies:
-      '@babel/types': 7.24.5
+      '@babel/types': 7.24.6
 
   '@babel/helper-plugin-utils@7.24.5': {}
 
@@ -5409,11 +5409,11 @@ snapshots:
 
   '@babel/helper-skip-transparent-expression-wrappers@7.22.5':
     dependencies:
-      '@babel/types': 7.24.5
+      '@babel/types': 7.24.6
 
   '@babel/helper-split-export-declaration@7.24.5':
     dependencies:
-      '@babel/types': 7.24.5
+      '@babel/types': 7.24.6
 
   '@babel/helper-split-export-declaration@7.24.6':
     dependencies:
@@ -5435,7 +5435,7 @@ snapshots:
     dependencies:
       '@babel/helper-function-name': 7.23.0
       '@babel/template': 7.24.0
-      '@babel/types': 7.24.5
+      '@babel/types': 7.24.6
 
   '@babel/helpers@7.24.5':
     dependencies:
@@ -6056,7 +6056,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.24.5
       '@babel/helper-plugin-utils': 7.24.5
-      '@babel/types': 7.24.5
+      '@babel/types': 7.24.6
       esutils: 2.0.3
 
   '@babel/preset-typescript@7.24.1(@babel/core@7.24.5)':
@@ -6454,7 +6454,7 @@ snapshots:
   '@dcloudio/uni-mp-compiler@3.0.0-alpha-4010820240523001(@vueuse/core@10.10.0(vue@3.4.27(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vue@3.4.27(typescript@5.4.5))':
     dependencies:
       '@babel/generator': 7.24.5
-      '@babel/parser': 7.24.5
+      '@babel/parser': 7.24.6
       '@babel/types': 7.24.5
       '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010820240523001(@vueuse/core@10.10.0(vue@3.4.27(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vue@3.4.27(typescript@5.4.5))
       '@dcloudio/uni-shared': 3.0.0-alpha-4010820240523001
@@ -7749,7 +7749,7 @@ snapshots:
       c12: 1.10.0
       vite: 5.2.12(@types/node@20.12.12)(sass@1.77.2)(terser@5.19.2)
 
-  '@uni-helper/vite-plugin-uni-pages@0.2.21(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21)':
+  '@uni-helper/vite-plugin-uni-pages@0.2.22(@types/lodash-es@4.17.12)(lodash-es@4.17.21)(lodash@4.17.21)':
     dependencies:
       '@uni-helper/uni-env': 0.1.2
       '@vue/compiler-sfc': 3.4.27
@@ -8068,7 +8068,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.4.27':
     dependencies:
-      '@babel/parser': 7.24.5
+      '@babel/parser': 7.24.6
       '@vue/compiler-core': 3.4.27
       '@vue/compiler-dom': 3.4.27
       '@vue/compiler-ssr': 3.4.27
