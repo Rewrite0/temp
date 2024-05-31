@@ -15,8 +15,8 @@ dependencies:
     specifier: ^7.0.0
     version: 7.0.0
   primevue:
-    specifier: 4.0.0-beta.3
-    version: 4.0.0-beta.3(vue@3.4.27)
+    specifier: 4.0.0-beta.4
+    version: 4.0.0-beta.4(vue@3.4.27)
   vue:
     specifier: ^3.4.21
     version: 3.4.27(typescript@5.4.5)
@@ -4153,8 +4153,9 @@ packages:
     resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
     dev: false
 
-  /primevue@4.0.0-beta.3(vue@3.4.27):
-    resolution: {integrity: sha512-/aM5+qXxFplrOmriXVURLsRiiTu1BgNloiSyBozZP9Br/T6oCELid7CgEDFlkXGb/WZ75NvynoIkFbIRQaqYbw==}
+  /primevue@4.0.0-beta.4(vue@3.4.27):
+    resolution: {integrity: sha512-5ziY7gr1tRmCpK8LSAYgfdOyljLbHoxs2LCOTApB5jMZeAOeFRdIRHfUtCCLevX84azQJn+Bac8g43OCIzutlA==}
+    engines: {node: '>=12.11.0'}
     peerDependencies:
       vue: ^3.0.0
     dependencies:
