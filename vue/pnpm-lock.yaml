@@ -72,7 +72,7 @@ devDependencies:
     version: 9.3.0
   eslint-plugin-cypress:
     specifier: ^3.0.0
-    version: 3.2.0(eslint@9.3.0)
+    version: 3.3.0(eslint@9.3.0)
   eslint-plugin-vue:
     specifier: ^9.23.0
     version: 9.26.0(eslint@9.3.0)
@@ -2686,8 +2686,8 @@ packages:
       eslint: 9.3.0
     dev: true
 
-  /eslint-plugin-cypress@3.2.0(eslint@9.3.0):
-    resolution: {integrity: sha512-HaxMz6BoU4ay+K4WrG9ZJC1NdX06FqSlAwtRDStjM0ORFT7zCNPNuRJ+kUPc17Rt2AMUBSqeD9L0zTR3uZhPpw==}
+  /eslint-plugin-cypress@3.3.0(eslint@9.3.0):
+    resolution: {integrity: sha512-HPHMPzYBIshzJM8wqgKSKHG2p/8R0Gbg4Pb3tcdC9WrmkuqxiKxSKbjunUrajhV5l7gCIFrh1P7C7GuBqH6YuQ==}
     peerDependencies:
       eslint: '>=7'
     dependencies:
