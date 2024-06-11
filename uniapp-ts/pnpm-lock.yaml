@@ -82,8 +82,8 @@ importers:
         specifier: 3.0.0-alpha-4010920240607001
         version: 3.0.0-alpha-4010920240607001
       '@dcloudio/vite-plugin-uni':
-        specifier: 3.0.0-alpha-4010920240606001
-        version: 3.0.0-alpha-4010920240606001(@vueuse/core@10.10.0(vue@3.4.27(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vite@5.2.13(@types/node@20.14.2)(sass@1.77.4)(terser@5.19.2))(vue@3.4.27(typescript@5.4.5))
+        specifier: 3.0.0-alpha-4010920240607001
+        version: 3.0.0-alpha-4010920240607001(@vueuse/core@10.10.0(vue@3.4.27(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vite@5.2.13(@types/node@20.14.2)(sass@1.77.4)(terser@5.19.2))(vue@3.4.27(typescript@5.4.5))
       '@iconify-json/carbon':
         specifier: ^1.1.18
         version: 1.1.35
@@ -1014,8 +1014,8 @@ packages:
   '@dcloudio/uni-stat@3.0.0-alpha-4010920240606001':
     resolution: {integrity: sha512-/fYrJOjly2VwqhQeixppBZJoCJB74knBrQpZSheINZ39LGnkTrDdFv0ZopT1rLCVAEgpxUHZ1LycgurNK0FSRA==}
 
-  '@dcloudio/vite-plugin-uni@3.0.0-alpha-4010920240606001':
-    resolution: {integrity: sha512-WtYMjBaZjW2PPclSc+AMJiyYAsjb9mYbQqf5RwVxlneBj/He00VoiQW6hlIzHlZNyD0osE67SwWP5xkoa3kSoA==}
+  '@dcloudio/vite-plugin-uni@3.0.0-alpha-4010920240607001':
+    resolution: {integrity: sha512-14oKte5s5NVWXpJLGPW5Y0Peej5zlWDNsmOM9BPgh6LFlpnPzzfuxpzHnC/f4n4TpRusLHG4CVQcNvzYTDwKZw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -6654,13 +6654,13 @@ snapshots:
       - ts-node
       - vue
 
-  '@dcloudio/vite-plugin-uni@3.0.0-alpha-4010920240606001(@vueuse/core@10.10.0(vue@3.4.27(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vite@5.2.13(@types/node@20.14.2)(sass@1.77.4)(terser@5.19.2))(vue@3.4.27(typescript@5.4.5))':
+  '@dcloudio/vite-plugin-uni@3.0.0-alpha-4010920240607001(@vueuse/core@10.10.0(vue@3.4.27(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vite@5.2.13(@types/node@20.14.2)(sass@1.77.4)(terser@5.19.2))(vue@3.4.27(typescript@5.4.5))':
     dependencies:
       '@babel/core': 7.24.6
       '@babel/plugin-syntax-import-meta': 7.10.4(@babel/core@7.24.6)
       '@babel/plugin-transform-typescript': 7.24.6(@babel/core@7.24.6)
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010920240606001(@vueuse/core@10.10.0(vue@3.4.27(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vue@3.4.27(typescript@5.4.5))
-      '@dcloudio/uni-shared': 3.0.0-alpha-4010920240606001
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4010920240607001(@vueuse/core@10.10.0(vue@3.4.27(typescript@5.4.5)))(postcss@8.4.38)(rollup@4.13.0)(vue@3.4.27(typescript@5.4.5))
+      '@dcloudio/uni-shared': 3.0.0-alpha-4010920240607001
       '@rollup/pluginutils': 5.1.0(rollup@4.13.0)
       '@vitejs/plugin-legacy': 5.3.2(terser@5.19.2)(vite@5.2.13(@types/node@20.14.2)(sass@1.77.4)(terser@5.19.2))
       '@vitejs/plugin-vue': 5.0.4(vite@5.2.13(@types/node@20.14.2)(sass@1.77.4)(terser@5.19.2))(vue@3.4.27(typescript@5.4.5))
