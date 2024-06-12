@@ -15,8 +15,8 @@ dependencies:
     specifier: ^7.0.0
     version: 7.0.0
   primevue:
-    specifier: 4.0.0-beta.4
-    version: 4.0.0-beta.4(vue@3.4.27)
+    specifier: 4.0.0-beta.5
+    version: 4.0.0-beta.5(vue@3.4.27)
   vue:
     specifier: ^3.4.21
     version: 3.4.27(typescript@5.4.5)
@@ -1010,6 +1010,30 @@ packages:
   /@polka/url@1.0.0-next.25:
     resolution: {integrity: sha512-j7P6Rgr3mmtdkeDGTe0E/aYyWEWVtc5yFXtHCRHs28/jptDEWfaVOc5T7cblqy1XKPPfCxJc/8DwQ5YgLOZOVQ==}
     dev: true
+
+  /@primevue/core@4.0.0-beta.5(vue@3.4.27):
+    resolution: {integrity: sha512-WW3yva0irZ6tZ4UI2YKmWJERojRC+VqHyHksomMkqQQikoFv+mFjpausdbAYStoqQt3X43Y/vgipcaa6/Am5BA==}
+    engines: {node: '>=12.11.0'}
+    peerDependencies:
+      vue: ^3.0.0
+    dependencies:
+      '@primevue/themes': 4.0.0-beta.5
+      vue: 3.4.27(typescript@5.4.5)
+    dev: false
+
+  /@primevue/icons@4.0.0-beta.5(vue@3.4.27):
+    resolution: {integrity: sha512-c7wXE3DAiDc3z54tcqDdjNBB1yNqPbinDryaedOhzW+SPfEr1TNv/ZhEqV2ar+mt+6AvQHKz1ybT7bfP9m4QPQ==}
+    engines: {node: '>=12.11.0'}
+    dependencies:
+      '@primevue/core': 4.0.0-beta.5(vue@3.4.27)
+    transitivePeerDependencies:
+      - vue
+    dev: false
+
+  /@primevue/themes@4.0.0-beta.5:
+    resolution: {integrity: sha512-ok7N6dXR/o3Jhd56rNY+eaGKne1gSOe3T8COP/EiBLzqdGzk+NGWNj6J9IuCEX6M8qhfPbulei5tEMQPxYDJeQ==}
+    engines: {node: '>=12.11.0'}
+    dev: false
 
   /@rollup/pluginutils@5.1.0:
     resolution: {integrity: sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==}
@@ -4140,13 +4164,14 @@ packages:
     resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
     dev: false
 
-  /primevue@4.0.0-beta.4(vue@3.4.27):
-    resolution: {integrity: sha512-5ziY7gr1tRmCpK8LSAYgfdOyljLbHoxs2LCOTApB5jMZeAOeFRdIRHfUtCCLevX84azQJn+Bac8g43OCIzutlA==}
+  /primevue@4.0.0-beta.5(vue@3.4.27):
+    resolution: {integrity: sha512-6gc1LPgBZq+RZFzMBj4yKI/jEkQzqV6iLfX9MSZMZQXGAkY+fqq8Pj8rAArHmZiKBQegKhOc3hU781NgEfoxXw==}
     engines: {node: '>=12.11.0'}
-    peerDependencies:
-      vue: ^3.0.0
     dependencies:
-      vue: 3.4.27(typescript@5.4.5)
+      '@primevue/core': 4.0.0-beta.5(vue@3.4.27)
+      '@primevue/icons': 4.0.0-beta.5(vue@3.4.27)
+    transitivePeerDependencies:
+      - vue
     dev: false
 
   /process@0.11.10:
