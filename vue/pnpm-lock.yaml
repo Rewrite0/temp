@@ -104,8 +104,8 @@ devDependencies:
     specifier: ^0.27.0
     version: 0.27.0(vue@3.4.29)
   unplugin-vue-router:
-    specifier: ^0.9.0
-    version: 0.9.1(vue-router@4.3.3)(vue@3.4.29)
+    specifier: ^0.10.0
+    version: 0.10.0(vue-router@4.3.3)(vue@3.4.29)
   vite:
     specifier: ^5.2.8
     version: 5.3.1(@types/node@20.14.7)(sass@1.77.6)
@@ -5142,10 +5142,10 @@ packages:
       - supports-color
     dev: true
 
-  /unplugin-vue-router@0.9.1(vue-router@4.3.3)(vue@3.4.29):
-    resolution: {integrity: sha512-kQfplWIowamMLclOdJREiVqhuwTs5dSNPz7YftjKibwSmihds6KdMI9O/3WqilGFo6Q5+8gNwQTpu356wWs8KQ==}
+  /unplugin-vue-router@0.10.0(vue-router@4.3.3)(vue@3.4.29):
+    resolution: {integrity: sha512-t9cwRvNONcrh7CZLUYrd4kGOH4xZRhsHeT+exaAuYFn7z87pkTHiHh3wBnGerfKGs22SnmJIIjcKyEa62CO+4w==}
     peerDependencies:
-      vue-router: ^4.3.0
+      vue-router: ^4.4.0
     peerDependenciesMeta:
       vue-router:
         optional: true
@@ -5163,7 +5163,7 @@ packages:
       scule: 1.3.0
       unplugin: 1.10.1
       vue-router: 4.3.3(vue@3.4.29)
-      yaml: 2.4.3
+      yaml: 2.4.5
     transitivePeerDependencies:
       - rollup
       - vue
@@ -5605,8 +5605,8 @@ packages:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
     dev: true
 
-  /yaml@2.4.3:
-    resolution: {integrity: sha512-sntgmxj8o7DE7g/Qi60cqpLBA3HG3STcDA0kO+WfB05jEKhZMbY7umNm2rBpQvsmZ16/lPXCJGW2672dgOUkrg==}
+  /yaml@2.4.5:
+    resolution: {integrity: sha512-aBx2bnqDzVOyNKfsysjA2ms5ZlnjSAW2eG3/L5G/CSujfjLJTJsEw1bGw8kCf04KodQWk1pxlGnZ56CRxiawmg==}
     engines: {node: '>= 14'}
     hasBin: true
     dev: true
