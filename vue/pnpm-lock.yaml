@@ -25,7 +25,7 @@ dependencies:
     version: 9.13.1(vue@3.4.29)
   vue-router:
     specifier: ^4.3.0
-    version: 4.3.3(vue@3.4.29)
+    version: 4.4.0(vue@3.4.29)
 
 devDependencies:
   '@rushstack/eslint-patch':
@@ -105,13 +105,13 @@ devDependencies:
     version: 0.27.0(vue@3.4.29)
   unplugin-vue-router:
     specifier: ^0.10.0
-    version: 0.10.0(vue-router@4.3.3)(vue@3.4.29)
+    version: 0.10.0(vue-router@4.4.0)(vue@3.4.29)
   vite:
     specifier: ^5.2.8
     version: 5.3.1(@types/node@20.14.7)(sass@1.77.6)
   vite-plugin-vue-layouts:
     specifier: ^0.11.0
-    version: 0.11.0(vite@5.3.1)(vue-router@4.3.3)(vue@3.4.29)
+    version: 0.11.0(vite@5.3.1)(vue-router@4.4.0)(vue@3.4.29)
   vitest:
     specifier: ^1.4.0
     version: 1.6.0(@types/node@20.14.7)(jsdom@24.1.0)(sass@1.77.6)
@@ -5142,7 +5142,7 @@ packages:
       - supports-color
     dev: true
 
-  /unplugin-vue-router@0.10.0(vue-router@4.3.3)(vue@3.4.29):
+  /unplugin-vue-router@0.10.0(vue-router@4.4.0)(vue@3.4.29):
     resolution: {integrity: sha512-t9cwRvNONcrh7CZLUYrd4kGOH4xZRhsHeT+exaAuYFn7z87pkTHiHh3wBnGerfKGs22SnmJIIjcKyEa62CO+4w==}
     peerDependencies:
       vue-router: ^4.4.0
@@ -5162,7 +5162,7 @@ packages:
       pathe: 1.1.2
       scule: 1.3.0
       unplugin: 1.10.1
-      vue-router: 4.3.3(vue@3.4.29)
+      vue-router: 4.4.0(vue@3.4.29)
       yaml: 2.4.5
     transitivePeerDependencies:
       - rollup
@@ -5247,7 +5247,7 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-vue-layouts@0.11.0(vite@5.3.1)(vue-router@4.3.3)(vue@3.4.29):
+  /vite-plugin-vue-layouts@0.11.0(vite@5.3.1)(vue-router@4.4.0)(vue@3.4.29):
     resolution: {integrity: sha512-uh6NW7lt+aOXujK4eHfiNbeo55K9OTuB7fnv+5RVc4OBn/cZull6ThXdYH03JzKanUfgt6QZ37NbbtJ0og59qw==}
     peerDependencies:
       vite: ^4.0.0 || ^5.0.0
@@ -5258,7 +5258,7 @@ packages:
       fast-glob: 3.3.2
       vite: 5.3.1(@types/node@20.14.7)(sass@1.77.6)
       vue: 3.4.29(typescript@5.5.2)
-      vue-router: 4.3.3(vue@3.4.29)
+      vue-router: 4.4.0(vue@3.4.29)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5424,8 +5424,8 @@ packages:
       vue: 3.4.29(typescript@5.5.2)
     dev: false
 
-  /vue-router@4.3.3(vue@3.4.29):
-    resolution: {integrity: sha512-8Q+u+WP4N2SXY38FDcF2H1dUEbYVHVPtPCPZj/GTZx8RCbiB8AtJP9+YIxn4Vs0svMTNQcLIzka4GH7Utkx9xQ==}
+  /vue-router@4.4.0(vue@3.4.29):
+    resolution: {integrity: sha512-HB+t2p611aIZraV2aPSRNXf0Z/oLZFrlygJm+sZbdJaW6lcFqEDQwnzUBXn+DApw+/QzDU/I9TeWx9izEjTmsA==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
