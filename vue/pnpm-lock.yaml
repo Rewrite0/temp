@@ -102,7 +102,7 @@ devDependencies:
     version: 0.17.6(@vueuse/core@10.11.0)
   unplugin-vue-components:
     specifier: ^0.27.0
-    version: 0.27.1(vue@3.4.30)
+    version: 0.27.2(vue@3.4.30)
   unplugin-vue-router:
     specifier: ^0.10.0
     version: 0.10.0(vue-router@4.4.0)(vue@3.4.30)
@@ -5095,8 +5095,8 @@ packages:
       - rollup
     dev: true
 
-  /unplugin-vue-components@0.27.1(vue@3.4.30):
-    resolution: {integrity: sha512-ximoYPwT9A5fc0ozy40IZbXR/XMRlTy69u4JfeqBMlsyuKHckQRisRqgzqve6m/ZeOh7eCHjEQP1WnBPW+YI+g==}
+  /unplugin-vue-components@0.27.2(vue@3.4.30):
+    resolution: {integrity: sha512-YifnsmslMRNt+JRQiCG4ZX1+xUQuubUZm76K7Qtg8dmchZJkHIDxZSyfZb5/jqrLWMTm/TUjGJ3ZDlzO6SFnSQ==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/parser': ^7.15.8
