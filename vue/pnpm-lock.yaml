@@ -15,8 +15,8 @@ dependencies:
     specifier: ^7.0.0
     version: 7.0.0
   primevue:
-    specifier: 4.0.0-rc.3
-    version: 4.0.0-rc.3(@primeuix/utils@0.0.5)(vue@3.4.31)
+    specifier: 4.0.0
+    version: 4.0.0(@primeuix/utils@0.0.5)(vue@3.4.31)
   vue:
     specifier: ^3.4.21
     version: 3.4.31(typescript@5.5.3)
@@ -1294,8 +1294,8 @@ packages:
     engines: {node: '>=12.11.0'}
     dev: false
 
-  /@primevue/core@4.0.0-rc.3(@primeuix/utils@0.0.5)(vue@3.4.31):
-    resolution: {integrity: sha512-m9iKIbAtbw3hX4SgHC2/aA+nc/PeCbICKc1W/81ghgCpPsB0BjHwP31M9KqvXdW9cJRvEyLkessdB7G13H9Gcg==}
+  /@primevue/core@4.0.0(@primeuix/utils@0.0.5)(vue@3.4.31):
+    resolution: {integrity: sha512-M+GF1HYnl/x5J6uevXh1k42J0XnFhp0XHce+cHddWg7v3bVwgsn7LD3AKKcf0A/iQQPXVKX9nY/4/9eFVct67w==}
     engines: {node: '>=12.11.0'}
     peerDependencies:
       '@primeuix/utils': ^0.0.5
@@ -1306,11 +1306,11 @@ packages:
       vue: 3.4.31(typescript@5.5.3)
     dev: false
 
-  /@primevue/icons@4.0.0-rc.3(@primeuix/utils@0.0.5)(vue@3.4.31):
-    resolution: {integrity: sha512-9B5a8YDJuKTV8GyFwbftdPDzPDh8v/Ro9nCWY5IFl3s/1jviAxAeTeKNwT8RMb7yPufbpGlLmcyNDHnNW01XrQ==}
+  /@primevue/icons@4.0.0(@primeuix/utils@0.0.5)(vue@3.4.31):
+    resolution: {integrity: sha512-gv9pbj7JjCuW59tW2csIJgg6btTJpkr/mjlfqscEIrYzDGqzCrbfxLur48gA2dyhYsiQPPTbIHFwL944piFgIg==}
     engines: {node: '>=12.11.0'}
     dependencies:
-      '@primevue/core': 4.0.0-rc.3(@primeuix/utils@0.0.5)(vue@3.4.31)
+      '@primevue/core': 4.0.0(@primeuix/utils@0.0.5)(vue@3.4.31)
     transitivePeerDependencies:
       - '@primeuix/utils'
       - vue
@@ -4452,12 +4452,12 @@ packages:
     resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
     dev: false
 
-  /primevue@4.0.0-rc.3(@primeuix/utils@0.0.5)(vue@3.4.31):
-    resolution: {integrity: sha512-/JskbPJukfNAE/T/MzEOXdtvczA8aK0I+riKb3GtnZEm5P1mGWjuto/Or/0YH3TQ1zqIh7/v/e5wczaxkVC2sA==}
+  /primevue@4.0.0(@primeuix/utils@0.0.5)(vue@3.4.31):
+    resolution: {integrity: sha512-2PFmmJqyXpOcKOdF+gbps5fpSXfoXZp2LwX+hya/b5SDseMt3UNboyEgVI6B+DNbJRrib35EbDiMw+7RIANQ1w==}
     engines: {node: '>=12.11.0'}
     dependencies:
-      '@primevue/core': 4.0.0-rc.3(@primeuix/utils@0.0.5)(vue@3.4.31)
-      '@primevue/icons': 4.0.0-rc.3(@primeuix/utils@0.0.5)(vue@3.4.31)
+      '@primevue/core': 4.0.0(@primeuix/utils@0.0.5)(vue@3.4.31)
+      '@primevue/icons': 4.0.0(@primeuix/utils@0.0.5)(vue@3.4.31)
     transitivePeerDependencies:
       - '@primeuix/utils'
       - vue
