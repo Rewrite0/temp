@@ -110,7 +110,7 @@ importers:
         version: 0.2.26
       '@uni-helper/volar-service-uni-pages':
         specifier: ^0.2.3
-        version: 0.2.25
+        version: 0.2.26
       '@unocss/eslint-config':
         specifier: ^0.61.0
         version: 0.61.3(eslint@9.7.0)(typescript@5.5.3)
@@ -1951,8 +1951,8 @@ packages:
     resolution: {integrity: sha512-uetCAUBVC+YarBdZnWzDDgX11PpAEGV8Cw31I3d1xNrhx6/bJGThKX+holEmd3amMdnr4w/XUKH/4YuQOgtjDA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@uni-helper/pages-json-schema@0.2.25':
-    resolution: {integrity: sha512-TYFsIl0Z7PC9RHW3mnyOP0GrHb62fgQD94HluKRJEpMFpKIPEat0jBQsuFYW0eyZGMYRkjFTL6GG3rAUnkEpXg==}
+  '@uni-helper/pages-json-schema@0.2.26':
+    resolution: {integrity: sha512-cssuTRUUGMKMlVMHk+CZ+28m4eJmJjJP+IMtyno7a+wDAQsRcJDNh9gc9qZqcekyFEO2svr6jN5iEJkUil+1vg==}
 
   '@uni-helper/uni-app-types@0.5.13':
     resolution: {integrity: sha512-NIKHv9Zof7sxsznjH+LRB2VM8ncEyfpkwRVLm7u2N1X3e1RFWvABH+bttfu+d8FIP6JzksBNOQwsyZjDnLN0fw==}
@@ -1992,8 +1992,8 @@ packages:
   '@uni-helper/vite-plugin-uni-pages@0.2.26':
     resolution: {integrity: sha512-/KnM4JzcKRCvIkpBowp5foCKXhTDXh/hoy62D/nGEf0KAMKH1e7KJ2q6qXogSZq8MpynAKjO6G6nvNTEFx3oBQ==}
 
-  '@uni-helper/volar-service-uni-pages@0.2.25':
-    resolution: {integrity: sha512-njlxdr9pILp8FvooRnP7GAvscDkDcgH7rUndPyno7L1/fJ1cZFFdHeV5+6VtKc2Uw2b4MKhNQTMRS9Hdkrh80Q==}
+  '@uni-helper/volar-service-uni-pages@0.2.26':
+    resolution: {integrity: sha512-WuxklqH5cuGQT1TxyRu73Nym7tencxO4hed9D6vh7qfP5yuOyBHxCzNdTqXWFtMZ0L/M3VUBK6Bk4nBiBx6Q4A==}
 
   '@unocss-applet/preset-applet@0.8.2':
     resolution: {integrity: sha512-6ixMNqzk4/YYE0r27u8QtT/n34HC3oDVJ9lO6JWT3IQd+DsbR5stmZf9BvTVb7kZmfViPOI+WSTj7tLRPBmQiA==}
@@ -7961,7 +7961,7 @@ snapshots:
       '@typescript-eslint/types': 8.0.0-alpha.41
       eslint-visitor-keys: 3.4.3
 
-  '@uni-helper/pages-json-schema@0.2.25': {}
+  '@uni-helper/pages-json-schema@0.2.26': {}
 
   '@uni-helper/uni-app-types@0.5.13(typescript@5.5.3)':
     dependencies:
@@ -8039,9 +8039,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@uni-helper/volar-service-uni-pages@0.2.25':
+  '@uni-helper/volar-service-uni-pages@0.2.26':
     dependencies:
-      '@uni-helper/pages-json-schema': 0.2.25
+      '@uni-helper/pages-json-schema': 0.2.26
       vscode-json-languageservice: 5.4.0
       vscode-languageserver-textdocument: 1.0.11
       yaml-language-server: 1.15.0
