@@ -102,7 +102,7 @@ devDependencies:
     version: 0.18.0(@vueuse/core@10.11.0)
   unplugin-vue-components:
     specifier: ^0.27.0
-    version: 0.27.2(vue@3.4.31)
+    version: 0.27.3(vue@3.4.31)
   unplugin-vue-router:
     specifier: ^0.10.0
     version: 0.10.0(vue-router@4.4.0)(vue@3.4.31)
@@ -3837,7 +3837,7 @@ packages:
     engines: {node: '>=14'}
     dependencies:
       mlly: 1.7.1
-      pkg-types: 1.1.1
+      pkg-types: 1.1.3
     dev: true
 
   /locate-path@6.0.0:
@@ -3990,9 +3990,9 @@ packages:
   /mlly@1.7.1:
     resolution: {integrity: sha512-rrVRZRELyQzrIUAVMHxP97kv+G786pHmOKzuFII8zDYahFBS7qnHh2AlYSl1GAHhaMPCz6/oHjVMcfFYgFYHgA==}
     dependencies:
-      acorn: 8.12.0
+      acorn: 8.12.1
       pathe: 1.1.2
-      pkg-types: 1.1.1
+      pkg-types: 1.1.3
       ufo: 1.5.3
     dev: true
 
@@ -4265,8 +4265,8 @@ packages:
       vue-demi: 0.14.7(vue@3.4.31)
     dev: false
 
-  /pkg-types@1.1.1:
-    resolution: {integrity: sha512-ko14TjmDuQJ14zsotODv7dBlwxKhUKQEhuhmbqo1uCi9BB0Z2alo/wAXg6q1dTR5TyuqYyWhjtfe/Tsh+X28jQ==}
+  /pkg-types@1.1.3:
+    resolution: {integrity: sha512-+JrgthZG6m3ckicaOB74TwQ+tBWsFl3qVQg7mN8ulwSOElJ7gBhKzj2VkCPnZ4NlF6kEquYU+RIYNVAvzd54UA==}
     dependencies:
       confbox: 0.1.7
       mlly: 1.7.1
@@ -4889,7 +4889,7 @@ packages:
     resolution: {integrity: sha512-91mxcZTadgXyj3lFWmrGT8GyoRHWuE5fqPOjg5RVtF6vj+OfM5G6WCzXjuYtSgELE5ggB34RY4oiCSEP8I3AHw==}
     dependencies:
       '@rollup/pluginutils': 5.1.0
-      acorn: 8.12.0
+      acorn: 8.12.1
       escape-string-regexp: 5.0.0
       estree-walker: 3.0.3
       fast-glob: 3.3.2
@@ -4897,7 +4897,7 @@ packages:
       magic-string: 0.30.10
       mlly: 1.7.1
       pathe: 1.1.2
-      pkg-types: 1.1.1
+      pkg-types: 1.1.3
       scule: 1.3.0
       strip-literal: 2.1.0
       unplugin: 1.11.0
@@ -4979,8 +4979,8 @@ packages:
       - rollup
     dev: true
 
-  /unplugin-vue-components@0.27.2(vue@3.4.31):
-    resolution: {integrity: sha512-YifnsmslMRNt+JRQiCG4ZX1+xUQuubUZm76K7Qtg8dmchZJkHIDxZSyfZb5/jqrLWMTm/TUjGJ3ZDlzO6SFnSQ==}
+  /unplugin-vue-components@0.27.3(vue@3.4.31):
+    resolution: {integrity: sha512-5wg7lbdg5ZcrAQNzyYK+6gcg/DG8K6rO+f5YeuvqGHs/PhpapBvpA4O/0ex/pFthE5WgRk43iWuRZEMLVsdz4Q==}
     engines: {node: '>=14'}
     peerDependencies:
       '@babel/parser': ^7.15.8
@@ -5001,7 +5001,7 @@ packages:
       magic-string: 0.30.10
       minimatch: 9.0.5
       mlly: 1.7.1
-      unplugin: 1.10.1
+      unplugin: 1.11.0
       vue: 3.4.31(typescript@5.5.3)
     transitivePeerDependencies:
       - rollup
@@ -5049,7 +5049,7 @@ packages:
     resolution: {integrity: sha512-3r7VWZ/webh0SGgJScpWl2/MRCZK5d3ZYFcNaeci/GQ7Teop7zf0Nl2pUuz7G21BwPd9pcUPOC5KmJ2L3WgC5g==}
     engines: {node: '>=14.0.0'}
     dependencies:
-      acorn: 8.12.0
+      acorn: 8.12.1
       chokidar: 3.6.0
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.6.2
