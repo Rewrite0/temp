@@ -76,8 +76,8 @@ importers:
         specifier: 3.0.0-alpha-4020520240719001
         version: 3.0.0-alpha-4020520240719001(@vueuse/core@10.11.0(vue@3.4.32(typescript@5.5.3)))(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.4.39)(rollup@4.13.0)(vue@3.4.32(typescript@5.5.3))
       '@dcloudio/uni-cli-shared':
-        specifier: 3.0.0-alpha-4020320240703001
-        version: 3.0.0-alpha-4020320240703001(@vueuse/core@10.11.0(vue@3.4.32(typescript@5.5.3)))(postcss@8.4.39)(rollup@4.13.0)(vue@3.4.32(typescript@5.5.3))
+        specifier: 3.0.0-alpha-4020520240719001
+        version: 3.0.0-alpha-4020520240719001(@vueuse/core@10.11.0(vue@3.4.32(typescript@5.5.3)))(postcss@8.4.39)(rollup@4.13.0)(vue@3.4.32(typescript@5.5.3))
       '@dcloudio/uni-stacktracey':
         specifier: 3.0.0-alpha-4020320240703001
         version: 3.0.0-alpha-4020320240703001
@@ -2580,9 +2580,6 @@ packages:
     resolution: {integrity: sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==}
     engines: {node: '>=10'}
 
-  caniuse-lite@1.0.30001632:
-    resolution: {integrity: sha512-udx3o7yHJfUxMLkGohMlVHCvFvWmirKh9JAH/d7WOLPetlH+LTL5cocMZ0t7oZx/mdlOWXti97xLZWc8uURRHg==}
-
   caniuse-lite@1.0.30001641:
     resolution: {integrity: sha512-Phv5thgl67bHYo1TtMY/MurjkHhV4EDaCosezRXgZ8jzA/Ub+wjxAvbGvjoFENStinwi5kCyOYV3mi5tOGykwA==}
 
@@ -3537,9 +3534,6 @@ packages:
   is-builtin-module@3.2.1:
     resolution: {integrity: sha512-BSLE3HnV2syZ0FK0iMA/yUGplUeMmNz4AW5fnTunbCIqZi4vG3WjJT9FHMy5D69xmAYBHXQhJdALdpwVxV501A==}
     engines: {node: '>=6'}
-
-  is-core-module@2.13.1:
-    resolution: {integrity: sha512-hHrIjvZsftOsvKSn2TRYl63zvxsgE0K+0mYMoH6gD4omR5IWB2KynivBQczo3+wF1cCkjzvptnI9Q0sPU66ilw==}
 
   is-core-module@2.14.0:
     resolution: {integrity: sha512-a5dFJih5ZLYlRtDc0dZWP7RiKr6xIKzmn/oAYCDvdLThadVgyJwlaoQPmRtMSpz+rk0OGAgIu+TcM9HUF0fk1A==}
@@ -5761,7 +5755,7 @@ snapshots:
 
   '@babel/parser@7.24.7':
     dependencies:
-      '@babel/types': 7.24.7
+      '@babel/types': 7.24.9
 
   '@babel/parser@7.24.8':
     dependencies:
@@ -8543,7 +8537,7 @@ snapshots:
 
   '@vue/compiler-core@3.4.21':
     dependencies:
-      '@babel/parser': 7.24.7
+      '@babel/parser': 7.24.8
       '@vue/shared': 3.4.21
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -8595,7 +8589,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.4.21':
     dependencies:
-      '@babel/parser': 7.24.7
+      '@babel/parser': 7.24.8
       '@vue/compiler-core': 3.4.21
       '@vue/compiler-dom': 3.4.21
       '@vue/compiler-ssr': 3.4.21
@@ -8836,8 +8830,8 @@ snapshots:
 
   autoprefixer@10.4.19(postcss@8.4.39):
     dependencies:
-      browserslist: 4.23.1
-      caniuse-lite: 1.0.30001632
+      browserslist: 4.23.2
+      caniuse-lite: 1.0.30001642
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.1
@@ -9040,8 +9034,6 @@ snapshots:
   camelcase@5.3.1: {}
 
   camelcase@6.3.0: {}
-
-  caniuse-lite@1.0.30001632: {}
 
   caniuse-lite@1.0.30001641: {}
 
@@ -10086,10 +10078,6 @@ snapshots:
   is-builtin-module@3.2.1:
     dependencies:
       builtin-modules: 3.3.0
-
-  is-core-module@2.13.1:
-    dependencies:
-      hasown: 2.0.2
 
   is-core-module@2.14.0:
     dependencies:
@@ -11299,7 +11287,7 @@ snapshots:
 
   resolve@1.22.8:
     dependencies:
-      is-core-module: 2.13.1
+      is-core-module: 2.14.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
 
