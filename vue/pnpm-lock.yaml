@@ -72,7 +72,7 @@ devDependencies:
     version: 9.7.0
   eslint-plugin-cypress:
     specifier: ^3.0.0
-    version: 3.3.0(eslint@9.7.0)
+    version: 3.4.0(eslint@9.7.0)
   eslint-plugin-vue:
     specifier: ^9.23.0
     version: 9.27.0(eslint@9.7.0)
@@ -96,7 +96,7 @@ devDependencies:
     version: 5.5.4
   unocss:
     specifier: ^0.61.0
-    version: 0.61.5(postcss@8.4.39)(vite@5.3.4)
+    version: 0.61.5(postcss@8.4.40)(vite@5.3.4)
   unplugin-auto-import:
     specifier: ^0.18.0
     version: 0.18.2(@vueuse/core@10.11.0)
@@ -1477,7 +1477,7 @@ packages:
       sirv: 2.0.4
     dev: true
 
-  /@unocss/postcss@0.61.5(postcss@8.4.39):
+  /@unocss/postcss@0.61.5(postcss@8.4.40):
     resolution: {integrity: sha512-FbN9G3v5X6TEzBRytnFvqOr1oeeUv1ZzprBIyXnQFg17D8rx7uRS9kAfUMoSiqAqnFxkJObv43fH+W3E41+JYQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -1489,7 +1489,7 @@ packages:
       css-tree: 2.3.1
       fast-glob: 3.3.2
       magic-string: 0.30.10
-      postcss: 8.4.39
+      postcss: 8.4.40
     dev: true
 
   /@unocss/preset-attributify@0.61.5:
@@ -2726,8 +2726,8 @@ packages:
       eslint: 9.7.0
     dev: true
 
-  /eslint-plugin-cypress@3.3.0(eslint@9.7.0):
-    resolution: {integrity: sha512-HPHMPzYBIshzJM8wqgKSKHG2p/8R0Gbg4Pb3tcdC9WrmkuqxiKxSKbjunUrajhV5l7gCIFrh1P7C7GuBqH6YuQ==}
+  /eslint-plugin-cypress@3.4.0(eslint@9.7.0):
+    resolution: {integrity: sha512-Rrrr3Ri6wHqzrRr+TyUV7bDS4UnMMrFY1R1PP2F7XdGfe9txDC6lQEshyoNOWqGoPkbbeDm1x1XPc/adxemsnA==}
     peerDependencies:
       eslint: '>=7'
     dependencies:
@@ -4144,6 +4144,15 @@ packages:
       picocolors: 1.0.1
       source-map-js: 1.2.0
 
+  /postcss@8.4.40:
+    resolution: {integrity: sha512-YF2kKIUzAofPMpfH6hOi2cGnv/HrUlfucspc7pDyvv7kGdqXrfj8SCl/t8owkEgKEuu8ZcRjSOxFxVLqwChZ2Q==}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.7
+      picocolors: 1.0.1
+      source-map-js: 1.2.0
+    dev: true
+
   /prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
@@ -4768,7 +4777,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss@0.61.5(postcss@8.4.39)(vite@5.3.4):
+  /unocss@0.61.5(postcss@8.4.40)(vite@5.3.4):
     resolution: {integrity: sha512-BScwlqXW9KHQLKIKtXmwWmMb4Ihoryb7uIgmS+HSqmCN58eqNA73vAo3cZ97xtO+RFdauqgGKP5wD6ShQUvqnQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4784,7 +4793,7 @@ packages:
       '@unocss/cli': 0.61.5
       '@unocss/core': 0.61.5
       '@unocss/extractor-arbitrary-variants': 0.61.5
-      '@unocss/postcss': 0.61.5(postcss@8.4.39)
+      '@unocss/postcss': 0.61.5(postcss@8.4.40)
       '@unocss/preset-attributify': 0.61.5
       '@unocss/preset-icons': 0.61.5
       '@unocss/preset-mini': 0.61.5
