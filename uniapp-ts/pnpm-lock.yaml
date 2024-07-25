@@ -95,7 +95,7 @@ importers:
         version: 0.5.13(typescript@5.5.4)
       '@uni-helper/uni-env':
         specifier: ^0.1.0
-        version: 0.1.3
+        version: 0.1.4
       '@uni-helper/vite-plugin-uni-components':
         specifier: ^0.0.9
         version: 0.0.9(rollup@4.13.0)
@@ -1905,8 +1905,8 @@ packages:
     peerDependencies:
       typescript: ^4.8.0 || ^5.0.0
 
-  '@uni-helper/uni-env@0.1.3':
-    resolution: {integrity: sha512-s3NG3T+BXlrx5pQzPSbit1j+rotdAxhAlciapvMuxg591XElZ0quaK3v3utx0DNT7/Yx7iAAhdcBUdxoni0p8Q==}
+  '@uni-helper/uni-env@0.1.4':
+    resolution: {integrity: sha512-dtHhx7AJwvPxN+iSvvzyYtak946f0lOLQX14chg6etBJqLqaipsK92HRCkYZFCofsdkHeQLJTf1ZnEdzatZE3Q==}
 
   '@uni-helper/uni-network@0.19.2':
     resolution: {integrity: sha512-CQK1VtzhLoG7GBJqvBFcr1QNDOJnB2jfaN3kwT2aTnjR9JqOaYmuS0wr5IEk75S/yPnNdkGbQ3kplddFElFW8w==}
@@ -7803,7 +7803,7 @@ snapshots:
       typescript: 5.5.4
       vue3: vue@3.4.34(typescript@5.5.4)
 
-  '@uni-helper/uni-env@0.1.3':
+  '@uni-helper/uni-env@0.1.4':
     dependencies:
       std-env: 3.7.0
 
@@ -7838,7 +7838,7 @@ snapshots:
   '@uni-helper/vite-plugin-uni-layouts@0.1.10(rollup@4.13.0)':
     dependencies:
       '@babel/types': 7.24.5
-      '@uni-helper/uni-env': 0.1.3
+      '@uni-helper/uni-env': 0.1.4
       '@vue/compiler-core': 3.4.27
       '@vue/compiler-sfc': 3.4.27
       ast-kit: 0.11.3(rollup@4.13.0)
@@ -7858,7 +7858,7 @@ snapshots:
 
   '@uni-helper/vite-plugin-uni-pages@0.2.26':
     dependencies:
-      '@uni-helper/uni-env': 0.1.3
+      '@uni-helper/uni-env': 0.1.4
       '@vue/compiler-sfc': 3.4.31
       chokidar: 3.6.0
       debug: 4.3.5
