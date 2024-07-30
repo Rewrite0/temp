@@ -15,8 +15,8 @@ dependencies:
     specifier: ^7.0.0
     version: 7.0.0
   primevue:
-    specifier: 4.0.2
-    version: 4.0.2(vue@3.4.34)
+    specifier: 4.0.3
+    version: 4.0.3(vue@3.4.34)
   vue:
     specifier: ^3.4.21
     version: 3.4.34(typescript@5.5.4)
@@ -1241,8 +1241,8 @@ packages:
     engines: {node: '>=12.11.0'}
     dev: false
 
-  /@primevue/core@4.0.2(vue@3.4.34):
-    resolution: {integrity: sha512-SpCIQ1LG6B66cecmZt1UdFeY7tbdJrgnhncADolfE9fcCyTSBtbaVLLhCV2E4Q9myMwCFE5KQxqazA4rdLWk4w==}
+  /@primevue/core@4.0.3(vue@3.4.34):
+    resolution: {integrity: sha512-pKdXsYHRMtJfw1tjPJ2u3bC+QLUDIftdHgR7DRfZ4ZV0/9qOGpFZIBYTv3Px+NGQnV+qAyp3Yeh/pS9UO83wHQ==}
     engines: {node: '>=12.11.0'}
     peerDependencies:
       vue: ^3.0.0
@@ -1252,12 +1252,12 @@ packages:
       vue: 3.4.34(typescript@5.5.4)
     dev: false
 
-  /@primevue/icons@4.0.2(vue@3.4.34):
-    resolution: {integrity: sha512-S1VEpMsx4uUAsTjZtII03LQqgocYwSKbXMF0YDFWybY8r5LaHaveVZxS/i+KbsCLaL18BXJw0L/7L1eQdJHzaA==}
+  /@primevue/icons@4.0.3(vue@3.4.34):
+    resolution: {integrity: sha512-eamWkgXhAt/3nC0HJLYmkpXf6DP9QDQ/ecaqT9onNlHXHXL+QDd25OG/wKHPKB94jh3AO/9rD1aMW+YtXtkKbQ==}
     engines: {node: '>=12.11.0'}
     dependencies:
       '@primeuix/utils': 0.0.5
-      '@primevue/core': 4.0.2(vue@3.4.34)
+      '@primevue/core': 4.0.3(vue@3.4.34)
     transitivePeerDependencies:
       - vue
     dev: false
@@ -4466,14 +4466,14 @@ packages:
     resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
     dev: false
 
-  /primevue@4.0.2(vue@3.4.34):
-    resolution: {integrity: sha512-bf5In//ixosZDOcfJ0iaBXhtQSpNC/CuAOE2KHd/SgUKZdij3VRljQ+I9+Be/TTxfikIeKH7eZ4gzDbWiIZurw==}
+  /primevue@4.0.3(vue@3.4.34):
+    resolution: {integrity: sha512-f/41JMb7pMP++zKuiymXYmDMk/4oFRlJKXQzgrAy5Q3esU29hS59MBaP2CsHdPoJasQSzVAgOT+36S4/WXLajg==}
     engines: {node: '>=12.11.0'}
     dependencies:
       '@primeuix/styled': 0.0.5
       '@primeuix/utils': 0.0.5
-      '@primevue/core': 4.0.2(vue@3.4.34)
-      '@primevue/icons': 4.0.2(vue@3.4.34)
+      '@primevue/core': 4.0.3(vue@3.4.34)
+      '@primevue/icons': 4.0.3(vue@3.4.34)
     transitivePeerDependencies:
       - vue
     dev: false
