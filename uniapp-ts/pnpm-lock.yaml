@@ -110,7 +110,7 @@ importers:
         version: 0.2.27
       '@uni-helper/volar-service-uni-pages':
         specifier: ^0.2.3
-        version: 0.2.26
+        version: 0.2.27
       '@unocss/eslint-config':
         specifier: ^0.62.0
         version: 0.62.2(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)
@@ -2028,8 +2028,8 @@ packages:
     resolution: {integrity: sha512-ba0lNI19awqZ5ZNKh6wCModMwoZs457StTebQ0q1NP58zSi2F6MOZRXwfKZy+jB78JNJ/WH8GSh2IQNzXX8Nag==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@uni-helper/pages-json-schema@0.2.26':
-    resolution: {integrity: sha512-cssuTRUUGMKMlVMHk+CZ+28m4eJmJjJP+IMtyno7a+wDAQsRcJDNh9gc9qZqcekyFEO2svr6jN5iEJkUil+1vg==}
+  '@uni-helper/pages-json-schema@0.2.27':
+    resolution: {integrity: sha512-oIuOJe9zQyJjjm9loMJBQUtdUDDHD0+z5fHVqpJNVfdr2jQak62vZG7vkyEKIjWSTxwnoiMhnOHlgD9Y+OVH9A==}
 
   '@uni-helper/uni-app-types@0.5.13':
     resolution: {integrity: sha512-NIKHv9Zof7sxsznjH+LRB2VM8ncEyfpkwRVLm7u2N1X3e1RFWvABH+bttfu+d8FIP6JzksBNOQwsyZjDnLN0fw==}
@@ -2069,8 +2069,8 @@ packages:
   '@uni-helper/vite-plugin-uni-pages@0.2.27':
     resolution: {integrity: sha512-bXQFnSVmBhV8Iech3vZULLwmfUrZdzOYPJQeL4eO8yXj6eDJq/HuhCs6bqhsL5hd1Mnz9wshRkNfEZ8Tg0iJfw==}
 
-  '@uni-helper/volar-service-uni-pages@0.2.26':
-    resolution: {integrity: sha512-WuxklqH5cuGQT1TxyRu73Nym7tencxO4hed9D6vh7qfP5yuOyBHxCzNdTqXWFtMZ0L/M3VUBK6Bk4nBiBx6Q4A==}
+  '@uni-helper/volar-service-uni-pages@0.2.27':
+    resolution: {integrity: sha512-4b0Wn9yCS5kwwjBGdzf2qqPAUaZ7ZoJuiq3Ocm22a0U0Crsbik7+MSYy+fklcIrro0xqgJaHPHLYWj9VV99D+A==}
 
   '@unocss-applet/preset-applet@0.8.2':
     resolution: {integrity: sha512-6ixMNqzk4/YYE0r27u8QtT/n34HC3oDVJ9lO6JWT3IQd+DsbR5stmZf9BvTVb7kZmfViPOI+WSTj7tLRPBmQiA==}
@@ -5188,8 +5188,8 @@ packages:
   vscode-languageserver-protocol@3.16.0:
     resolution: {integrity: sha512-sdeUoAawceQdgIfTI+sdcwkiK2KU+2cbEYA0agzM2uqaUy2UpnnGHtWTHVEtS0ES4zHU0eMFRGN+oQgDxlD66A==}
 
-  vscode-languageserver-textdocument@1.0.11:
-    resolution: {integrity: sha512-X+8T3GoiwTVlJbicx/sIAF+yuJAqz8VvwJyoMVhwEMoEKE/fkDmrqUgDMyBECcM2A2frVZIUj5HI/ErRXCfOeA==}
+  vscode-languageserver-textdocument@1.0.12:
+    resolution: {integrity: sha512-cxWNPesCnQCcMPeenjKKsOCKQZ/L6Tv19DTRIGuLWe32lyzWhihGVJ/rcckZXJxfdKCFvRLS3fpBIsV/ZGX4zA==}
 
   vscode-languageserver-types@3.16.0:
     resolution: {integrity: sha512-k8luDIWJWyenLc5ToFQQMaSrqCHiLwyKPHKPQZ5zz21vM+vIVUSvsRpcbiECH4WR88K2XZqc4ScRcZ7nk/jbeA==}
@@ -8019,7 +8019,7 @@ snapshots:
       '@typescript-eslint/types': 8.1.0
       eslint-visitor-keys: 3.4.3
 
-  '@uni-helper/pages-json-schema@0.2.26': {}
+  '@uni-helper/pages-json-schema@0.2.27': {}
 
   '@uni-helper/uni-app-types@0.5.13(typescript@5.5.4)':
     dependencies:
@@ -8097,11 +8097,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@uni-helper/volar-service-uni-pages@0.2.26':
+  '@uni-helper/volar-service-uni-pages@0.2.27':
     dependencies:
-      '@uni-helper/pages-json-schema': 0.2.26
+      '@uni-helper/pages-json-schema': 0.2.27
       vscode-json-languageservice: 5.4.0
-      vscode-languageserver-textdocument: 1.0.11
+      vscode-languageserver-textdocument: 1.0.12
       yaml-language-server: 1.15.0
 
   '@unocss-applet/preset-applet@0.8.2(@unocss/core@0.62.2)(@unocss/preset-mini@0.62.2)(@unocss/preset-uno@0.62.2)(unocss@0.62.2(postcss@8.4.41)(rollup@4.13.0)(vite@5.4.1(@types/node@20.15.0)(sass@1.77.8)(terser@5.19.2)))':
@@ -11708,7 +11708,7 @@ snapshots:
   vscode-json-languageservice@4.1.8:
     dependencies:
       jsonc-parser: 3.3.1
-      vscode-languageserver-textdocument: 1.0.11
+      vscode-languageserver-textdocument: 1.0.12
       vscode-languageserver-types: 3.17.5
       vscode-nls: 5.2.0
       vscode-uri: 3.0.8
@@ -11717,7 +11717,7 @@ snapshots:
     dependencies:
       '@vscode/l10n': 0.0.18
       jsonc-parser: 3.3.1
-      vscode-languageserver-textdocument: 1.0.11
+      vscode-languageserver-textdocument: 1.0.12
       vscode-languageserver-types: 3.17.5
       vscode-uri: 3.0.8
 
@@ -11728,7 +11728,7 @@ snapshots:
       vscode-jsonrpc: 6.0.0
       vscode-languageserver-types: 3.16.0
 
-  vscode-languageserver-textdocument@1.0.11: {}
+  vscode-languageserver-textdocument@1.0.12: {}
 
   vscode-languageserver-types@3.16.0: {}
 
@@ -11902,7 +11902,7 @@ snapshots:
       request-light: 0.5.8
       vscode-json-languageservice: 4.1.8
       vscode-languageserver: 7.0.0
-      vscode-languageserver-textdocument: 1.0.11
+      vscode-languageserver-textdocument: 1.0.12
       vscode-languageserver-types: 3.17.5
       vscode-nls: 5.2.0
       vscode-uri: 3.0.8
