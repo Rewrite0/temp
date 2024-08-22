@@ -97,8 +97,8 @@ importers:
         specifier: ^0.1.0
         version: 0.1.4
       '@uni-helper/vite-plugin-uni-components':
-        specifier: ^0.0.10
-        version: 0.0.10(rollup@4.21.0)
+        specifier: ^0.1.0
+        version: 0.1.0(rollup@4.21.0)
       '@uni-helper/vite-plugin-uni-layouts':
         specifier: ^0.1.2
         version: 0.1.10(rollup@4.21.0)
@@ -2087,8 +2087,8 @@ packages:
       vue:
         optional: true
 
-  '@uni-helper/vite-plugin-uni-components@0.0.10':
-    resolution: {integrity: sha512-DtScnAkLWRxVWRUGrCG0bQvdQzLDtrcMu0QQKUV7kbw/C9477dKyCRdLXe9vXVmG+HSlHiJFhAu6wSOSnHrStw==}
+  '@uni-helper/vite-plugin-uni-components@0.1.0':
+    resolution: {integrity: sha512-rqHswBjVf0sMssGQ8G2xc3BrEvW07niRBHR2YyUyoD9MCEPN3T6NIpMOXh2QHujJIIm4XwKF8GQV3RaljWRupQ==}
 
   '@uni-helper/vite-plugin-uni-layouts@0.1.10':
     resolution: {integrity: sha512-RJdGmJjZtpKNVfShiKYZrualMxdi+i8uh7zpPG+X3lzf6wyKSJgWwVAj3GUdqeE/QUEncNPmj2sqwuyeLXPxbA==}
@@ -8107,7 +8107,7 @@ snapshots:
       '@vueuse/core': 11.0.1(vue@3.4.38(typescript@5.5.4))
       vue: 3.4.38(typescript@5.5.4)
 
-  '@uni-helper/vite-plugin-uni-components@0.0.10(rollup@4.21.0)':
+  '@uni-helper/vite-plugin-uni-components@0.1.0(rollup@4.21.0)':
     dependencies:
       '@antfu/utils': 0.7.10
       '@rollup/pluginutils': 5.1.0(rollup@4.21.0)
@@ -11612,7 +11612,7 @@ snapshots:
       estree-walker: 3.0.3
       fast-glob: 3.3.2
       local-pkg: 0.5.0
-      magic-string: 0.30.10
+      magic-string: 0.30.11
       mlly: 1.7.1
       pathe: 1.1.2
       pkg-types: 1.1.3
