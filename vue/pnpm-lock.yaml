@@ -117,7 +117,7 @@ devDependencies:
     version: 2.0.5(@types/node@20.16.2)(jsdom@25.0.0)(sass@1.77.8)
   vue-tsc:
     specifier: ^2.0.11
-    version: 2.1.2(typescript@5.5.4)
+    version: 2.1.5(typescript@5.5.4)
 
 packages:
 
@@ -1985,8 +1985,9 @@ packages:
       - supports-color
     dev: true
 
-  /@vue/language-core@2.1.2(typescript@5.5.4):
-    resolution: {integrity: sha512-tt2J7C+l0J/T5PaLhJ0jvCCi0JNwu3e8azWTYxW3jmAW5B/dac0g5UxmI7l59CQgCGFotqUqI3tXjfZgoWNtog==}
+  /@vue/language-core@2.1.5(typescript@5.5.4):
+    resolution: {integrity: sha512-YwF5+2v+rnue2/17wP84tnZgaB2hUM4C1U+115vVGrDAPGhBf7YG0nPv1SO0yUeEpYMYtED4ClamkXAwpoz2Yw==}
+    deprecated: use 2.1.4 instead
     peerDependencies:
       typescript: '*'
     peerDependenciesMeta:
@@ -5441,14 +5442,15 @@ packages:
       '@vue/devtools-api': 6.6.3
       vue: 3.4.38(typescript@5.5.4)
 
-  /vue-tsc@2.1.2(typescript@5.5.4):
-    resolution: {integrity: sha512-PH1BDxWT3eaPhl73elyZj6DV0nR3K4IFoUM1sGzMXXQneovVUwHQytdSyAHiED5MtEINGSHpL/Hs9ch+c/tDTw==}
+  /vue-tsc@2.1.5(typescript@5.5.4):
+    resolution: {integrity: sha512-r4uljp8HQkGXPnNHR0qKkoE/g5OYYycr9Kfblxg0pLaPAxVr7SU/wmYhD7Y/ETApDl4+ZwvgFgn3RTOE7Xgy0Q==}
+    deprecated: use 2.1.4 instead
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
     dependencies:
       '@volar/typescript': 2.4.1
-      '@vue/language-core': 2.1.2(typescript@5.5.4)
+      '@vue/language-core': 2.1.5(typescript@5.5.4)
       semver: 7.6.3
       typescript: 5.5.4
     dev: true

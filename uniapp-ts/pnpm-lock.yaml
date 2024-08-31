@@ -146,7 +146,7 @@ importers:
         version: 5.4.2(@types/node@20.16.2)(sass@1.77.8)(terser@5.19.2)
       vue-tsc:
         specifier: ^2.0.0
-        version: 2.1.2(typescript@5.5.4)
+        version: 2.1.5(typescript@5.5.4)
 
 packages:
 
@@ -2343,8 +2343,9 @@ packages:
   '@vue/devtools-api@6.6.3':
     resolution: {integrity: sha512-0MiMsFma/HqA6g3KLKn+AGpL1kgKhFWszC9U29NfpWK5LE7bjeXxySWJrOJ77hBz+TBrBQ7o4QJqbPbqbs8rJw==}
 
-  '@vue/language-core@2.1.2':
-    resolution: {integrity: sha512-tt2J7C+l0J/T5PaLhJ0jvCCi0JNwu3e8azWTYxW3jmAW5B/dac0g5UxmI7l59CQgCGFotqUqI3tXjfZgoWNtog==}
+  '@vue/language-core@2.1.5':
+    resolution: {integrity: sha512-YwF5+2v+rnue2/17wP84tnZgaB2hUM4C1U+115vVGrDAPGhBf7YG0nPv1SO0yUeEpYMYtED4ClamkXAwpoz2Yw==}
+    deprecated: use 2.1.4 instead
     peerDependencies:
       typescript: '*'
     peerDependenciesMeta:
@@ -3031,6 +3032,10 @@ packages:
 
   escalade@3.1.2:
     resolution: {integrity: sha512-ErCHMCae19vR8vQGe50xIsVomy19rg6gFu3+r3jkEO46suLMWBksvVyoGgQV+jOfl84ZSOSlmv6Gxa89PmTGmA==}
+    engines: {node: '>=6'}
+
+  escalade@3.2.0:
+    resolution: {integrity: sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA==}
     engines: {node: '>=6'}
 
   escape-html@1.0.3:
@@ -5289,8 +5294,9 @@ packages:
     peerDependencies:
       vue: ^3.2.0
 
-  vue-tsc@2.1.2:
-    resolution: {integrity: sha512-PH1BDxWT3eaPhl73elyZj6DV0nR3K4IFoUM1sGzMXXQneovVUwHQytdSyAHiED5MtEINGSHpL/Hs9ch+c/tDTw==}
+  vue-tsc@2.1.5:
+    resolution: {integrity: sha512-r4uljp8HQkGXPnNHR0qKkoE/g5OYYycr9Kfblxg0pLaPAxVr7SU/wmYhD7Y/ETApDl4+ZwvgFgn3RTOE7Xgy0Q==}
+    deprecated: use 2.1.4 instead
     hasBin: true
     peerDependencies:
       typescript: '>=5.0.0'
@@ -8560,7 +8566,7 @@ snapshots:
 
   '@vue/devtools-api@6.6.3': {}
 
-  '@vue/language-core@2.1.2(typescript@5.5.4)':
+  '@vue/language-core@2.1.5(typescript@5.5.4)':
     dependencies:
       '@volar/language-core': 2.4.1
       '@vue/compiler-dom': 3.4.38
@@ -9293,6 +9299,8 @@ snapshots:
       '@esbuild/win32-x64': 0.23.1
 
   escalade@3.1.2: {}
+
+  escalade@3.2.0: {}
 
   escape-html@1.0.3: {}
 
@@ -11871,10 +11879,10 @@ snapshots:
       '@vue/devtools-api': 6.6.3
       vue: 3.4.38(typescript@5.5.4)
 
-  vue-tsc@2.1.2(typescript@5.5.4):
+  vue-tsc@2.1.5(typescript@5.5.4):
     dependencies:
       '@volar/typescript': 2.4.1
-      '@vue/language-core': 2.1.2(typescript@5.5.4)
+      '@vue/language-core': 2.1.5(typescript@5.5.4)
       semver: 7.6.3
       typescript: 5.5.4
 
@@ -12019,7 +12027,7 @@ snapshots:
   yargs@16.2.0:
     dependencies:
       cliui: 7.0.4
-      escalade: 3.1.2
+      escalade: 3.2.0
       get-caller-file: 2.0.5
       require-directory: 2.1.1
       string-width: 4.2.3
