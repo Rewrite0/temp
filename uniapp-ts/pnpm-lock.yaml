@@ -52,7 +52,7 @@ importers:
         version: 3.0.0-alpha-4020820240914002(@vueuse/core@11.1.0(vue@3.5.6(typescript@5.6.2)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.6(typescript@5.6.2))(webpack-sources@3.2.3)
       '@uni-helper/uni-network':
         specifier: ^0.19.0
-        version: 0.19.2(@vueuse/core@11.1.0(vue@3.5.6(typescript@5.6.2)))(vue@3.5.6(typescript@5.6.2))
+        version: 0.19.3(@vueuse/core@11.1.0(vue@3.5.6(typescript@5.6.2)))(vue@3.5.6(typescript@5.6.2))
       '@vueuse/core':
         specifier: ^11.0.0
         version: 11.1.0(vue@3.5.6(typescript@5.6.2))
@@ -1888,8 +1888,8 @@ packages:
   '@types/lodash.merge@4.6.9':
     resolution: {integrity: sha512-23sHDPmzd59kUgWyKGiOMO2Qb9YtqRO/x4IhkgNUiPQ1+5MUVqi6bCZeq9nBJ17msjIMbEIO5u+XW4Kz6aGUhQ==}
 
-  '@types/lodash@4.17.6':
-    resolution: {integrity: sha512-OpXEVoCKSS3lQqjx9GGGOapBeuW5eUboYHRlHP9urXPX25IKZ6AnP5ZRxtVf63iieUbsHxLn8NQ5Nlftc6yzAA==}
+  '@types/lodash@4.17.7':
+    resolution: {integrity: sha512-8wTvZawATi/lsmNu10/j2hk1KEP0IvjubqPE3cu1Xz7xfXXt5oCq3SNUz4fMIP4XGF9Ky+Ue2tBA3hcS7LSBlA==}
 
   '@types/mdast@4.0.4':
     resolution: {integrity: sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA==}
@@ -1908,9 +1908,6 @@ packages:
 
   '@types/stack-utils@2.0.3':
     resolution: {integrity: sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw==}
-
-  '@types/statuses@2.0.5':
-    resolution: {integrity: sha512-jmIUGWrAiwu3dZpxntxieC+1n/5c3mjrImkmOSQ2NC5uP6cYO4aAZDdSmRcI5C1oiTmqlZGHC+/NmJrKogbP5A==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -1993,12 +1990,12 @@ packages:
   '@uni-helper/uni-env@0.1.4':
     resolution: {integrity: sha512-dtHhx7AJwvPxN+iSvvzyYtak946f0lOLQX14chg6etBJqLqaipsK92HRCkYZFCofsdkHeQLJTf1ZnEdzatZE3Q==}
 
-  '@uni-helper/uni-network@0.19.2':
-    resolution: {integrity: sha512-CQK1VtzhLoG7GBJqvBFcr1QNDOJnB2jfaN3kwT2aTnjR9JqOaYmuS0wr5IEk75S/yPnNdkGbQ3kplddFElFW8w==}
+  '@uni-helper/uni-network@0.19.3':
+    resolution: {integrity: sha512-biQtckY/195TmqOeJbKD5tyZEctlOOP2OwqsYDukCx9nqV+5jOC7J2vCHeYXlqzNfHDq5PXzNG4HrIARkF/uvQ==}
     engines: {node: '>=18'}
     peerDependencies:
       '@vue/composition-api': ^1.0.0
-      '@vueuse/core': ^9.0.0 || ^10.0.0
+      '@vueuse/core': ^9.0.0 || ^10.0.0 || ^11.0.0
       vue: ^2.6.0 || ^2.7.0 || ^3.2.0
     peerDependenciesMeta:
       '@vue/composition-api':
@@ -4847,6 +4844,10 @@ packages:
     resolution: {integrity: sha512-XlkWvfIm6RmsWtNJx+uqtKLS8eqFbxUg0ZzLXqY0caEy9l7hruX8IpiDnjsLavoBgqCCR71TqWO8MaXYheJ3RQ==}
     engines: {node: '>=10'}
 
+  statuses-es@2.0.6:
+    resolution: {integrity: sha512-MNbejKdhYUwxsiupoRli1XOb9WSaGLtoE6130mfjAXjHp5AV3cCdCTYzRbIV1qXLXq1uRHvs5J9jmR3tPZKDqw==}
+    engines: {node: '>= 0.8'}
+
   statuses@2.0.1:
     resolution: {integrity: sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==}
     engines: {node: '>= 0.8'}
@@ -5261,17 +5262,6 @@ packages:
 
   vue-demi@0.14.10:
     resolution: {integrity: sha512-nMZBOwuzabUO0nLgIcc6rycZEebF6eeUfaiQx9+WSk8e29IbLvPU9feI6tqW4kTo3hvoYAJkMh8n8D0fuISphg==}
-    engines: {node: '>=12'}
-    hasBin: true
-    peerDependencies:
-      '@vue/composition-api': ^1.0.0-rc.1
-      vue: ^3.0.0-0 || ^2.6.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
-
-  vue-demi@0.14.8:
-    resolution: {integrity: sha512-Uuqnk9YE9SsWeReYqK2alDI5YzciATE0r2SkA6iMAtuXvNTMNACJLJEXNXaEy94ECuBe4Sk6RzRU80kjdbIo1Q==}
     engines: {node: '>=12'}
     hasBin: true
     peerDependencies:
@@ -7892,9 +7882,9 @@ snapshots:
 
   '@types/lodash.merge@4.6.9':
     dependencies:
-      '@types/lodash': 4.17.6
+      '@types/lodash': 4.17.7
 
-  '@types/lodash@4.17.6': {}
+  '@types/lodash@4.17.7': {}
 
   '@types/mdast@4.0.4':
     dependencies:
@@ -7911,8 +7901,6 @@ snapshots:
   '@types/prettier@2.7.3': {}
 
   '@types/stack-utils@2.0.3': {}
-
-  '@types/statuses@2.0.5': {}
 
   '@types/unist@3.0.3': {}
 
@@ -8017,15 +8005,14 @@ snapshots:
     dependencies:
       std-env: 3.7.0
 
-  '@uni-helper/uni-network@0.19.2(@vueuse/core@11.1.0(vue@3.5.6(typescript@5.6.2)))(vue@3.5.6(typescript@5.6.2))':
+  '@uni-helper/uni-network@0.19.3(@vueuse/core@11.1.0(vue@3.5.6(typescript@5.6.2)))(vue@3.5.6(typescript@5.6.2))':
     dependencies:
       '@dcloudio/types': 3.4.12
       '@types/lodash.merge': 4.6.9
-      '@types/statuses': 2.0.5
       fast-querystring: 1.1.2
       lodash.merge: 4.6.2
-      statuses: 2.0.1
-      vue-demi: 0.14.8(vue@3.5.6(typescript@5.6.2))
+      statuses-es: 2.0.6
+      vue-demi: 0.14.10(vue@3.5.6(typescript@5.6.2))
     optionalDependencies:
       '@vueuse/core': 11.1.0(vue@3.5.6(typescript@5.6.2))
       vue: 3.5.6(typescript@5.6.2)
@@ -11586,6 +11573,8 @@ snapshots:
     dependencies:
       escape-string-regexp: 2.0.0
 
+  statuses-es@2.0.6: {}
+
   statuses@2.0.1: {}
 
   std-env@3.7.0: {}
@@ -11996,10 +11985,6 @@ snapshots:
   vscode-uri@3.0.8: {}
 
   vue-demi@0.14.10(vue@3.5.6(typescript@5.6.2)):
-    dependencies:
-      vue: 3.5.6(typescript@5.6.2)
-
-  vue-demi@0.14.8(vue@3.5.6(typescript@5.6.2)):
     dependencies:
       vue: 3.5.6(typescript@5.6.2)
 
