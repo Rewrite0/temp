@@ -10,7 +10,7 @@ dependencies:
     version: 11.1.0(vue@3.5.10)
   pinia:
     specifier: ^2.1.7
-    version: 2.2.3(typescript@5.6.2)(vue@3.5.10)
+    version: 2.2.4(typescript@5.6.2)(vue@3.5.10)
   primeicons:
     specifier: ^7.0.0
     version: 7.0.0
@@ -4251,8 +4251,8 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
-  /pinia@2.2.3(typescript@5.6.2)(vue@3.5.10):
-    resolution: {integrity: sha512-t2X9y1FT0h5zHmi9PsVr0LMNC0DXdPiYxX6zM5IyZHoWFjLq/LGpM1OVpGhXTPHjUh0XaFlsQd3GvPvGGNLQnw==}
+  /pinia@2.2.4(typescript@5.6.2)(vue@3.5.10):
+    resolution: {integrity: sha512-K7ZhpMY9iJ9ShTC0cR2+PnxdQRuwVIsXDO/WIEV/RnMC/vmSoKDTKW/exNQYPI+4ij10UjXqdNiEHwn47McANQ==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
