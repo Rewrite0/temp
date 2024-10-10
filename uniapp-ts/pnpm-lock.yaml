@@ -30,8 +30,8 @@ importers:
         specifier: 3.0.0-alpha-4030120241009001
         version: 3.0.0-alpha-4030120241009001(@vueuse/core@11.1.0(vue@3.5.11(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
       '@dcloudio/uni-mp-kuaishou':
-        specifier: 3.0.0-alpha-4030120240925001
-        version: 3.0.0-alpha-4030120240925001(@vueuse/core@11.1.0(vue@3.5.11(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
+        specifier: 3.0.0-alpha-4030120241009001
+        version: 3.0.0-alpha-4030120241009001(@vueuse/core@11.1.0(vue@3.5.11(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
       '@dcloudio/uni-mp-lark':
         specifier: 3.0.0-alpha-4030120240925001
         version: 3.0.0-alpha-4030120240925001(@vueuse/core@11.1.0(vue@3.5.11(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
@@ -942,8 +942,8 @@ packages:
   '@dcloudio/uni-mp-jd@3.0.0-alpha-4030120241009001':
     resolution: {integrity: sha512-o1fb2DDk9KzF9xrRXIfEEe2uPCM5oFjWQondh6l3ert/kF94OI/GUIAFARXachqpKC1XArqccwxnpmpNcCXW6g==}
 
-  '@dcloudio/uni-mp-kuaishou@3.0.0-alpha-4030120240925001':
-    resolution: {integrity: sha512-AMVpp395GTsQSeiUM++o3xMDAssQEGT1Zq/CepgIDor7Vnw+GDchC1xY7KqoM57fgUCL8tlpN0hU9+f+TjHS8g==}
+  '@dcloudio/uni-mp-kuaishou@3.0.0-alpha-4030120241009001':
+    resolution: {integrity: sha512-840gbI9Xesr+zQ9ES3ytfV+AsJfpPcrfuTD4ftf5ICaSVE9aJ4P+LZuEiFx8Vuq84hZ04GtNQ/JMtyLM9tk1rg==}
 
   '@dcloudio/uni-mp-lark@3.0.0-alpha-4030120240925001':
     resolution: {integrity: sha512-w8tr0t4lVufdZGUL+vjEQai9Km4eXd+kjcL0sbdKSr+FERwJF1oNFqMHyfa7lzwXlHxmFPAx9LJxg1v8Wdh4KQ==}
@@ -6933,14 +6933,14 @@ snapshots:
       - vue
       - webpack-sources
 
-  '@dcloudio/uni-mp-kuaishou@3.0.0-alpha-4030120240925001(@vueuse/core@11.1.0(vue@3.5.11(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)':
+  '@dcloudio/uni-mp-kuaishou@3.0.0-alpha-4030120241009001(@vueuse/core@11.1.0(vue@3.5.11(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)':
     dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4030120240925001(@vueuse/core@11.1.0(vue@3.5.11(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
-      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-4030120240925001(@vueuse/core@11.1.0(vue@3.5.11(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
-      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4030120240925001(@vueuse/core@11.1.0(vue@3.5.11(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
-      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4030120240925001
-      '@dcloudio/uni-mp-weixin': 3.0.0-alpha-4030120240925001(@vueuse/core@11.1.0(vue@3.5.11(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
-      '@dcloudio/uni-shared': 3.0.0-alpha-4030120240925001
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4030120241009001(@vueuse/core@11.1.0(vue@3.5.11(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
+      '@dcloudio/uni-mp-compiler': 3.0.0-alpha-4030120241009001(@vueuse/core@11.1.0(vue@3.5.11(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
+      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4030120241009001(@vueuse/core@11.1.0(vue@3.5.11(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
+      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4030120241009001
+      '@dcloudio/uni-mp-weixin': 3.0.0-alpha-4030120241009001(@vueuse/core@11.1.0(vue@3.5.11(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
+      '@dcloudio/uni-shared': 3.0.0-alpha-4030120241009001
       '@vue/compiler-core': 3.4.21
       '@vue/shared': 3.4.21
     transitivePeerDependencies:
