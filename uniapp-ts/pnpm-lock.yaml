@@ -86,7 +86,7 @@ importers:
         version: 3.0.0-alpha-4030120241009001(@vueuse/core@11.1.0(vue@3.5.12(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vite@5.4.8(@types/node@20.16.11)(sass@1.79.5)(terser@5.19.2))(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)
       '@iconify-json/carbon':
         specifier: ^1.1.18
-        version: 1.2.2
+        version: 1.2.3
       '@types/node':
         specifier: ^20.4.2
         version: 20.16.11
@@ -1455,8 +1455,8 @@ packages:
     resolution: {integrity: sha512-JBxkERygn7Bv/GbN5Rv8Ul6LVknS+5Bp6RgDC/O8gEBU/yeH5Ui5C/OlWrTb6qct7LjjfT6Re2NxB0ln0yYybA==}
     engines: {node: '>=18.18'}
 
-  '@iconify-json/carbon@1.2.2':
-    resolution: {integrity: sha512-cmGo+PBMIuYWHML/vvZzKqc1XEqZCTxBIubTSWph5u8uT15oKilPyaqTxRw054k6JZ+n0mD0OIoUo2OEvec6kg==}
+  '@iconify-json/carbon@1.2.3':
+    resolution: {integrity: sha512-smQ1nMHZn1BcTBqr13SP/7z3F1mbGCjUT1PdcpmbRoBrB4nAA9ErkTvUp49zxCQ/6VHcJsVzLV2zVXY3jJ4Bnw==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -7397,7 +7397,7 @@ snapshots:
 
   '@humanwhocodes/retry@0.3.1': {}
 
-  '@iconify-json/carbon@1.2.2':
+  '@iconify-json/carbon@1.2.3':
     dependencies:
       '@iconify/types': 2.0.0
 
