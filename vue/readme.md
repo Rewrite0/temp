@@ -14,3 +14,4 @@
 ## component library
 
 - [primevue](https://v4.primevue.org)
+- [primeicons](https://primevue.org/icons/)

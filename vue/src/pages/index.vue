@@ -1,5 +1,5 @@
 <script setup lang="tsx">
-const TSXComponent = () => <div>tsx component</div>;
+const TSXComponent = () => <div class="text-20 font-bold">tsx component</div>;
 </script>
 
 <template>

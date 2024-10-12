@@ -1,12 +1,19 @@
-$min-width: 1024;
+// 断点
+$mobile: 768px;
+$pad: 1200px;
+$pc: 1920px;
+$min-width: 768;
 $max-width: 1920;
-$root-fs: 4;
+$root-fs: 16;
 
 @function vw($px) {
   @return #{calc($px / $max-width * 100)}vw;
 }
 @function rem($px) {
   @return #{calc($px / $root-fs)}rem;
+}
+@function rpx($px) {
+  @return #{calc($px / 750 * 100)}vw;
 }
 @function px($px) {
   $min-ratio: calc($min-width / $max-width);
@@ -27,25 +34,34 @@ $root-fs: 4;
   $slopeForClamp: $slope * 100;
   $intersection: calc((0 - $min-width) * $slope + $min);
 
-  $_max: $max;
-  $_min: $min;
-
-  @if $max < $min {
-    $_max: $min;
-    $_min: $max;
+  @if $max > $min {
+    @return clamp(rem($min), rem($intersection) + #{$slopeForClamp}vw, rem($max));
+  } @else {
+    @return clamp(rem($max), rem($intersection) + #{$slopeForClamp}vw, rem($min));
   }
-
-  @return clamp(rem($min), rem($intersection) + #{$slopeForClamp}vw, rem($max));
 }
 
+// mixins
 @mixin forMobile {
-  @media screen and (max-width: ($min-pc - 1)) {
+  @media screen and (max-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin forPad {
+  @media screen and (min-width: ($mobile + 1)) and (max-width: $pad) {
     @content;
   }
 }
 
 @mixin forPC {
-  @media screen and (min-width: $min-pc) {
+  @media screen and (min-width: ($mobile + 1)) {
+    @content;
+  }
+}
+
+@mixin forWidenPC {
+  @media screen and (min-width: $pc) {
     @content;
   }
 }

@@ -1,14 +1,17 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
-  "include": ["types/**/*.ts", "src/**/*.ts", "src/**/*.vue"],
-  "exclude": ["src/**/__tests__/*"],
+  "include": [
+    "env.d.ts",
+    "src/**/*",
+    "src/**/*.vue",
+    "types/**/*",
+    "types/**/*.ts"
+  ],
+  "exclude": ["src/**/__tests__/*", "node_modules", "dist"],
   "compilerOptions": {
     "composite": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-
-    "strict": true,
-    "jsx": "preserve",
-    "jsxImportSource": "vue",
+    "moduleResolution": "Bundler",
 
     "baseUrl": ".",
     "paths": {
