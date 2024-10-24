@@ -37,7 +37,7 @@ importers:
         version: 1.12.1
       i18next:
         specifier: ^23.11.5
-        version: 23.16.2
+        version: 23.16.3
       intl-pluralrules:
         specifier: ^2.0.1
         version: 2.0.1
@@ -46,7 +46,7 @@ importers:
         version: 18.3.1
       react-i18next:
         specifier: ^15.0.0
-        version: 15.1.0(i18next@23.16.2)(react-native@0.76.0(@babel/core@7.25.9)(@babel/preset-env@7.24.7(@babel/core@7.25.9))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
+        version: 15.1.0(i18next@23.16.3)(react-native@0.76.0(@babel/core@7.25.9)(@babel/preset-env@7.24.7(@babel/core@7.25.9))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
       react-native:
         specifier: 0.76.0
         version: 0.76.0(@babel/core@7.25.9)(@babel/preset-env@7.24.7(@babel/core@7.25.9))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1)
@@ -1441,6 +1441,9 @@ packages:
   '@types/node@22.7.5':
     resolution: {integrity: sha512-jML7s2NAzMWc//QSJ1a3prpk78cOPchGvXJsC3C6R6PSMoooztvRVQEz89gmBTBY1SPMaqo5teB4uNHPdetShQ==}
 
+  '@types/node@22.7.9':
+    resolution: {integrity: sha512-jrTfRC7FM6nChvU7X2KqcrgquofrWLFDeYC1hKfwNWomVvrn7JIksqf344WN2X/y8xrgqBd2dJATZV4GbatBfg==}
+
   '@types/prop-types@15.7.13':
     resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
 
@@ -2567,8 +2570,8 @@ packages:
     resolution: {integrity: sha512-B4FFZ6q/T2jhhksgkbEW3HBvWIfDW85snkQgawt07S7J5QXTk6BkNV+0yAeZrM5QpMAdYlocGoljn0sJ/WQkFw==}
     engines: {node: '>=10.17.0'}
 
-  i18next@23.16.2:
-    resolution: {integrity: sha512-dFyxwLXxEQK32f6tITBMaRht25mZPJhQ0WbC0p3bO2mWBal9lABTMqSka5k+GLSRWLzeJBKDpH7BeIA9TZI7Jg==}
+  i18next@23.16.3:
+    resolution: {integrity: sha512-e8q9gFyjrou5v/hBXgRwtWVK7Gp5So19Kf42spJlijGDfkin5abYFHlblonmD2GFYcsf9XIT7MpVuveJq/VCcA==}
 
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
@@ -6004,7 +6007,7 @@ snapshots:
     dependencies:
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 22.7.5
+      '@types/node': 22.7.9
       '@types/yargs': 15.0.19
       chalk: 4.1.2
     optional: true
@@ -6541,6 +6544,11 @@ snapshots:
   '@types/node@22.7.5':
     dependencies:
       undici-types: 6.19.8
+
+  '@types/node@22.7.9':
+    dependencies:
+      undici-types: 6.19.8
+    optional: true
 
   '@types/prop-types@15.7.13': {}
 
@@ -7867,9 +7875,9 @@ snapshots:
 
   human-signals@2.1.0: {}
 
-  i18next@23.16.2:
+  i18next@23.16.3:
     dependencies:
-      '@babel/runtime': 7.25.7
+      '@babel/runtime': 7.25.9
 
   ieee754@1.2.1: {}
 
@@ -8926,11 +8934,11 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  react-i18next@15.1.0(i18next@23.16.2)(react-native@0.76.0(@babel/core@7.25.9)(@babel/preset-env@7.24.7(@babel/core@7.25.9))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1):
+  react-i18next@15.1.0(i18next@23.16.3)(react-native@0.76.0(@babel/core@7.25.9)(@babel/preset-env@7.24.7(@babel/core@7.25.9))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.25.9
       html-parse-stringify: 3.0.1
-      i18next: 23.16.2
+      i18next: 23.16.3
       react: 18.3.1
     optionalDependencies:
       react-native: 0.76.0(@babel/core@7.25.9)(@babel/preset-env@7.24.7(@babel/core@7.25.9))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1)
