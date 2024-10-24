@@ -76,8 +76,8 @@ importers:
         specifier: 3.0.0-alpha-4030120241024001
         version: 3.0.0-alpha-4030120241024001(@vueuse/core@11.1.0(vue@3.5.12(typescript@5.6.3)))(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)
       '@dcloudio/uni-cli-shared':
-        specifier: 3.0.0-alpha-4030120241021001
-        version: 3.0.0-alpha-4030120241021001(@vueuse/core@11.1.0(vue@3.5.12(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)
+        specifier: 3.0.0-alpha-4030120241024001
+        version: 3.0.0-alpha-4030120241024001(@vueuse/core@11.1.0(vue@3.5.12(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)
       '@dcloudio/uni-stacktracey':
         specifier: 3.0.0-alpha-4030120241021001
         version: 3.0.0-alpha-4030120241021001
@@ -5940,7 +5940,7 @@ snapshots:
 
   '@babel/highlight@7.25.7':
     dependencies:
-      '@babel/helper-validator-identifier': 7.25.7
+      '@babel/helper-validator-identifier': 7.25.9
       chalk: 2.4.2
       js-tokens: 4.0.0
       picocolors: 1.1.1
@@ -5966,7 +5966,7 @@ snapshots:
 
   '@babel/parser@7.25.8':
     dependencies:
-      '@babel/types': 7.25.8
+      '@babel/types': 7.25.9
 
   '@babel/parser@7.25.9':
     dependencies:
@@ -8791,7 +8791,7 @@ snapshots:
 
   '@vue/compiler-core@3.4.21':
     dependencies:
-      '@babel/parser': 7.25.8
+      '@babel/parser': 7.25.9
       '@vue/shared': 3.4.21
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -8830,7 +8830,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.4.21':
     dependencies:
-      '@babel/parser': 7.25.8
+      '@babel/parser': 7.25.9
       '@vue/compiler-core': 3.4.21
       '@vue/compiler-dom': 3.4.21
       '@vue/compiler-ssr': 3.4.21
