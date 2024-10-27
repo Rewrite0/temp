@@ -95,7 +95,7 @@ importers:
         version: 0.5.13(typescript@5.6.3)
       '@uni-helper/uni-env':
         specifier: ^0.1.0
-        version: 0.1.4
+        version: 0.1.5
       '@uni-helper/vite-plugin-uni-components':
         specifier: ^0.1.0
         version: 0.1.0(rollup@4.21.0)
@@ -2181,8 +2181,8 @@ packages:
     peerDependencies:
       typescript: ^4.8.0 || ^5.0.0
 
-  '@uni-helper/uni-env@0.1.4':
-    resolution: {integrity: sha512-dtHhx7AJwvPxN+iSvvzyYtak946f0lOLQX14chg6etBJqLqaipsK92HRCkYZFCofsdkHeQLJTf1ZnEdzatZE3Q==}
+  '@uni-helper/uni-env@0.1.5':
+    resolution: {integrity: sha512-3CK+sgqDLiKzKsiDUwEIBLDSMEmzmV6G/Yw2qkFeWmiqSAi+zjqd9bbTmVM6Eo0wSY/fnHEocB3MigdyptBmjg==}
 
   '@uni-helper/uni-network@0.19.3':
     resolution: {integrity: sha512-biQtckY/195TmqOeJbKD5tyZEctlOOP2OwqsYDukCx9nqV+5jOC7J2vCHeYXlqzNfHDq5PXzNG4HrIARkF/uvQ==}
@@ -2518,6 +2518,11 @@ packages:
 
   acorn@8.13.0:
     resolution: {integrity: sha512-8zSiw54Oxrdym50NlZ9sUusyO1Z1ZchgRLWRaK6c86XJFClyCgFKetdowBg5bKxyp/u+CDBJG4Mpp0m3HLZl9w==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
+  acorn@8.14.0:
+    resolution: {integrity: sha512-cl669nCJTZBsL97OF4kUQm5g5hC2uihk0NxY3WENAC0TYdILVkAyHymAntgxGkl7K+t0cXIrH5siy5S4XkFycA==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -8391,7 +8396,7 @@ snapshots:
       typescript: 5.6.3
       vue3: vue@3.5.12(typescript@5.6.3)
 
-  '@uni-helper/uni-env@0.1.4':
+  '@uni-helper/uni-env@0.1.5':
     dependencies:
       std-env: 3.7.0
 
@@ -8425,7 +8430,7 @@ snapshots:
   '@uni-helper/vite-plugin-uni-layouts@0.1.10(rollup@4.21.0)':
     dependencies:
       '@babel/types': 7.24.5
-      '@uni-helper/uni-env': 0.1.4
+      '@uni-helper/uni-env': 0.1.5
       '@vue/compiler-core': 3.4.27
       '@vue/compiler-sfc': 3.4.27
       ast-kit: 0.11.3(rollup@4.21.0)
@@ -8447,7 +8452,7 @@ snapshots:
 
   '@uni-helper/vite-plugin-uni-pages@0.2.28(vite@5.4.10(@types/node@20.17.1)(sass@1.80.4)(terser@5.19.2))':
     dependencies:
-      '@uni-helper/uni-env': 0.1.4
+      '@uni-helper/uni-env': 0.1.5
       '@vue/compiler-sfc': 3.5.12
       chokidar: 3.6.0
       debug: 4.3.7
@@ -8915,6 +8920,8 @@ snapshots:
   acorn@8.12.1: {}
 
   acorn@8.13.0: {}
+
+  acorn@8.14.0: {}
 
   address@1.2.2: {}
 
@@ -10721,7 +10728,7 @@ snapshots:
   jsdom@16.7.0:
     dependencies:
       abab: 2.0.6
-      acorn: 8.13.0
+      acorn: 8.14.0
       acorn-globals: 6.0.0
       cssom: 0.4.4
       cssstyle: 2.3.0
