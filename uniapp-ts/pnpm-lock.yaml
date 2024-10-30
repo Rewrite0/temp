@@ -42,8 +42,8 @@ importers:
         specifier: 3.0.0-alpha-4030220241029001
         version: 3.0.0-alpha-4030220241029001(@vueuse/core@11.1.0(vue@3.5.12(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)
       '@dcloudio/uni-mp-weixin':
-        specifier: 3.0.0-alpha-4030120241024002
-        version: 3.0.0-alpha-4030120241024002(@vueuse/core@11.1.0(vue@3.5.12(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)
+        specifier: 3.0.0-alpha-4030220241029001
+        version: 3.0.0-alpha-4030220241029001(@vueuse/core@11.1.0(vue@3.5.12(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)
       '@dcloudio/uni-mp-xhs':
         specifier: 3.0.0-alpha-4030120241024002
         version: 3.0.0-alpha-4030120241024002(@vueuse/core@11.1.0(vue@3.5.12(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)
@@ -991,9 +991,6 @@ packages:
 
   '@dcloudio/uni-mp-vue@3.0.0-alpha-4030220241029001':
     resolution: {integrity: sha512-0VJVjWnJr71M3y1ISs3pQiXrYaZRDnLhOTnP3zah0yXBKwz7KtZdtPrBEob1c07QrYt1IJWhFvF6BSqMSQ0tvw==}
-
-  '@dcloudio/uni-mp-weixin@3.0.0-alpha-4030120241024002':
-    resolution: {integrity: sha512-hIPq/oNwx/EOSCoaOOe3ZwYpltMDPOcSGHQbVVm99ULjmZGH1W0ktueODbq+tgKK4bQdYfKKxqkyecSg+l7YPw==}
 
   '@dcloudio/uni-mp-weixin@3.0.0-alpha-4030220241029001':
     resolution: {integrity: sha512-maE0XjlTJ1LgxX5YDKkIdGiyadSYyU84PNoFXK3W8ybFsPMeDXqYMBEQMrCRqmgNQbsrp7eoaXMt13bkvZUvnA==}
@@ -7208,30 +7205,6 @@ snapshots:
     dependencies:
       '@dcloudio/uni-shared': 3.0.0-alpha-4030220241029001
       '@vue/shared': 3.4.21
-
-  '@dcloudio/uni-mp-weixin@3.0.0-alpha-4030120241024002(@vueuse/core@11.1.0(vue@3.5.12(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)':
-    dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4030120241024002(@vueuse/core@11.1.0(vue@3.5.12(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)
-      '@dcloudio/uni-mp-vite': 3.0.0-alpha-4030120241024002(@vueuse/core@11.1.0(vue@3.5.12(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)
-      '@dcloudio/uni-mp-vue': 3.0.0-alpha-4030120241024002
-      '@dcloudio/uni-shared': 3.0.0-alpha-4030120241024002
-      '@vue/shared': 3.4.21
-      jimp: 0.10.3
-      licia: 1.38.2
-      qrcode-reader: 1.0.4
-      qrcode-terminal: 0.12.0
-      ws: 8.13.0
-    transitivePeerDependencies:
-      - '@nuxt/kit'
-      - '@vueuse/core'
-      - bufferutil
-      - postcss
-      - rollup
-      - supports-color
-      - ts-node
-      - utf-8-validate
-      - vue
-      - webpack-sources
 
   '@dcloudio/uni-mp-weixin@3.0.0-alpha-4030220241029001(@vueuse/core@11.1.0(vue@3.5.12(typescript@5.6.3)))(postcss@8.4.47)(rollup@4.21.0)(vue@3.5.12(typescript@5.6.3))(webpack-sources@3.2.3)':
     dependencies:
