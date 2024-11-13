@@ -1,5 +1,5 @@
 {
-  "name": "vitesse-uni-app",
+  "name": "uniapp-ts",
   "appid": "",
   "description": "",
   "versionName": "1.0.0",
@@ -47,6 +47,7 @@
       "urlCheck": false
     },
     "usingComponents": true,
+    "lazyCodeLoading": "requiredComponents",
     "darkmode": true,
     "themeLocation": "theme.json"
   },
@@ -59,12 +60,12 @@
   "mp-toutiao": {
     "usingComponents": true
   },
-  "h5": {
-    "darkmode": true,
-    "themeLocation": "theme.json"
-  },
   "uniStatistics": {
     "enable": false
   },
-  "vueVersion": "3"
+  "vueVersion": "3",
+  "h5": {
+    "darkmode": true,
+    "themeLocation": "theme.json"
+  }
 }
