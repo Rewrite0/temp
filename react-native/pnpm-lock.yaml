@@ -31,7 +31,7 @@ importers:
         version: 16.0.0(expo@52.0.11(@babel/core@7.26.0)(@babel/preset-env@7.24.7(@babel/core@7.26.0))(@expo/metro-runtime@4.0.0(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.24.7(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1)))(graphql@15.8.0)(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.24.7(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react@18.3.1)
       expo-router:
         specifier: ~4.0.0
-        version: 4.0.9(jwevxembfdybf4lp67gvfhq6n4)
+        version: 4.0.9(ojgwpjc44i3kf6rz4xg4f7yk6m)
       expo-status-bar:
         specifier: ~2.0.0
         version: 2.0.0(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.24.7(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
@@ -68,7 +68,7 @@ importers:
         version: 18.3.12
       typescript:
         specifier: ^5.5.2
-        version: 5.6.3
+        version: 5.7.2
 
 packages:
 
@@ -3685,8 +3685,8 @@ packages:
     resolution: {integrity: sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==}
     engines: {node: '>=8'}
 
-  typescript@5.6.3:
-    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
+  typescript@5.7.2:
+    resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -5197,9 +5197,9 @@ snapshots:
 
   '@expo/sdk-runtime-versions@1.0.0': {}
 
-  '@expo/server@0.5.0(typescript@5.6.3)':
+  '@expo/server@0.5.0(typescript@5.7.2)':
     dependencies:
-      '@remix-run/node': 2.15.0(typescript@5.6.3)
+      '@remix-run/node': 2.15.0(typescript@5.7.2)
       abort-controller: 3.0.0
       debug: 4.3.7
       source-map-support: 0.5.21
@@ -5608,9 +5608,9 @@ snapshots:
     dependencies:
       nanoid: 3.3.7
 
-  '@remix-run/node@2.15.0(typescript@5.6.3)':
+  '@remix-run/node@2.15.0(typescript@5.7.2)':
     dependencies:
-      '@remix-run/server-runtime': 2.15.0(typescript@5.6.3)
+      '@remix-run/server-runtime': 2.15.0(typescript@5.7.2)
       '@remix-run/web-fetch': 4.4.2
       '@web3-storage/multipart-parser': 1.0.0
       cookie-signature: 1.2.2
@@ -5618,11 +5618,11 @@ snapshots:
       stream-slice: 0.1.2
       undici: 6.21.0
     optionalDependencies:
-      typescript: 5.6.3
+      typescript: 5.7.2
 
   '@remix-run/router@1.21.0': {}
 
-  '@remix-run/server-runtime@2.15.0(typescript@5.6.3)':
+  '@remix-run/server-runtime@2.15.0(typescript@5.7.2)':
     dependencies:
       '@remix-run/router': 1.21.0
       '@types/cookie': 0.6.0
@@ -5632,7 +5632,7 @@ snapshots:
       source-map: 0.7.4
       turbo-stream: 2.4.0
     optionalDependencies:
-      typescript: 5.6.3
+      typescript: 5.7.2
 
   '@remix-run/web-blob@3.1.0':
     dependencies:
@@ -6549,10 +6549,10 @@ snapshots:
     dependencies:
       invariant: 2.2.4
 
-  expo-router@4.0.9(jwevxembfdybf4lp67gvfhq6n4):
+  expo-router@4.0.9(ojgwpjc44i3kf6rz4xg4f7yk6m):
     dependencies:
       '@expo/metro-runtime': 4.0.0(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.24.7(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))
-      '@expo/server': 0.5.0(typescript@5.6.3)
+      '@expo/server': 0.5.0(typescript@5.7.2)
       '@radix-ui/react-slot': 1.0.1(react@18.3.1)
       '@react-navigation/bottom-tabs': 7.0.7(@react-navigation/native@7.0.4(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.24.7(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native-safe-area-context@4.14.0(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.24.7(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native-screens@4.2.0(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.24.7(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1))(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.24.7(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
       '@react-navigation/native': 7.0.4(react-native@0.76.3(@babel/core@7.26.0)(@babel/preset-env@7.24.7(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0)(@types/react@18.3.12)(react@18.3.1))(react@18.3.1)
@@ -8423,7 +8423,7 @@ snapshots:
 
   type-fest@0.7.1: {}
 
-  typescript@5.6.3: {}
+  typescript@5.7.2: {}
 
   ua-parser-js@1.0.39: {}
 
