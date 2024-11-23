@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@primevue/themes':
         specifier: ^4.1.0
-        version: 4.2.2
+        version: 4.2.3
       '@vueuse/core':
         specifier: ^11.1.0
         version: 11.2.0(vue@3.5.13(typescript@5.5.4))
@@ -666,8 +666,16 @@ packages:
     resolution: {integrity: sha512-MIPtektNrFwEKJU0qXrguoultADtxMC39ghwXIGP3DR3zsB7vWk6VhJ1Mo7TxgWsVi3kHnh6g5v9X50eMFcBHw==}
     engines: {node: '>=12.11.0'}
 
+  '@primeuix/styled@0.3.2':
+    resolution: {integrity: sha512-ColZes0+/WKqH4ob2x8DyNYf1NENpe5ZguOvx5yCLxaP8EIMVhLjWLO/3umJiDnQU4XXMLkn2mMHHw+fhTX/mw==}
+    engines: {node: '>=12.11.0'}
+
   '@primeuix/utils@0.3.1':
     resolution: {integrity: sha512-KFJ8FylTX2j3AN6AvkF8JGSUNb7Dtqz1T5mlZnINDb6bwW+/V/d5wISiMEdhzdso69mmOX7IlYUDsj0w0pvxvA==}
+    engines: {node: '>=12.11.0'}
+
+  '@primeuix/utils@0.3.2':
+    resolution: {integrity: sha512-B+nphqTQeq+i6JuICLdVWnDMjONome2sNz0xI65qIOyeB4EF12CoKRiCsxuZ5uKAkHi/0d1LqlQ9mIWRSdkavw==}
     engines: {node: '>=12.11.0'}
 
   '@primevue/core@4.2.2':
@@ -680,8 +688,8 @@ packages:
     resolution: {integrity: sha512-x0AwfjB94MoLsmNyQtSGgrEWhZ52SzRQ3X5hEUA30L7tdob66qYmiMKCnjfq2gvJIB477DwB7cxJZhaTxspsDw==}
     engines: {node: '>=12.11.0'}
 
-  '@primevue/themes@4.2.2':
-    resolution: {integrity: sha512-2PUX+Ur4gyYB5xfCIySQMq4jWRVJSclniBaAiNb3HQ7rhnkfdjJRzfqfbk3YkH02ZA6QUgCNHHjqtz2vI0tk7g==}
+  '@primevue/themes@4.2.3':
+    resolution: {integrity: sha512-hzHEwUWkTQihUEDmT9U3QADoAsYbA6mif6RJSR/hDTnPdXIcmr5RuZGq3pnLl943KfJTBiSp98F6LvSB8boJAw==}
     engines: {node: '>=12.11.0'}
 
   '@rollup/pluginutils@5.1.2':
@@ -3095,7 +3103,13 @@ snapshots:
     dependencies:
       '@primeuix/utils': 0.3.1
 
+  '@primeuix/styled@0.3.2':
+    dependencies:
+      '@primeuix/utils': 0.3.2
+
   '@primeuix/utils@0.3.1': {}
+
+  '@primeuix/utils@0.3.2': {}
 
   '@primevue/core@4.2.2(vue@3.5.13(typescript@5.5.4))':
     dependencies:
@@ -3110,9 +3124,9 @@ snapshots:
     transitivePeerDependencies:
       - vue
 
-  '@primevue/themes@4.2.2':
+  '@primevue/themes@4.2.3':
     dependencies:
-      '@primeuix/styled': 0.3.1
+      '@primeuix/styled': 0.3.2
 
   '@rollup/pluginutils@5.1.2(rollup@4.25.0)':
     dependencies:
