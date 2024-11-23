@@ -22,7 +22,7 @@ importers:
         version: 7.0.0
       primevue:
         specifier: ^4.1.0
-        version: 4.2.2(vue@3.5.13(typescript@5.5.4))
+        version: 4.2.3(vue@3.5.13(typescript@5.5.4))
       vue:
         specifier: ^3.5.11
         version: 3.5.13(typescript@5.5.4)
@@ -662,30 +662,22 @@ packages:
   '@polka/url@1.0.0-next.28':
     resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==}
 
-  '@primeuix/styled@0.3.1':
-    resolution: {integrity: sha512-MIPtektNrFwEKJU0qXrguoultADtxMC39ghwXIGP3DR3zsB7vWk6VhJ1Mo7TxgWsVi3kHnh6g5v9X50eMFcBHw==}
-    engines: {node: '>=12.11.0'}
-
   '@primeuix/styled@0.3.2':
     resolution: {integrity: sha512-ColZes0+/WKqH4ob2x8DyNYf1NENpe5ZguOvx5yCLxaP8EIMVhLjWLO/3umJiDnQU4XXMLkn2mMHHw+fhTX/mw==}
-    engines: {node: '>=12.11.0'}
-
-  '@primeuix/utils@0.3.1':
-    resolution: {integrity: sha512-KFJ8FylTX2j3AN6AvkF8JGSUNb7Dtqz1T5mlZnINDb6bwW+/V/d5wISiMEdhzdso69mmOX7IlYUDsj0w0pvxvA==}
     engines: {node: '>=12.11.0'}
 
   '@primeuix/utils@0.3.2':
     resolution: {integrity: sha512-B+nphqTQeq+i6JuICLdVWnDMjONome2sNz0xI65qIOyeB4EF12CoKRiCsxuZ5uKAkHi/0d1LqlQ9mIWRSdkavw==}
     engines: {node: '>=12.11.0'}
 
-  '@primevue/core@4.2.2':
-    resolution: {integrity: sha512-ZxlbPBKTSpKN2mht2noiFQV689HH2KiM5yDxHyY0NJafxbB16SLgWWwRDcPulNrbLmu5e3joutTv5tB/52kvAQ==}
+  '@primevue/core@4.2.3':
+    resolution: {integrity: sha512-Qjxl6rPzkvLaUQQeM5wXlmFQK9Pox+rSC+r7sX9ZGXeacD0LJny9YAF0APDv/V5Z1RiXApDvfOQGeu7Xg50vyg==}
     engines: {node: '>=12.11.0'}
     peerDependencies:
       vue: ^3.3.0
 
-  '@primevue/icons@4.2.2':
-    resolution: {integrity: sha512-x0AwfjB94MoLsmNyQtSGgrEWhZ52SzRQ3X5hEUA30L7tdob66qYmiMKCnjfq2gvJIB477DwB7cxJZhaTxspsDw==}
+  '@primevue/icons@4.2.3':
+    resolution: {integrity: sha512-2yitSASyLdKtKPy8Fw8A71wycfZ14/lIlJ70JP0yGRy1nYbEBzEteMDGFOnlkFokbK/wdx9oOdYTDEul37FDdg==}
     engines: {node: '>=12.11.0'}
 
   '@primevue/themes@4.2.3':
@@ -1987,8 +1979,8 @@ packages:
   primeicons@7.0.0:
     resolution: {integrity: sha512-jK3Et9UzwzTsd6tzl2RmwrVY/b8raJ3QZLzoDACj+oTJ0oX7L9Hy+XnVwgo4QVKlKpnP/Ur13SXV/pVh4LzaDw==}
 
-  primevue@4.2.2:
-    resolution: {integrity: sha512-L+WWWdSbyTCwJDLMKoFQpTr2C/VFQHoArPzw8xFwADOB7I5OsDCd5ZQaD+WEn3iFG/25EkFFt59sxGb69zf3eQ==}
+  primevue@4.2.3:
+    resolution: {integrity: sha512-kAkSOHmyBhe0NNzjfmZSAFNlxAWPTuTjWvYSxSv2OLVdy61F+IPQAENygaB7UdB4wY7NNxeBVbphEgjuipwTww==}
     engines: {node: '>=12.11.0'}
 
   proto-list@1.2.4:
@@ -3099,28 +3091,22 @@ snapshots:
 
   '@polka/url@1.0.0-next.28': {}
 
-  '@primeuix/styled@0.3.1':
-    dependencies:
-      '@primeuix/utils': 0.3.1
-
   '@primeuix/styled@0.3.2':
     dependencies:
       '@primeuix/utils': 0.3.2
 
-  '@primeuix/utils@0.3.1': {}
-
   '@primeuix/utils@0.3.2': {}
 
-  '@primevue/core@4.2.2(vue@3.5.13(typescript@5.5.4))':
+  '@primevue/core@4.2.3(vue@3.5.13(typescript@5.5.4))':
     dependencies:
-      '@primeuix/styled': 0.3.1
-      '@primeuix/utils': 0.3.1
+      '@primeuix/styled': 0.3.2
+      '@primeuix/utils': 0.3.2
       vue: 3.5.13(typescript@5.5.4)
 
-  '@primevue/icons@4.2.2(vue@3.5.13(typescript@5.5.4))':
+  '@primevue/icons@4.2.3(vue@3.5.13(typescript@5.5.4))':
     dependencies:
-      '@primeuix/utils': 0.3.1
-      '@primevue/core': 4.2.2(vue@3.5.13(typescript@5.5.4))
+      '@primeuix/utils': 0.3.2
+      '@primevue/core': 4.2.3(vue@3.5.13(typescript@5.5.4))
     transitivePeerDependencies:
       - vue
 
@@ -4563,12 +4549,12 @@ snapshots:
 
   primeicons@7.0.0: {}
 
-  primevue@4.2.2(vue@3.5.13(typescript@5.5.4)):
+  primevue@4.2.3(vue@3.5.13(typescript@5.5.4)):
     dependencies:
-      '@primeuix/styled': 0.3.1
-      '@primeuix/utils': 0.3.1
-      '@primevue/core': 4.2.2(vue@3.5.13(typescript@5.5.4))
-      '@primevue/icons': 4.2.2(vue@3.5.13(typescript@5.5.4))
+      '@primeuix/styled': 0.3.2
+      '@primeuix/utils': 0.3.2
+      '@primevue/core': 4.2.3(vue@3.5.13(typescript@5.5.4))
+      '@primevue/icons': 4.2.3(vue@3.5.13(typescript@5.5.4))
     transitivePeerDependencies:
       - vue
 
