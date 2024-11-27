@@ -55,8 +55,8 @@ importers:
         specifier: ^4.0.1
         version: 4.1.1(vite@5.4.11(@types/node@22.9.4)(sass-embedded@1.81.0))(vue@3.5.13(typescript@5.7.2))
       '@vitest/eslint-plugin':
-        specifier: 1.1.11
-        version: 1.1.11(@typescript-eslint/utils@8.16.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2)(vitest@2.1.6(@types/node@22.9.4)(jsdom@25.0.1)(sass-embedded@1.81.0))
+        specifier: 1.1.12
+        version: 1.1.12(@typescript-eslint/utils@8.16.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2)(vitest@2.1.6(@types/node@22.9.4)(jsdom@25.0.1)(sass-embedded@1.81.0))
       '@vue/eslint-config-prettier':
         specifier: ^10.0.0
         version: 10.1.0(eslint@9.15.0(jiti@1.21.6))(prettier@3.3.3)
@@ -972,8 +972,8 @@ packages:
       vite: ^5.0.0 || ^6.0.0
       vue: ^3.2.25
 
-  '@vitest/eslint-plugin@1.1.11':
-    resolution: {integrity: sha512-f24vqvW1GE94Qs1qIelMdhTaYoVS6TbNz7V/1xc1A7gggoz21Lon3bDh8SRoesRpXSJ+23fXUc9cOUAKoGgZ8g==}
+  '@vitest/eslint-plugin@1.1.12':
+    resolution: {integrity: sha512-iv9K9fz9qRxBo9J/PGSMcLdOFIKqtFZ6THqSVG/jW8CJZFkIWLxPduCTXkbyG6FNKgL49fkv348nSgmfqCU6FA==}
     peerDependencies:
       '@typescript-eslint/utils': '>= 8.0'
       eslint: '>= 8.57.0'
@@ -3462,7 +3462,7 @@ snapshots:
       vite: 5.4.11(@types/node@22.9.4)(sass-embedded@1.81.0)
       vue: 3.5.13(typescript@5.7.2)
 
-  '@vitest/eslint-plugin@1.1.11(@typescript-eslint/utils@8.16.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2)(vitest@2.1.6(@types/node@22.9.4)(jsdom@25.0.1)(sass-embedded@1.81.0))':
+  '@vitest/eslint-plugin@1.1.12(@typescript-eslint/utils@8.16.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2)(vitest@2.1.6(@types/node@22.9.4)(jsdom@25.0.1)(sass-embedded@1.81.0))':
     dependencies:
       '@typescript-eslint/utils': 8.16.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2)
       eslint: 9.15.0(jiti@1.21.6)
