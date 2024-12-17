@@ -13,10 +13,10 @@ importers:
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.4.2)(typescript@5.7.2)
       '@astrojs/vue':
         specifier: ^5.0.0
-        version: 5.0.2(astro@5.0.8(jiti@2.0.0)(rollup@4.28.1)(sass@1.83.0)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.5.1))(jiti@2.0.0)(rollup@4.28.1)(sass@1.83.0)(tsx@4.19.2)(vue@3.5.13(typescript@5.7.2))(yaml@2.5.1)
+        version: 5.0.2(astro@5.0.9(jiti@2.0.0)(rollup@4.28.1)(sass@1.83.0)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.5.1))(jiti@2.0.0)(rollup@4.28.1)(sass@1.83.0)(tsx@4.19.2)(vue@3.5.13(typescript@5.7.2))(yaml@2.5.1)
       astro:
         specifier: ^5.0.0
-        version: 5.0.8(jiti@2.0.0)(rollup@4.28.1)(sass@1.83.0)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.5.1)
+        version: 5.0.9(jiti@2.0.0)(rollup@4.28.1)(sass@1.83.0)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.5.1)
       typescript:
         specifier: ^5.3.2
         version: 5.7.2
@@ -1430,8 +1430,8 @@ packages:
     resolution: {integrity: sha512-AGsGgcg7Jg9UpyCDgvl/EkdYpe1oMkFdmC2Zl+KWneoieLCtQIFjmcY8yt41gcNx4mby0w8BBJQcBmPuf8UAoQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro@5.0.8:
-    resolution: {integrity: sha512-nW4TmRCeG3t2iDmm91KPvYpYNljNfjeaneN4BX463DKAZ3MPmUn92aKefOXC0bjMHQ2Gamc8MIZ6sORS2EhyAQ==}
+  astro@5.0.9:
+    resolution: {integrity: sha512-6jRMPSB+V82y/l8XOylPYJz78ux268nNNV2SLRvUaT4faf18rvIFAR33Y25wTM0Oeukcv1951xFuFsmAkQc+jg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3365,12 +3365,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/vue@5.0.2(astro@5.0.8(jiti@2.0.0)(rollup@4.28.1)(sass@1.83.0)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.5.1))(jiti@2.0.0)(rollup@4.28.1)(sass@1.83.0)(tsx@4.19.2)(vue@3.5.13(typescript@5.7.2))(yaml@2.5.1)':
+  '@astrojs/vue@5.0.2(astro@5.0.9(jiti@2.0.0)(rollup@4.28.1)(sass@1.83.0)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.5.1))(jiti@2.0.0)(rollup@4.28.1)(sass@1.83.0)(tsx@4.19.2)(vue@3.5.13(typescript@5.7.2))(yaml@2.5.1)':
     dependencies:
       '@vitejs/plugin-vue': 5.2.1(vite@6.0.3(jiti@2.0.0)(sass@1.83.0)(tsx@4.19.2)(yaml@2.5.1))(vue@3.5.13(typescript@5.7.2))
       '@vitejs/plugin-vue-jsx': 4.1.1(vite@6.0.3(jiti@2.0.0)(sass@1.83.0)(tsx@4.19.2)(yaml@2.5.1))(vue@3.5.13(typescript@5.7.2))
       '@vue/compiler-sfc': 3.5.13
-      astro: 5.0.8(jiti@2.0.0)(rollup@4.28.1)(sass@1.83.0)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.5.1)
+      astro: 5.0.9(jiti@2.0.0)(rollup@4.28.1)(sass@1.83.0)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.5.1)
       vite: 6.0.3(jiti@2.0.0)(sass@1.83.0)(tsx@4.19.2)(yaml@2.5.1)
       vite-plugin-vue-devtools: 7.6.8(rollup@4.28.1)(vite@6.0.3(jiti@2.0.0)(sass@1.83.0)(tsx@4.19.2)(yaml@2.5.1))(vue@3.5.13(typescript@5.7.2))
       vue: 3.5.13(typescript@5.7.2)
@@ -4654,7 +4654,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro@5.0.8(jiti@2.0.0)(rollup@4.28.1)(sass@1.83.0)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.5.1):
+  astro@5.0.9(jiti@2.0.0)(rollup@4.28.1)(sass@1.83.0)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.5.1):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.2
