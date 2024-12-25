@@ -44,7 +44,7 @@ importers:
         version: 22.10.2
       '@unocss/preset-rem-to-px':
         specifier: ^0.65.0
-        version: 0.65.2
+        version: 0.65.3
       '@unocss/reset':
         specifier: ^0.65.0
         version: 0.65.2
@@ -1186,6 +1186,9 @@ packages:
   '@unocss/core@0.65.2':
     resolution: {integrity: sha512-37zj1w/6TENsUMzRRmlH5LqUcLGTTjGHrUeZ5KZyeDk+osB/rHSCw0VqqqvL6a7cOHgaW88JgfgKDt5ijRZyFA==}
 
+  '@unocss/core@0.65.3':
+    resolution: {integrity: sha512-xYkJ63lIadL6KqvGcaE2fFeLvo6rC1F+e+R9EFn0Aj0ArMRhiltZk8vvLFHP7iYjjdTdqDkAr/7IdrTosTo8Pg==}
+
   '@unocss/extractor-arbitrary-variants@0.65.2':
     resolution: {integrity: sha512-G+Fq7i2mTyFv+RdkbahGJFwUR9FbsGCHi+Wt8Eb7cbELWi/R4mUftfW9/q6NaIRKvmLywjWbEQ31qTJIQEO+PQ==}
 
@@ -1207,8 +1210,8 @@ packages:
   '@unocss/preset-mini@0.65.2':
     resolution: {integrity: sha512-zDDyFuLylmer91qeQ6qbMCP5+/zIeuZA0epLIriCfW3pR7FXzfJRu4R1ynpQjqryjUs/gwS0OWtvr4ufuwkryg==}
 
-  '@unocss/preset-rem-to-px@0.65.2':
-    resolution: {integrity: sha512-79cQWWOafDdLY0QzPyt4fOi+78yVqvz8d3F/ghblKOJF+FG3Blh+LEGXfkyGuMNVl+/4Xem9AxEVLcylSe6VAw==}
+  '@unocss/preset-rem-to-px@0.65.3':
+    resolution: {integrity: sha512-KYvPonskiJ4oGxtncFyiInSwRAmnVLbPgBYj/4PxK2U+iPcWzW4Xi2x1NYct88uzXIzCWZziiIM8Bu9JTn4iOQ==}
 
   '@unocss/preset-tagify@0.65.2':
     resolution: {integrity: sha512-YFhne3eNfZUvKT/MJ7SgjK/FXLradgZCKc5XXsMXA4YTAhNAvQIUZCNmlBzaqDevwbyF6UlXxGHfHUA8CdpSWg==}
@@ -3803,6 +3806,8 @@ snapshots:
 
   '@unocss/core@0.65.2': {}
 
+  '@unocss/core@0.65.3': {}
+
   '@unocss/extractor-arbitrary-variants@0.65.2':
     dependencies:
       '@unocss/core': 0.65.2
@@ -3846,9 +3851,9 @@ snapshots:
       '@unocss/extractor-arbitrary-variants': 0.65.2
       '@unocss/rule-utils': 0.65.2
 
-  '@unocss/preset-rem-to-px@0.65.2':
+  '@unocss/preset-rem-to-px@0.65.3':
     dependencies:
-      '@unocss/core': 0.65.2
+      '@unocss/core': 0.65.3
 
   '@unocss/preset-tagify@0.65.2':
     dependencies:
