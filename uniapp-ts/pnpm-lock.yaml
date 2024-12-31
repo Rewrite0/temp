@@ -76,8 +76,8 @@ importers:
         specifier: 3.0.0-alpha-4040420241231001
         version: 3.0.0-alpha-4040420241231001(@vueuse/core@12.2.0(typescript@5.7.2))(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.4.49)(rollup@4.27.4)(vue@3.5.13(typescript@5.7.2))
       '@dcloudio/uni-cli-shared':
-        specifier: 3.0.0-alpha-4040320241223001
-        version: 3.0.0-alpha-4040320241223001(@vueuse/core@12.2.0(typescript@5.7.2))(postcss@8.4.49)(rollup@4.27.4)(vue@3.5.13(typescript@5.7.2))
+        specifier: 3.0.0-alpha-4040420241231001
+        version: 3.0.0-alpha-4040420241231001(@vueuse/core@12.2.0(typescript@5.7.2))(postcss@8.4.49)(rollup@4.27.4)(vue@3.5.13(typescript@5.7.2))
       '@dcloudio/uni-stacktracey':
         specifier: 3.0.0-alpha-4040320241223001
         version: 3.0.0-alpha-4040320241223001
@@ -9159,8 +9159,8 @@ snapshots:
 
   autoprefixer@10.4.19(postcss@8.4.49):
     dependencies:
-      browserslist: 4.24.2
-      caniuse-lite: 1.0.30001680
+      browserslist: 4.24.3
+      caniuse-lite: 1.0.30001690
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.1.1
