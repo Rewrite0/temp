@@ -122,7 +122,7 @@ importers:
         version: 1.0.1(eslint@9.18.0(jiti@2.4.2))
       lint-staged:
         specifier: ^15.0.0
-        version: 15.3.0
+        version: 15.4.1
       sass-embedded:
         specifier: ^1.79.5
         version: 1.83.4
@@ -4075,8 +4075,8 @@ packages:
     resolution: {integrity: sha512-wM1+Z03eypVAVUCE7QdSqpVIvelbOakn1M0bPDoA4SGWPx3sNDVUiMo3L6To6WWGClB7VyXnhQ4Sn7gxiJbE6A==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  lint-staged@15.3.0:
-    resolution: {integrity: sha512-vHFahytLoF2enJklgtOtCtIjZrKD/LoxlaUusd5nh7dWv/dkKQJY74ndFSzxCdv7g0ueGg1ORgTSt4Y9LPZn9A==}
+  lint-staged@15.4.1:
+    resolution: {integrity: sha512-P8yJuVRyLrm5KxCtFx+gjI5Bil+wO7wnTl7C3bXhvtTaAFGirzeB24++D0wGoUwxrUKecNiehemgCob9YL39NA==}
     engines: {node: '>=18.12.0'}
     hasBin: true
 
@@ -10437,7 +10437,7 @@ snapshots:
   importx@0.4.4:
     dependencies:
       bundle-require: 5.0.0(esbuild@0.23.1)
-      debug: 4.4.0
+      debug: 4.3.7
       esbuild: 0.23.1
       jiti: 2.0.0-beta.3
       jiti-v1: jiti@1.21.7
@@ -11042,7 +11042,7 @@ snapshots:
 
   lines-and-columns@2.0.4: {}
 
-  lint-staged@15.3.0:
+  lint-staged@15.4.1:
     dependencies:
       chalk: 5.4.1
       commander: 12.1.0
