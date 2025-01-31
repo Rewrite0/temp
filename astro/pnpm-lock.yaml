@@ -13,10 +13,10 @@ importers:
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.4.2)(typescript@5.7.3)
       '@astrojs/vue':
         specifier: ^5.0.0
-        version: 5.0.6(astro@5.2.2(jiti@2.4.2)(rollup@4.32.1)(sass@1.83.4)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.5.1))(jiti@2.4.2)(rollup@4.32.1)(sass@1.83.4)(tsx@4.19.2)(vue@3.5.13(typescript@5.7.3))(yaml@2.5.1)
+        version: 5.0.6(astro@5.2.3(jiti@2.4.2)(rollup@4.32.1)(sass@1.83.4)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.5.1))(jiti@2.4.2)(rollup@4.32.1)(sass@1.83.4)(tsx@4.19.2)(vue@3.5.13(typescript@5.7.3))(yaml@2.5.1)
       astro:
         specifier: ^5.0.0
-        version: 5.2.2(jiti@2.4.2)(rollup@4.32.1)(sass@1.83.4)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.5.1)
+        version: 5.2.3(jiti@2.4.2)(rollup@4.32.1)(sass@1.83.4)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.5.1)
       typescript:
         specifier: ^5.3.2
         version: 5.7.3
@@ -1404,8 +1404,8 @@ packages:
     resolution: {integrity: sha512-AGsGgcg7Jg9UpyCDgvl/EkdYpe1oMkFdmC2Zl+KWneoieLCtQIFjmcY8yt41gcNx4mby0w8BBJQcBmPuf8UAoQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro@5.2.2:
-    resolution: {integrity: sha512-KfLlrpIIokaSQsRsNxov+SVu7EI7F45syHbBdxuSuh2YKG9fEBrbsxKkJ9CGI67G4i+tXGzlHT0OQjSeMMBzuQ==}
+  astro@5.2.3:
+    resolution: {integrity: sha512-04AceE/gVihtO3V28Ss0+tPPgLHGoulXrm1E7fUVPYyQu7y6w8+oXfYyzh1lpy+uEYiebjH7AFlJoz73anBmZA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3354,8 +3354,8 @@ packages:
     resolution: {integrity: sha512-b4JR1PFR10y1mKjhHY9LaGo6tmrgjit7hxVIeAmyMw3jegXR4dhYqLaQF5zMXZxY7tLpMyJeLjr1C4rLmkVe8g==}
     engines: {node: '>=12.20'}
 
-  yocto-spinner@0.1.2:
-    resolution: {integrity: sha512-VfmLIh/ZSZOJnVRQZc/dvpPP90lWL4G0bmxQMP0+U/2vKBA8GSpcBuWv17y7F+CZItRuO97HN1wdbb4p10uhOg==}
+  yocto-spinner@0.2.0:
+    resolution: {integrity: sha512-Qu6WAqNLGleB687CCGcmgHIo8l+J19MX/32UrSMfbf/4L8gLoxjpOYoiHT1asiWyqvjRZbgvOhLlvne6E5Tbdw==}
     engines: {node: '>=18.19'}
 
   yoctocolors@2.1.1:
@@ -3479,12 +3479,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/vue@5.0.6(astro@5.2.2(jiti@2.4.2)(rollup@4.32.1)(sass@1.83.4)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.5.1))(jiti@2.4.2)(rollup@4.32.1)(sass@1.83.4)(tsx@4.19.2)(vue@3.5.13(typescript@5.7.3))(yaml@2.5.1)':
+  '@astrojs/vue@5.0.6(astro@5.2.3(jiti@2.4.2)(rollup@4.32.1)(sass@1.83.4)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.5.1))(jiti@2.4.2)(rollup@4.32.1)(sass@1.83.4)(tsx@4.19.2)(vue@3.5.13(typescript@5.7.3))(yaml@2.5.1)':
     dependencies:
       '@vitejs/plugin-vue': 5.2.1(vite@6.0.9(jiti@2.4.2)(sass@1.83.4)(tsx@4.19.2)(yaml@2.5.1))(vue@3.5.13(typescript@5.7.3))
       '@vitejs/plugin-vue-jsx': 4.1.1(vite@6.0.9(jiti@2.4.2)(sass@1.83.4)(tsx@4.19.2)(yaml@2.5.1))(vue@3.5.13(typescript@5.7.3))
       '@vue/compiler-sfc': 3.5.13
-      astro: 5.2.2(jiti@2.4.2)(rollup@4.32.1)(sass@1.83.4)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.5.1)
+      astro: 5.2.3(jiti@2.4.2)(rollup@4.32.1)(sass@1.83.4)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.5.1)
       vite: 6.0.9(jiti@2.4.2)(sass@1.83.4)(tsx@4.19.2)(yaml@2.5.1)
       vite-plugin-vue-devtools: 7.7.0(rollup@4.32.1)(vite@6.0.9(jiti@2.4.2)(sass@1.83.4)(tsx@4.19.2)(yaml@2.5.1))(vue@3.5.13(typescript@5.7.3))
       vue: 3.5.13(typescript@5.7.3)
@@ -4769,7 +4769,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro@5.2.2(jiti@2.4.2)(rollup@4.32.1)(sass@1.83.4)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.5.1):
+  astro@5.2.3(jiti@2.4.2)(rollup@4.32.1)(sass@1.83.4)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.5.1):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.5.0
@@ -4826,7 +4826,7 @@ snapshots:
       which-pm: 3.0.0
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
-      yocto-spinner: 0.1.2
+      yocto-spinner: 0.2.0
       zod: 3.24.1
       zod-to-json-schema: 3.24.1(zod@3.24.1)
       zod-to-ts: 1.2.0(typescript@5.7.3)(zod@3.24.1)
@@ -7078,7 +7078,7 @@ snapshots:
 
   yocto-queue@1.1.1: {}
 
-  yocto-spinner@0.1.2:
+  yocto-spinner@0.2.0:
     dependencies:
       yoctocolors: 2.1.1
 
