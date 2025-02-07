@@ -73,8 +73,8 @@ importers:
         specifier: ^3.4.14
         version: 3.4.14
       '@dcloudio/uni-automator':
-        specifier: 3.0.0-alpha-4050120250121001
-        version: 3.0.0-alpha-4050120250121001(@vueuse/core@12.5.0(typescript@5.7.3))(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.5.1)(rollup@4.34.3)(vue@3.5.13(typescript@5.7.3))
+        specifier: 3.0.0-alpha-4050220250208001
+        version: 3.0.0-alpha-4050220250208001(@vueuse/core@12.5.0(typescript@5.7.3))(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.5.1)(rollup@4.34.3)(vue@3.5.13(typescript@5.7.3))
       '@dcloudio/uni-cli-shared':
         specifier: 3.0.0-alpha-4050120250121001
         version: 3.0.0-alpha-4050120250121001(@vueuse/core@12.5.0(typescript@5.7.3))(postcss@8.5.1)(rollup@4.34.3)(vue@3.5.13(typescript@5.7.3))
@@ -879,14 +879,18 @@ packages:
     peerDependencies:
       '@dcloudio/types': ^3.4.14
 
-  '@dcloudio/uni-automator@3.0.0-alpha-4050120250121001':
-    resolution: {integrity: sha512-X/cdQ0xCEk+3bJSUylX7TdyJBIbVHoQSgykOffGfjh+j5hw+4WZL693mB3KdZMVr/Hnqen7OrMvNSprSFyrsrQ==}
+  '@dcloudio/uni-automator@3.0.0-alpha-4050220250208001':
+    resolution: {integrity: sha512-xcjXyMlJo8ww7rVpOA0dQliyB0JnoEhNTNhCYBaG+e1elcEl0sSyK3VB0WYbNACIVnTynY2La1dJiGQfnwV1wQ==}
     peerDependencies:
       jest: 27.0.4
       jest-environment-node: 27.5.1
 
   '@dcloudio/uni-cli-shared@3.0.0-alpha-4050120250121001':
     resolution: {integrity: sha512-RD+38lMj0fIw1xNVXkSsxKP8/KBXAikTC1KU5FERk/jpY/o8gwDITfu8D4hLvmLOVlGSWABvrp5GZ5hpwC5vaQ==}
+    engines: {node: ^14.18.0 || >=16.0.0}
+
+  '@dcloudio/uni-cli-shared@3.0.0-alpha-4050220250208001':
+    resolution: {integrity: sha512-cKfUyiyQegS5h/DAs05XhJDgS1vMHmfsVFW1NqJW29kS9uFvAfbUiiofRFYNa7NfST2GjqAZLj9ofqdOreHb6w==}
     engines: {node: ^14.18.0 || >=16.0.0}
 
   '@dcloudio/uni-cloud@3.0.0-alpha-4050120250121001':
@@ -909,6 +913,9 @@ packages:
 
   '@dcloudio/uni-i18n@3.0.0-alpha-4050120250121001':
     resolution: {integrity: sha512-93QBJ+8OxpLDQDwaM3uQ2FxjGK0HMbDv/arCeecImH3IZ+f7nPWwTE0P7BEzvRU0Wyd3CEtMZkRTDeGjMeqRRA==}
+
+  '@dcloudio/uni-i18n@3.0.0-alpha-4050220250208001':
+    resolution: {integrity: sha512-0z9vaEb6IBXZrw8c9j1nPRaNMiFi84khaO3cMmLuv43QyYaJ8FWCO86iSj1y/LEiN+O8v82tl5QprB3Zstq74A==}
 
   '@dcloudio/uni-mp-alipay@3.0.0-alpha-4050120250121001':
     resolution: {integrity: sha512-01idflPX6XnMS1mnNzm5Y3kEE9oy5ZgTd15hT372+kM0oAuHrSIqSniJ5omlQKdMvUCBduB6rFmXM0TE1r5ZRA==}
@@ -957,6 +964,9 @@ packages:
 
   '@dcloudio/uni-shared@3.0.0-alpha-4050120250121001':
     resolution: {integrity: sha512-m6eYab+vj24JzYL9hAK64vi9vzOjinlDXi3mVx2wbt2bhnjl0z5oIv3lfvQlUSdij1ilapNQ0/OoWMiF9X2YGg==}
+
+  '@dcloudio/uni-shared@3.0.0-alpha-4050220250208001':
+    resolution: {integrity: sha512-RBwZ6uP92TeVqbVyRg2nx/Masq8Wr96QzhCLdBLZPQF9+efQCUZ5rPJncjzJW7LKaklCnZyUlCcJMMgytwiE9Q==}
 
   '@dcloudio/uni-stacktracey@3.0.0-alpha-4050120250121001':
     resolution: {integrity: sha512-XRmCg6yfbXlPOderHSUL6T+A0Da7M0tkR4JCDO8+PcEOV3fc9JfMBmIVHAdnluFA0+ooKyg6z/cyoBII5oU0Xg==}
@@ -6009,19 +6019,19 @@ snapshots:
 
   '@babel/generator@7.26.5':
     dependencies:
-      '@babel/parser': 7.26.5
-      '@babel/types': 7.26.5
+      '@babel/parser': 7.26.7
+      '@babel/types': 7.26.7
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
       jsesc: 3.1.0
 
   '@babel/helper-annotate-as-pure@7.24.7':
     dependencies:
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   '@babel/helper-builder-binary-assignment-operator-visitor@7.22.15':
     dependencies:
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   '@babel/helper-compilation-targets@7.25.2':
     dependencies:
@@ -6064,28 +6074,28 @@ snapshots:
 
   '@babel/helper-environment-visitor@7.24.7':
     dependencies:
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   '@babel/helper-function-name@7.24.7':
     dependencies:
       '@babel/template': 7.25.9
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   '@babel/helper-hoist-variables@7.24.7':
     dependencies:
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   '@babel/helper-member-expression-to-functions@7.24.8':
     dependencies:
       '@babel/traverse': 7.26.5
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
     transitivePeerDependencies:
       - supports-color
 
   '@babel/helper-module-imports@7.24.7':
     dependencies:
       '@babel/traverse': 7.26.5
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
     transitivePeerDependencies:
       - supports-color
 
@@ -6101,7 +6111,7 @@ snapshots:
 
   '@babel/helper-optimise-call-expression@7.24.7':
     dependencies:
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   '@babel/helper-plugin-utils@7.26.5': {}
 
@@ -6124,20 +6134,20 @@ snapshots:
   '@babel/helper-simple-access@7.24.7':
     dependencies:
       '@babel/traverse': 7.26.5
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
     transitivePeerDependencies:
       - supports-color
 
   '@babel/helper-skip-transparent-expression-wrappers@7.24.7':
     dependencies:
       '@babel/traverse': 7.26.5
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
     transitivePeerDependencies:
       - supports-color
 
   '@babel/helper-split-export-declaration@7.24.7':
     dependencies:
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   '@babel/helper-string-parser@7.24.1': {}
 
@@ -6153,24 +6163,24 @@ snapshots:
     dependencies:
       '@babel/helper-function-name': 7.24.7
       '@babel/template': 7.25.9
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   '@babel/helpers@7.25.0':
     dependencies:
       '@babel/template': 7.25.9
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   '@babel/parser@7.24.5':
     dependencies:
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   '@babel/parser@7.24.6':
     dependencies:
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   '@babel/parser@7.25.8':
     dependencies:
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   '@babel/parser@7.26.5':
     dependencies:
@@ -6737,7 +6747,7 @@ snapshots:
     dependencies:
       '@babel/core': 7.25.2
       '@babel/helper-plugin-utils': 7.26.5
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
       esutils: 2.0.3
 
   '@babel/regjsgen@0.8.0': {}
@@ -6749,16 +6759,16 @@ snapshots:
   '@babel/template@7.25.9':
     dependencies:
       '@babel/code-frame': 7.26.2
-      '@babel/parser': 7.26.5
-      '@babel/types': 7.26.5
+      '@babel/parser': 7.26.7
+      '@babel/types': 7.26.7
 
   '@babel/traverse@7.26.5':
     dependencies:
       '@babel/code-frame': 7.26.2
       '@babel/generator': 7.26.5
-      '@babel/parser': 7.26.5
+      '@babel/parser': 7.26.7
       '@babel/template': 7.25.9
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
       debug: 4.4.0
       globals: 11.12.0
     transitivePeerDependencies:
@@ -6907,9 +6917,9 @@ snapshots:
       - ts-node
       - vue
 
-  '@dcloudio/uni-automator@3.0.0-alpha-4050120250121001(@vueuse/core@12.5.0(typescript@5.7.3))(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.5.1)(rollup@4.34.3)(vue@3.5.13(typescript@5.7.3))':
+  '@dcloudio/uni-automator@3.0.0-alpha-4050220250208001(@vueuse/core@12.5.0(typescript@5.7.3))(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.5.1)(rollup@4.34.3)(vue@3.5.13(typescript@5.7.3))':
     dependencies:
-      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4050120250121001(@vueuse/core@12.5.0(typescript@5.7.3))(postcss@8.5.1)(rollup@4.34.3)(vue@3.5.13(typescript@5.7.3))
+      '@dcloudio/uni-cli-shared': 3.0.0-alpha-4050220250208001(@vueuse/core@12.5.0(typescript@5.7.3))(postcss@8.5.1)(rollup@4.34.3)(vue@3.5.13(typescript@5.7.3))
       address: 1.2.2
       cross-env: 7.0.3
       debug: 4.4.0
@@ -6943,6 +6953,64 @@ snapshots:
       '@babel/types': 7.26.5
       '@dcloudio/uni-i18n': 3.0.0-alpha-4050120250121001
       '@dcloudio/uni-shared': 3.0.0-alpha-4050120250121001
+      '@intlify/core-base': 9.1.9
+      '@intlify/shared': 9.1.9
+      '@intlify/vue-devtools': 9.1.9
+      '@rollup/pluginutils': 5.1.4(rollup@4.34.3)
+      '@vue/compiler-core': 3.4.21
+      '@vue/compiler-dom': 3.4.21
+      '@vue/compiler-sfc': 3.4.21
+      '@vue/compiler-ssr': 3.4.21
+      '@vue/server-renderer': 3.4.21(vue@3.5.13(typescript@5.7.3))
+      '@vue/shared': 3.4.21
+      adm-zip: 0.5.12
+      autoprefixer: 10.4.19(postcss@8.5.1)
+      base64url: 3.0.1
+      chokidar: 3.6.0
+      compare-versions: 3.6.0
+      debug: 4.4.0
+      es-module-lexer: 1.6.0
+      esbuild: 0.20.2
+      estree-walker: 2.0.2
+      fast-glob: 3.3.3
+      fs-extra: 10.1.0
+      hash-sum: 2.0.0
+      isbinaryfile: 5.0.2
+      jsonc-parser: 3.3.1
+      lines-and-columns: 2.0.4
+      magic-string: 0.30.17
+      merge: 2.1.1
+      mime: 3.0.0
+      module-alias: 2.2.3
+      os-locale-s-fix: 1.0.8-fix-1
+      picocolors: 1.1.1
+      postcss-import: 14.1.0(postcss@8.5.1)
+      postcss-load-config: 3.1.4(postcss@8.5.1)
+      postcss-modules: 4.3.1(postcss@8.5.1)
+      postcss-selector-parser: 6.1.2
+      resolve: 1.22.10
+      source-map-js: 1.2.1
+      tapable: 2.2.1
+      unplugin-auto-import: 0.18.6(@vueuse/core@12.5.0(typescript@5.7.3))(rollup@4.34.3)
+      xregexp: 3.1.0
+    transitivePeerDependencies:
+      - '@nuxt/kit'
+      - '@vueuse/core'
+      - postcss
+      - rollup
+      - supports-color
+      - ts-node
+      - vue
+
+  '@dcloudio/uni-cli-shared@3.0.0-alpha-4050220250208001(@vueuse/core@12.5.0(typescript@5.7.3))(postcss@8.5.1)(rollup@4.34.3)(vue@3.5.13(typescript@5.7.3))':
+    dependencies:
+      '@ampproject/remapping': 2.3.0
+      '@babel/code-frame': 7.26.2
+      '@babel/core': 7.25.2
+      '@babel/parser': 7.26.7
+      '@babel/types': 7.26.7
+      '@dcloudio/uni-i18n': 3.0.0-alpha-4050220250208001
+      '@dcloudio/uni-shared': 3.0.0-alpha-4050220250208001
       '@intlify/core-base': 9.1.9
       '@intlify/shared': 9.1.9
       '@intlify/vue-devtools': 9.1.9
@@ -7088,6 +7156,8 @@ snapshots:
       - vue
 
   '@dcloudio/uni-i18n@3.0.0-alpha-4050120250121001': {}
+
+  '@dcloudio/uni-i18n@3.0.0-alpha-4050220250208001': {}
 
   '@dcloudio/uni-mp-alipay@3.0.0-alpha-4050120250121001(@vueuse/core@12.5.0(typescript@5.7.3))(postcss@8.5.1)(rollup@4.34.3)(vue@3.5.13(typescript@5.7.3))':
     dependencies:
@@ -7345,6 +7415,10 @@ snapshots:
       - vue
 
   '@dcloudio/uni-shared@3.0.0-alpha-4050120250121001':
+    dependencies:
+      '@vue/shared': 3.4.21
+
+  '@dcloudio/uni-shared@3.0.0-alpha-4050220250208001':
     dependencies:
       '@vue/shared': 3.4.21
 
@@ -8921,7 +8995,7 @@ snapshots:
       '@babel/plugin-syntax-jsx': 7.24.7(@babel/core@7.25.2)
       '@babel/template': 7.25.9
       '@babel/traverse': 7.26.5
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
       '@vue/babel-helper-vue-transform-on': 1.1.5
       camelcase: 6.3.0
       html-tags: 3.3.1
@@ -8947,7 +9021,7 @@ snapshots:
 
   '@vue/compiler-core@3.5.12':
     dependencies:
-      '@babel/parser': 7.26.5
+      '@babel/parser': 7.26.7
       '@vue/shared': 3.5.12
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -8955,7 +9029,7 @@ snapshots:
 
   '@vue/compiler-core@3.5.13':
     dependencies:
-      '@babel/parser': 7.26.5
+      '@babel/parser': 7.26.7
       '@vue/shared': 3.5.13
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -9019,7 +9093,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.5.13':
     dependencies:
-      '@babel/parser': 7.26.5
+      '@babel/parser': 7.26.7
       '@vue/compiler-core': 3.5.13
       '@vue/compiler-dom': 3.5.13
       '@vue/compiler-ssr': 3.5.13
@@ -10492,7 +10566,7 @@ snapshots:
   importx@0.4.4:
     dependencies:
       bundle-require: 5.0.0(esbuild@0.23.1)
-      debug: 4.3.7
+      debug: 4.4.0
       esbuild: 0.23.1
       jiti: 2.0.0-beta.3
       jiti-v1: jiti@1.21.7
