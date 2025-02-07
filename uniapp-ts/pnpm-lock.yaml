@@ -76,8 +76,8 @@ importers:
         specifier: 3.0.0-alpha-4050220250208001
         version: 3.0.0-alpha-4050220250208001(@vueuse/core@12.5.0(typescript@5.7.3))(jest-environment-node@27.5.1)(jest@27.0.4)(postcss@8.5.1)(rollup@4.34.3)(vue@3.5.13(typescript@5.7.3))
       '@dcloudio/uni-cli-shared':
-        specifier: 3.0.0-alpha-4050120250121001
-        version: 3.0.0-alpha-4050120250121001(@vueuse/core@12.5.0(typescript@5.7.3))(postcss@8.5.1)(rollup@4.34.3)(vue@3.5.13(typescript@5.7.3))
+        specifier: 3.0.0-alpha-4050220250208001
+        version: 3.0.0-alpha-4050220250208001(@vueuse/core@12.5.0(typescript@5.7.3))(postcss@8.5.1)(rollup@4.34.3)(vue@3.5.13(typescript@5.7.3))
       '@dcloudio/uni-stacktracey':
         specifier: 3.0.0-alpha-4050120250121001
         version: 3.0.0-alpha-4050120250121001
@@ -6184,7 +6184,7 @@ snapshots:
 
   '@babel/parser@7.26.5':
     dependencies:
-      '@babel/types': 7.26.5
+      '@babel/types': 7.26.7
 
   '@babel/parser@7.26.7':
     dependencies:
@@ -9005,7 +9005,7 @@ snapshots:
 
   '@vue/compiler-core@3.4.21':
     dependencies:
-      '@babel/parser': 7.26.5
+      '@babel/parser': 7.26.7
       '@vue/shared': 3.4.21
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -9057,14 +9057,14 @@ snapshots:
 
   '@vue/compiler-sfc@3.4.21':
     dependencies:
-      '@babel/parser': 7.26.5
+      '@babel/parser': 7.26.7
       '@vue/compiler-core': 3.4.21
       '@vue/compiler-dom': 3.4.21
       '@vue/compiler-ssr': 3.4.21
       '@vue/shared': 3.4.21
       estree-walker: 2.0.2
       magic-string: 0.30.17
-      postcss: 8.4.49
+      postcss: 8.5.1
       source-map-js: 1.2.1
 
   '@vue/compiler-sfc@3.4.27':
