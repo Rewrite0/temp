@@ -4,9 +4,24 @@
     "strict": true,
     "baseUrl": "./",
     "paths": {
-      "~/*": ["./*"]
+      "@/*": [
+        "./*"
+      ],
+      "#/*": [
+        "./types/*"
+      ]
     }
   },
-  "include": ["**/*.ts", "**/*.tsx", "types/**/*.d.ts"],
-  "exclude": ["android", "babel.config.js"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "types/**/*.ts",
+    "types/**/*.d.ts",
+    "nativewind-env.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "android",
+    "babel.config.js"
+  ]
 }

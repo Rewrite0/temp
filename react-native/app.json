@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "local-reader",
-    "slug": "local-reader",
-    "scheme": "localreader",
+    "name": "react-native-temp",
+    "newArchEnabled": true,
+    "slug": "react-native-temp",
+    "scheme": "react-native-temp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,14 +21,14 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.anonymous.localreader"
+      "package": "com.anonymous.temp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "567dff2d-a000-46eb-8b2f-e4dd935e3098"
+        "projectId": ""
       }
     },
     "plugins": [
@@ -38,7 +39,8 @@
           "launchMode": "most-recent"
         }
       ],
-      "expo-localization"
+      "expo-localization",
+      "react-native-edge-to-edge"
     ]
   }
 }
