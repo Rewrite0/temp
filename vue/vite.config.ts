@@ -1,14 +1,15 @@
-import { fileURLToPath, URL } from 'node:url';
+import { fileURLToPath, URL } from 'node:url'
 
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
-import vueJsx from '@vitejs/plugin-vue-jsx';
-import AutoImport from 'unplugin-auto-import/vite';
-import VueRouter from 'unplugin-vue-router/vite';
-import { VueRouterAutoImports } from 'unplugin-vue-router';
-import VueLayouts from 'vite-plugin-vue-layouts';
-import Components from 'unplugin-vue-components/vite';
-import UnoCSS from 'unocss/vite';
+import { PrimeVueResolver } from '@primevue/auto-import-resolver'
+import vue from '@vitejs/plugin-vue'
+import vueJsx from '@vitejs/plugin-vue-jsx'
+import UnoCSS from 'unocss/vite'
+import AutoImport from 'unplugin-auto-import/vite'
+import Components from 'unplugin-vue-components/vite'
+import { VueRouterAutoImports } from 'unplugin-vue-router'
+import VueRouter from 'unplugin-vue-router/vite'
+import { defineConfig } from 'vite'
+import VueLayouts from 'vite-plugin-vue-layouts'
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -27,6 +28,13 @@ export default defineConfig({
     Components({
       dts: 'types/dts/components.d.ts',
       dirs: ['src/components'],
+      resolvers: [
+        PrimeVueResolver({
+          components: {
+            prefix: 'P',
+          },
+        }),
+      ],
     }),
     UnoCSS(),
   ],
@@ -39,9 +47,8 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        api: 'modern-compiler',
-        additionalData: `@import "${fileURLToPath(new URL('./src/styles/mixins.scss', import.meta.url))}";`,
+        additionalData: `@use "@/styles/mixins" as *;`,
       },
     },
   },
-});
+})
