@@ -23,7 +23,7 @@ export default function Layout() {
   ];
 
   return (
-    <MaterialTabs safeAreaInsets={{ bottom: 0 }}>
+    <MaterialTabs>
       {routes.map((route) => (
         <MaterialTabs.Screen
           key={route.name}

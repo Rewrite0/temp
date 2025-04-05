@@ -8,6 +8,7 @@ import { PaperProvider } from 'react-native-paper';
 import { Stack } from 'expo-router';
 import { SystemBars } from 'react-native-edge-to-edge';
 import { MMKV } from 'react-native-mmkv';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { usePaperTheme } from '@/hooks/usePaperTheme';
 import { useSystemBarsStore } from '@/stores/systemBars';
