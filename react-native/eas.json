@@ -10,15 +10,13 @@
     "preview": {
       "distribution": "internal",
       "android": {
-        "buildType": "apk",
-        "image": "ubuntu-22.04-jdk-11-ndk-r23b"
+        "buildType": "apk"
       }
     },
     "production": {
       "distribution": "internal",
       "android": {
-        "buildType": "apk",
-        "image": "ubuntu-22.04-jdk-11-ndk-r23b"
+        "buildType": "apk"
       }
     }
   },

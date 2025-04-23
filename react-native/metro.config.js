@@ -3,7 +3,7 @@ const { withNativeWind } = require('nativewind/metro');
 const { wrapWithReanimatedMetroConfig } = require('react-native-reanimated/metro-config');
 
 const config = getDefaultConfig(__dirname);
-const wrapNativeWind = withNativeWind(config, { input: './tailwind.css' });
+const wrapNativeWind = withNativeWind(config, { input: './src/tailwind.css' });
 const wrapReanimated = wrapWithReanimatedMetroConfig(wrapNativeWind);
 
 module.exports = wrapReanimated;

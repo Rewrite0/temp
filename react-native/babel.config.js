@@ -5,7 +5,7 @@ module.exports = function (api) {
     env: {
       production: {
         plugins: [
-          '"transform-remove-console"',
+          'transform-remove-console',
           'react-native-paper/babel',
           'react-native-reanimated/plugin',
         ],

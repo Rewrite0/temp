@@ -34,6 +34,7 @@ export default function HomeScreen() {
   return (
     <SafeAreaView className="flex-1 items-center justify-center">
       <Text>index</Text>
+
       <Button onPress={() => onDisplayNotification()} mode="contained-tonal">
         Display Notification
       </Button>
