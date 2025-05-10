@@ -10,10 +10,10 @@
     "prebuild": "expo prebuild -p android --clean"
   },
   "dependencies": {
-    "@hookstate/core": "^4.0.1",
     "@notifee/react-native": "^9.1.8",
     "@pchmn/expo-material3-theme": "^1.3.2",
     "@shopify/flash-list": "1.7.6",
+    "es-toolkit": "^1.37.2",
     "expo": "~53.0.9",
     "expo-build-properties": "~0.14.6",
     "expo-constants": "~17.1.6",
@@ -22,41 +22,30 @@
     "expo-linking": "~7.1.5",
     "expo-localization": "~16.1.5",
     "expo-router": "~5.0.6",
-    "i18next": "^23.11.5",
+    "expo-system-ui": "^5.0.7",
+    "i18next": "^23.16.8",
+    "immer": "^10.1.1",
     "intl-pluralrules": "^2.0.1",
-    "nativewind": "^4.1.21",
-    "radash": "^12.1.0",
+    "nativewind": "^4.1.23",
     "react": "19.0.0",
-    "react-i18next": "^14.1.2",
+    "react-i18next": "^14.1.3",
     "react-native": "0.79.2",
     "react-native-edge-to-edge": "^1.6.0",
     "react-native-gesture-handler": "~2.24.0",
-    "react-native-infinite-pager": "^0.3.16",
     "react-native-mmkv": "^3.2.0",
-    "react-native-paper": "^5.13.1",
+    "react-native-paper": "^5.14.1",
     "react-native-reanimated": "~3.17.5",
     "react-native-safe-area-context": "^5.4.0",
     "react-native-screens": "4.10.0",
-    "tailwindcss": "^3.4.6",
-    "valibot": "^1.0.0"
+    "tailwindcss": "^3.4.17",
+    "valibot": "^1.1.0",
+    "zustand": "^5.0.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.26.8",
+    "@babel/core": "^7.27.1",
     "@types/react": "~19.0.14",
     "babel-plugin-transform-remove-console": "^6.9.4",
     "typescript": "^5.8.3"
-  },
-  "expo": {
-    "install": {
-      "exclude": [
-        "react-native@~0.76.6",
-        "react-native-reanimated@~3.16.1",
-        "react-native-gesture-handler@~2.20.0",
-        "react-native-screens@~4.4.0",
-        "react-native-safe-area-context@~4.12.0",
-        "react-native-webview@~13.12.5"
-      ]
-    }
   },
   "private": true,
   "packageManager": "pnpm@10.9.0+sha512.0486e394640d3c1fb3c9d43d49cf92879ff74f8516959c235308f5a8f62e2e19528a65cdc2a3058f587cde71eba3d5b56327c8c33a97e4c4051ca48a10ca2d5f"

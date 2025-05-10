@@ -1,8 +1,13 @@
-import { Text, Button } from 'react-native-paper';
+import { Text, Button, TextInput } from 'react-native-paper';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import notifee from '@notifee/react-native';
+import { useStore } from 'zustand';
+import { mmkvStore } from '@/modules/mmkv';
 
 export default function HomeScreen() {
+  const test = useStore(mmkvStore, (s) => s.test);
+  const setState = useStore(mmkvStore, (s) => s.setState);
+
   async function onDisplayNotification() {
     // Request permissions (required for iOS)
     const s = await notifee.requestPermission();
@@ -32,8 +37,10 @@ export default function HomeScreen() {
   }
 
   return (
-    <SafeAreaView className="flex-1 items-center justify-center">
+    <SafeAreaView className="flex-1">
       <Text>index</Text>
+      <Text>text: {test}</Text>
+      <TextInput value={test} onChangeText={(e) => setState('test', e)}></TextInput>
 
       <Button onPress={() => onDisplayNotification()} mode="contained-tonal">
         Display Notification

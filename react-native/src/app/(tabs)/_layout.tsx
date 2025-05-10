@@ -1,15 +1,18 @@
-import { Tabs, withLayoutContext } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { Icon } from 'react-native-paper';
-import { createMaterialBottomTabNavigator } from 'react-native-paper/react-navigation';
+import { MaterialBottomTabs as Tabs } from '@/components/ui';
 
-const MaterialTabs = withLayoutContext(createMaterialBottomTabNavigator().Navigator);
-MaterialTabs.Screen = Tabs.Screen;
+type Route = {
+  name: string;
+  title: string;
+  icon: string;
+  badge?: number;
+};
 
 export default function Layout() {
   const { t } = useTranslation();
 
-  const routes = [
+  const routes: Route[] = [
     {
       name: 'index',
       title: t('tabs.home'),
@@ -23,17 +26,18 @@ export default function Layout() {
   ];
 
   return (
-    <MaterialTabs>
+    <Tabs>
       {routes.map((route) => (
-        <MaterialTabs.Screen
+        <Tabs.Screen
           key={route.name}
           name={route.name}
           options={{
             title: route.title,
             tabBarIcon: (props: any) => <Icon source={route.icon} size={24} {...props} />,
+            tabBarBadge: route.badge,
           }}
         />
       ))}
-    </MaterialTabs>
+    </Tabs>
   );
 }

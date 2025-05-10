@@ -1,11 +1,19 @@
-import { hookstate } from '@hookstate/core';
+import { type SystemBarStyle, type SystemBarsProps } from 'react-native-edge-to-edge';
+import { create } from 'zustand';
 
-export type SystemBarsState = {
-  hidden: boolean;
-  style: 'auto' | 'light' | 'dark';
+export type SystemBarsState = SystemBarsProps;
+
+export type SystemBarsActions = {
+  setHidden: (hidden: boolean) => void;
+  setStyle: (style: SystemBarStyle) => void;
 };
 
-export const systemBarsState = hookstate<SystemBarsState>({
+type Store = SystemBarsState & SystemBarsActions;
+
+export const useSystemBarsStore = create<Store>((set) => ({
   hidden: false,
   style: 'auto',
-});
+
+  setHidden: (hidden) => set({ hidden }),
+  setStyle: (style) => set({ style }),
+}));
