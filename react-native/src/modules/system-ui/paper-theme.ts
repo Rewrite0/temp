@@ -41,7 +41,7 @@ export function usePaperTheme() {
         setBarStyle('auto');
         break;
     }
-  }, [appColorScheme]);
+  }, [appColorScheme, setBarStyle]);
 
   return { colorSchemeList, colorScheme: appColorScheme, paperTheme, setColorScheme };
 }

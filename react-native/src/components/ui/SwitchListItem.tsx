@@ -1,5 +1,5 @@
 import { ColorValue, StyleProp, StyleSheet, TextStyle, View, ViewStyle } from 'react-native';
-import { List } from 'react-native-paper';
+import { List, Icon } from 'react-native-paper';
 import { useEffect, useState } from 'react';
 import {
   Pressable,
@@ -7,7 +7,6 @@ import {
   GestureDetector,
   GestureHandlerRootView,
 } from 'react-native-gesture-handler';
-import { Icon } from 'react-native-paper';
 import Animated, {
   interpolateColor,
   runOnJS,
@@ -270,11 +269,9 @@ export const SwitchListItem = ({
       setActive(true);
     }
   };
-  const onSwitchPress = () => {
-    onPress != null ? onPress() : null;
-  };
+  const onSwitchPress = () => onPress();
   useEffect(() => {
-    if (active != selected) {
+    if (active !== selected) {
       changeSwitch(false);
     }
     handleHeight.value = withTiming(selected ? 24 : 16);

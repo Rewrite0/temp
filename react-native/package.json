@@ -7,7 +7,8 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "prebuild": "expo prebuild -p android --clean"
+    "prebuild": "expo prebuild -p android --clean",
+    "lint": "expo lint"
   },
   "dependencies": {
     "@notifee/react-native": "^9.1.8",
@@ -45,6 +46,9 @@
     "@babel/core": "^7.27.1",
     "@types/react": "~19.0.14",
     "babel-plugin-transform-remove-console": "^6.9.4",
+    "eslint": "^9.26.0",
+    "eslint-config-expo": "~9.2.0",
+    "prettier": "^3.5.3",
     "typescript": "^5.8.3"
   },
   "private": true,
