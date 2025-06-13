@@ -11,7 +11,6 @@
 - [unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components)
 - [vue i18n](https://vue-i18n.intlify.dev/guide/installation.html)
 
-## component library
+## request tool
 
-- [primevue](https://v4.primevue.org)
-- [primeicons](https://primevue.org/icons/)
+- [alova](https://alova.js.org/)

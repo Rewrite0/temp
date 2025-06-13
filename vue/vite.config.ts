@@ -1,6 +1,5 @@
 import { fileURLToPath, URL } from 'node:url'
 
-import { PrimeVueResolver } from '@primevue/auto-import-resolver'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import UnoCSS from 'unocss/vite'
@@ -28,13 +27,6 @@ export default defineConfig({
     Components({
       dts: 'types/dts/components.d.ts',
       dirs: ['src/components'],
-      resolvers: [
-        PrimeVueResolver({
-          components: {
-            prefix: 'P',
-          },
-        }),
-      ],
     }),
     UnoCSS(),
   ],
