@@ -3,7 +3,7 @@ import {
   defineConfig,
   presetAttributify,
   presetIcons,
-  presetUno,
+  presetWind4,
   transformerDirectives,
 } from 'unocss'
 import presetAutoprefixer from 'unocss-preset-autoprefixer'
@@ -11,7 +11,7 @@ import { presetFluid } from 'unocss-preset-fluid'
 
 export default defineConfig({
   presets: [
-    presetUno(),
+    presetWind4(),
     presetAutoprefixer(),
     presetRemToPx({
       baseFontSize: 4,
