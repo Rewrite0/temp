@@ -8,39 +8,53 @@ import Components from 'unplugin-vue-components/vite'
 import { VueRouterAutoImports } from 'unplugin-vue-router'
 import VueRouter from 'unplugin-vue-router/vite'
 import { defineConfig } from 'vite'
-import VueLayouts from 'vite-plugin-vue-layouts'
+import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
-export default defineConfig({
-  plugins: [
-    VueRouter({
-      routesFolder: 'src/pages',
-      dts: 'types/dts/vue-router.d.ts',
-    }),
-    vue(),
-    vueJsx(),
-    VueLayouts(),
-    AutoImport({
-      imports: ['vue', 'vitest', VueRouterAutoImports],
-      dts: 'types/dts/auto-imports.d.ts',
-    }),
-    Components({
-      dts: 'types/dts/components.d.ts',
-      dirs: ['src/components'],
-    }),
-    UnoCSS(),
-  ],
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url)),
-      '#': fileURLToPath(new URL('./types', import.meta.url)),
-    },
-  },
-  css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData: `@use "@/styles/mixins" as *;`,
+export default defineConfig(({ mode }) => {
+  const isProd = mode === 'production'
+  const getPath = (path: string) => fileURLToPath(new URL(path, import.meta.url))
+
+  return {
+    plugins: [
+      VueRouter({
+        routesFolder: 'src/pages',
+        dts: '.dts/vue-router.d.ts',
+      }),
+      vue(),
+      vueJsx(),
+      AutoImport({
+        imports: ['vue', 'vitest', VueRouterAutoImports],
+        dts: '.dts/auto-imports.d.ts',
+      }),
+      Components({
+        dts: '.dts/components.d.ts',
+        globs: [
+          // 排除 modules 文件夹里的组件
+          '!src/components/**/modules/*.{vue,tsx}',
+          'src/components/**/*.{vue,tsx}',
+          'src/components/**/index.{vue,tsx}',
+          'src/layouts/**/*.{vue,tsx}',
+        ],
+      }),
+      UnoCSS(),
+      vueDevTools(),
+    ],
+    resolve: {
+      alias: {
+        '@': getPath('./src'),
+        '#': getPath('./types'),
       },
     },
-  },
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `@use "@/styles/mixins" as *;`,
+        },
+      },
+    },
+    esbuild: {
+      pure: isProd ? ['console.log'] : [],
+    },
+  }
 })
