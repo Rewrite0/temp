@@ -69,9 +69,6 @@ importers:
       '@vue/tsconfig':
         specifier: ^0.7.0
         version: 0.7.0(typescript@5.8.3)(vue@3.5.16(typescript@5.8.3))
-      browserslist:
-        specifier: ^4.25.0
-        version: 4.25.0
       eslint:
         specifier: ^9.28.0
         version: 9.28.0(jiti@2.4.2)
@@ -96,9 +93,6 @@ importers:
       unocss:
         specifier: ^66.2.0
         version: 66.2.0(postcss@8.5.5)(vite@6.3.5(@types/node@24.0.1)(jiti@2.4.2)(lightningcss@1.30.1)(sass-embedded@1.89.2)(tsx@4.20.2)(yaml@2.8.0))(vue@3.5.16(typescript@5.8.3))
-      unocss-preset-autoprefixer:
-        specifier: ^0.0.9
-        version: 0.0.9(browserslist@4.25.0)(lightningcss@1.30.1)(unocss@66.2.0(postcss@8.5.5)(vite@6.3.5(@types/node@24.0.1)(jiti@2.4.2)(lightningcss@1.30.1)(sass-embedded@1.89.2)(tsx@4.20.2)(yaml@2.8.0))(vue@3.5.16(typescript@5.8.3)))
       unocss-preset-fluid:
         specifier: ^1.0.2
         version: 1.0.2(typescript@5.8.3)
@@ -2974,13 +2968,6 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
-  unocss-preset-autoprefixer@0.0.9:
-    resolution: {integrity: sha512-3QhrJjn9FbUPL/r+AYgFFAyXIrv1dHMYomA/k0Am3Wr1LF0kCHRoigxzNe6/qRsXkuN9P2mipbswy6h/mWNEQQ==}
-    peerDependencies:
-      browserslist: '>=4.21.3'
-      lightningcss: '>=1.16.0'
-      unocss: '>=0.45.5'
-
   unocss-preset-fluid@1.0.2:
     resolution: {integrity: sha512-ggHinMtgGHxGQqEsyZBan/nrypJ36gzR5wKxil6Xg4Qu42oJC+GW+SXqD0psybg7q1U9r4euE/f4Yz+fbY+idQ==}
 
@@ -4734,7 +4721,8 @@ snapshots:
 
   destr@2.0.5: {}
 
-  detect-libc@2.0.4: {}
+  detect-libc@2.0.4:
+    optional: true
 
   devlop@1.1.0:
     dependencies:
@@ -5449,6 +5437,7 @@ snapshots:
       lightningcss-linux-x64-musl: 1.30.1
       lightningcss-win32-arm64-msvc: 1.30.1
       lightningcss-win32-x64-msvc: 1.30.1
+    optional: true
 
   local-pkg@1.1.1:
     dependencies:
@@ -6408,12 +6397,6 @@ snapshots:
       unist-util-visit-parents: 6.0.1
 
   universalify@2.0.1: {}
-
-  unocss-preset-autoprefixer@0.0.9(browserslist@4.25.0)(lightningcss@1.30.1)(unocss@66.2.0(postcss@8.5.5)(vite@6.3.5(@types/node@24.0.1)(jiti@2.4.2)(lightningcss@1.30.1)(sass-embedded@1.89.2)(tsx@4.20.2)(yaml@2.8.0))(vue@3.5.16(typescript@5.8.3))):
-    dependencies:
-      browserslist: 4.25.0
-      lightningcss: 1.30.1
-      unocss: 66.2.0(postcss@8.5.5)(vite@6.3.5(@types/node@24.0.1)(jiti@2.4.2)(lightningcss@1.30.1)(sass-embedded@1.89.2)(tsx@4.20.2)(yaml@2.8.0))(vue@3.5.16(typescript@5.8.3))
 
   unocss-preset-fluid@1.0.2(typescript@5.8.3):
     dependencies:

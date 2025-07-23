@@ -8,5 +8,4 @@ const TSXComponent = () => <div class="text-20 font-bold">tsx component</div>
   </main>
 </template>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
