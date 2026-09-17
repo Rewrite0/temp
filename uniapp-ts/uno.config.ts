@@ -1,68 +1,54 @@
-import type { Preset, SourceCodeTransformer } from 'unocss'
-
-import { isH5, isMp } from '@uni-helper/uni-env'
+import { presetUni } from '@uni-helper/unocss-preset-uni'
 
 import {
   defineConfig,
   presetIcons,
-  presetUno,
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
 
-import {
-  presetApplet,
-  presetRemRpx,
-  transformerApplet,
-} from 'unocss-applet'
-
-const darkMode = isH5 ? 'class' : 'media'
-
-const presets: Preset[] = [
-  isMp ? presetApplet({ dark: darkMode }) : presetUno({ dark: darkMode }),
-  presetRemRpx(isMp ? { mode: 'rem2rpx', baseFontSize: 2 } : { mode: 'rpx2rem' }),
-]
-
-const transformers: SourceCodeTransformer[] = isMp ? [transformerApplet()] : []
-
 export default defineConfig({
   presets: [
+    presetUni({
+      remRpx: { screenWidth: 750, baseFontSize: 4 },
+      attributify: false,
+    }),
     presetIcons({
       scale: 1.2,
       warn: true,
+      cdn: 'https://esm.sh/',
       extraProperties: {
         'display': 'inline-block',
         'vertical-align': 'middle',
       },
-      cdn: 'https://esm.sh/',
     }),
-    ...presets,
   ],
   transformers: [
     transformerDirectives(),
     transformerVariantGroup(),
-    ...transformers,
   ],
   theme: {
-    preflightRoot: isMp ? ['page,::before,::after'] : void 0,
+    colors: {
+      primary: '#007AFF',
+    },
   },
-  rules: [
-    ['bg-x-full', { 'background-size': '100% auto' }],
-    ['bg-y-full', { 'background-size': 'auto 100%' }],
-    ['bg-full', { 'background-size': '100%' }],
-  ],
   shortcuts: [
+    [/^dot-(.+)$/, ([, n]) => `rounded-full size-${n}`],
+    [/^circle-(.+)$/, ([, n]) => `dot-${n} f-cer`],
     {
       'rel': 'relative',
       'abs': 'absolute',
-      'abs-y-center': 'absolute top-1/2 transform -translate-y-1/2',
-      'abs-x-center': 'absolute left-1/2 transform -translate-x-1/2',
+      'pos-y-center': 'inset-y-0 my-auto',
+      'pos-x-center': 'inset-x-0 mx-auto',
+      'pos-center': 'inset-0 m-auto',
     },
     {
-      'fcer': 'flex items-center justify-center',
-      'imgbg': 'bg-cover bg-center bg-no-repeat',
-      'btn-active': 'active:opacity-80',
+      'fx-cer': 'flex items-center',
+      'f-cer': 'flex items-center justify-center',
     },
-    [/^wh-(\d+|[a-zA-Z0-9]*[a-zA-Z])$/, ([, d]) => `w-${d} h-${d}`],
+    {
+      'is-icon': 'size-1em object-contain',
+      'imgbg': 'bg-center bg-no-repeat bg-cover',
+    },
   ],
 })

@@ -1,3 +1,9 @@
 <script setup lang="ts">
-onLaunch(() => {})
+import { updateApp } from './utils/update'
+
+onLaunch(() => {
+  updateApp()
+})
 </script>
+
+<style></style>
