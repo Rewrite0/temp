@@ -1,7 +1,7 @@
 import { onLoad, onShareAppMessage, onShareTimeline } from '@dcloudio/uni-app'
 import { useRouter } from './useRouter'
 
-const DEFAULT_APP_NAME = '鼎湖医疗'
+const DEFAULT_APP_NAME = 'APP NAME'
 
 function searchQueryToString(query: Record<string, any>) {
   return Object.entries(query)
